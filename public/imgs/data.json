@@ -1,0 +1,3076 @@
+{
+  "abouts": [
+    {
+      "id": 1,
+      "about": "Teste de edição \\r\n\\r\n\\r\nWhat is Lorem Ipsum?\\r\n\\r\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\\r\n\\r\nWhy do we use it?\\r\n\\r\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+      "updated_at": "2024-10-03 01:47:55"
+    }
+  ],
+  "avaliations": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "product_id": 8,
+      "avaliation": 5,
+      "created_at": "2024-10-19 04:40:28",
+      "updated_at": "2024-10-19 04:40:28"
+    },
+    {
+      "id": "(2",
+      "user_id": 1,
+      "product_id": 2,
+      "avaliation": 5,
+      "created_at": "2024-10-19 04:41:26",
+      "updated_at": "2024-10-19 04:41:26"
+    },
+    {
+      "id": "(3",
+      "user_id": 1,
+      "product_id": 17,
+      "avaliation": 4,
+      "created_at": "2024-10-19 04:41:54",
+      "updated_at": "2024-10-19 04:41:54"
+    },
+    {
+      "id": "(4",
+      "user_id": 1,
+      "product_id": 53,
+      "avaliation": 3,
+      "created_at": "2024-10-19 04:42:07",
+      "updated_at": "2024-10-19 04:42:07"
+    }
+  ],
+  "banners": [
+    {
+      "id": 1,
+      "name": "Teste",
+      "description": null,
+      "link": null,
+      "image": "banners/4mwe80yNUxj3cYgZmLyLx386gRITxXBYtulM5qoM.jpg",
+      "queue": 1,
+      "status": 0,
+      "created_at": "2024-09-20 03:02:10",
+      "updated_at": "2024-09-20 03:02:10"
+    },
+    {
+      "id": "(2",
+      "name": "Teste 2",
+      "description": null,
+      "link": null,
+      "image": "banners/2adCBknqVbuIYa2OK2EGleKStBanmG59euZ9iO9A.jpg",
+      "queue": 1,
+      "status": 0,
+      "created_at": "2024-09-20 03:03:09",
+      "updated_at": "2024-09-20 03:03:09"
+    }
+  ],
+  "carts": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "created_at": "2024-09-26 09:49:05",
+      "updated_at": "2024-10-19 05:45:07"
+    },
+    {
+      "id": "(2",
+      "user_id": 4,
+      "created_at": "2024-10-10 18:51:25",
+      "updated_at": "2024-10-10 18:51:25"
+    }
+  ],
+  "cart_items": [
+    {
+      "id": 1,
+      "cart_id": 1,
+      "product_id": 22,
+      "amount": 1,
+      "created_at": "2024-09-26 09:49:05",
+      "updated_at": "2024-09-26 09:49:05"
+    },
+    {
+      "id": "(2",
+      "cart_id": 2,
+      "product_id": 28,
+      "amount": 1,
+      "created_at": "2024-10-10 18:51:25",
+      "updated_at": "2024-10-10 18:51:25"
+    },
+    {
+      "id": "(3",
+      "cart_id": 1,
+      "product_id": 2,
+      "amount": 1,
+      "created_at": "2024-10-18 18:54:26",
+      "updated_at": "2024-10-18 18:54:26"
+    },
+    {
+      "id": "(4",
+      "cart_id": 1,
+      "product_id": 27,
+      "amount": 1,
+      "created_at": "2024-10-19 01:09:19",
+      "updated_at": "2024-10-19 01:09:19"
+    },
+    {
+      "id": "(5",
+      "cart_id": 1,
+      "product_id": 16,
+      "amount": 1,
+      "created_at": "2024-10-19 01:46:42",
+      "updated_at": "2024-10-19 01:46:42"
+    },
+    {
+      "id": "(6",
+      "cart_id": 1,
+      "product_id": 8,
+      "amount": 1,
+      "created_at": "2024-10-19 04:09:29",
+      "updated_at": "2024-10-19 04:09:29"
+    },
+    {
+      "id": "(7",
+      "cart_id": 1,
+      "product_id": 5,
+      "amount": 1,
+      "created_at": "2024-10-19 05:45:07",
+      "updated_at": "2024-10-19 05:45:07"
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "parent": null,
+      "name": "Marcas",
+      "image": "categories/marcas-1728360515.png",
+      "slug": "marcas",
+      "description": "teste",
+      "queue": "1",
+      "carousel": 0,
+      "status": 1,
+      "created_at": "2024-09-20 06:27:01",
+      "updated_at": "2024-10-08 04:28:54"
+    },
+    {
+      "id": "(4",
+      "parent": 3,
+      "name": "Jetter Juice",
+      "image": null,
+      "slug": "jetter-juice",
+      "description": null,
+      "queue": null,
+      "carousel": null,
+      "status": 1,
+      "created_at": "2024-09-20 06:30:22",
+      "updated_at": "2024-09-20 06:30:22"
+    },
+    {
+      "id": "(5",
+      "parent": 3,
+      "name": "Hidden Hills",
+      "image": null,
+      "slug": "hidden-hills",
+      "description": null,
+      "queue": null,
+      "carousel": null,
+      "status": 1,
+      "created_at": "2024-09-20 06:30:50",
+      "updated_at": "2024-09-20 06:30:50"
+    },
+    {
+      "id": "(6",
+      "parent": 3,
+      "name": "Snoop Dog",
+      "image": null,
+      "slug": "snoop-dog",
+      "description": null,
+      "queue": null,
+      "carousel": null,
+      "status": 1,
+      "created_at": "2024-09-20 06:31:14",
+      "updated_at": "2024-09-20 06:31:14"
+    },
+    {
+      "id": "(7",
+      "parent": 3,
+      "name": "Cactus",
+      "image": null,
+      "slug": "cactus",
+      "description": null,
+      "queue": null,
+      "carousel": null,
+      "status": 1,
+      "created_at": "2024-09-20 06:32:06",
+      "updated_at": "2024-09-20 06:32:06"
+    },
+    {
+      "id": "(8",
+      "parent": 3,
+      "name": "Chapo",
+      "image": null,
+      "slug": "chapo",
+      "description": null,
+      "queue": null,
+      "carousel": null,
+      "status": 1,
+      "created_at": "2024-09-20 06:32:25",
+      "updated_at": "2024-09-20 06:32:25"
+    },
+    {
+      "id": "(9",
+      "parent": 3,
+      "name": "Torch",
+      "image": null,
+      "slug": "torch",
+      "description": null,
+      "queue": null,
+      "carousel": null,
+      "status": 1,
+      "created_at": "2024-09-20 06:32:51",
+      "updated_at": "2024-09-20 06:32:51"
+    },
+    {
+      "id": "(10",
+      "parent": 3,
+      "name": "Eight Six",
+      "image": null,
+      "slug": "eight-six",
+      "description": null,
+      "queue": null,
+      "carousel": null,
+      "status": 1,
+      "created_at": "2024-09-20 06:33:26",
+      "updated_at": "2024-09-20 06:33:26"
+    },
+    {
+      "id": "(11",
+      "parent": 3,
+      "name": "Pressure",
+      "image": null,
+      "slug": "pressure",
+      "description": null,
+      "queue": null,
+      "carousel": null,
+      "status": 1,
+      "created_at": "2024-09-20 06:35:41",
+      "updated_at": "2024-09-20 06:35:41"
+    },
+    {
+      "id": "(12",
+      "parent": 3,
+      "name": "Ignite",
+      "image": null,
+      "slug": "ignite",
+      "description": null,
+      "queue": null,
+      "carousel": null,
+      "status": 1,
+      "created_at": "2024-09-20 06:36:13",
+      "updated_at": "2024-09-20 06:36:13"
+    },
+    {
+      "id": "(13",
+      "parent": 3,
+      "name": "Hallo",
+      "image": null,
+      "slug": "hallo",
+      "description": null,
+      "queue": null,
+      "carousel": null,
+      "status": 1,
+      "created_at": "2024-09-20 06:36:37",
+      "updated_at": "2024-09-20 06:36:37"
+    },
+    {
+      "id": "(14",
+      "parent": 3,
+      "name": "Pulse Thc",
+      "image": null,
+      "slug": "pulse-thc",
+      "description": null,
+      "queue": null,
+      "carousel": null,
+      "status": 1,
+      "created_at": "2024-09-20 06:36:56",
+      "updated_at": "2024-09-20 06:36:56"
+    },
+    {
+      "id": "(15",
+      "parent": null,
+      "name": "Tipo",
+      "image": null,
+      "slug": "tipo",
+      "description": null,
+      "queue": "2",
+      "carousel": null,
+      "status": 1,
+      "created_at": "2024-09-20 06:43:00",
+      "updated_at": "2024-10-08 00:10:42"
+    },
+    {
+      "id": "(16",
+      "parent": 15,
+      "name": "Sativa",
+      "image": null,
+      "slug": "sativa",
+      "description": null,
+      "queue": null,
+      "carousel": null,
+      "status": 1,
+      "created_at": "2024-09-20 06:43:24",
+      "updated_at": "2024-09-20 06:43:24"
+    },
+    {
+      "id": "(17",
+      "parent": 15,
+      "name": "Indica",
+      "image": null,
+      "slug": "indica",
+      "description": null,
+      "queue": null,
+      "carousel": null,
+      "status": 1,
+      "created_at": "2024-09-20 06:43:47",
+      "updated_at": "2024-09-20 06:43:47"
+    },
+    {
+      "id": "(18",
+      "parent": 15,
+      "name": "Hibrida",
+      "image": null,
+      "slug": "hibrida",
+      "description": null,
+      "queue": null,
+      "carousel": null,
+      "status": 1,
+      "created_at": "2024-09-20 06:44:04",
+      "updated_at": "2024-09-20 06:44:04"
+    },
+    {
+      "id": "(19",
+      "parent": null,
+      "name": "Produtos",
+      "image": null,
+      "slug": "grupo",
+      "description": null,
+      "queue": "3",
+      "carousel": null,
+      "status": 1,
+      "created_at": "2024-09-20 07:12:41",
+      "updated_at": "2024-10-08 00:07:51"
+    },
+    {
+      "id": "(20",
+      "parent": 19,
+      "name": "Descartáveis",
+      "image": "categories/descartaveis-1728928529.jpg",
+      "slug": "descartaveis",
+      "description": null,
+      "queue": "1",
+      "carousel": 1,
+      "status": 1,
+      "created_at": "2024-09-20 07:13:12",
+      "updated_at": "2024-10-14 17:55:48"
+    },
+    {
+      "id": "(21",
+      "parent": 19,
+      "name": "Refil",
+      "image": "categories/refil-1728928585.jpg",
+      "slug": "refil",
+      "description": null,
+      "queue": "2",
+      "carousel": 1,
+      "status": 1,
+      "created_at": "2024-09-20 07:13:24",
+      "updated_at": "2024-10-14 17:56:32"
+    },
+    {
+      "id": "(22",
+      "parent": 19,
+      "name": "Baterias",
+      "image": "categories/bateria-1728928648.jpg",
+      "slug": "bateria",
+      "description": null,
+      "queue": "4",
+      "carousel": 1,
+      "status": 1,
+      "created_at": "2024-09-20 07:13:47",
+      "updated_at": "2024-10-14 18:01:02"
+    },
+    {
+      "id": "(23",
+      "parent": 19,
+      "name": "Kit",
+      "image": null,
+      "slug": "kit",
+      "description": null,
+      "queue": null,
+      "carousel": 0,
+      "status": 1,
+      "created_at": "2024-09-20 07:14:08",
+      "updated_at": "2024-10-14 18:00:06"
+    },
+    {
+      "id": "(24",
+      "parent": 19,
+      "name": "Vaporizador Óleo",
+      "image": null,
+      "slug": "vaporizador-oleo",
+      "description": null,
+      "queue": null,
+      "carousel": null,
+      "status": 1,
+      "created_at": "2024-09-20 07:14:54",
+      "updated_at": "2024-09-20 07:14:54"
+    },
+    {
+      "id": "(25",
+      "parent": 19,
+      "name": "Vaporizador Ervas",
+      "image": null,
+      "slug": "vaporizador-ervas",
+      "description": null,
+      "queue": null,
+      "carousel": null,
+      "status": 1,
+      "created_at": "2024-09-20 07:15:13",
+      "updated_at": "2024-09-20 07:15:13"
+    },
+    {
+      "id": "(26",
+      "parent": 19,
+      "name": "Gummy",
+      "image": "categories/gummy-1728928698.jpg",
+      "slug": "gummy",
+      "description": null,
+      "queue": "3",
+      "carousel": 1,
+      "status": 1,
+      "created_at": "2024-09-21 01:16:35",
+      "updated_at": "2024-10-14 18:00:43"
+    },
+    {
+      "id": "(27",
+      "parent": 3,
+      "name": "Tree House",
+      "image": null,
+      "slug": "tree-house",
+      "description": null,
+      "queue": null,
+      "carousel": null,
+      "status": 1,
+      "created_at": "2024-09-26 08:50:12",
+      "updated_at": "2024-09-26 08:50:12"
+    },
+    {
+      "id": "(28",
+      "parent": 3,
+      "name": "Delta King",
+      "image": null,
+      "slug": "delta",
+      "description": null,
+      "queue": null,
+      "carousel": null,
+      "status": 1,
+      "created_at": "2024-09-26 09:07:25",
+      "updated_at": "2024-10-05 03:50:30"
+    },
+    {
+      "id": "(29",
+      "parent": 3,
+      "name": "Tysson Gummy",
+      "image": null,
+      "slug": "tysson-gummy",
+      "description": null,
+      "queue": null,
+      "carousel": null,
+      "status": 1,
+      "created_at": "2024-09-26 09:07:44",
+      "updated_at": "2024-09-26 09:07:44"
+    }
+  ],
+  "category_product": [
+    {
+      "category_id": 4,
+      "product_id": 2
+    },
+    {
+      "category_id": "(16",
+      "product_id": 2
+    },
+    {
+      "category_id": "(20",
+      "product_id": 2
+    },
+    {
+      "category_id": "(4",
+      "product_id": 3
+    },
+    {
+      "category_id": "(17",
+      "product_id": 3
+    },
+    {
+      "category_id": "(20",
+      "product_id": 3
+    },
+    {
+      "category_id": "(4",
+      "product_id": 4
+    },
+    {
+      "category_id": "(18",
+      "product_id": 4
+    },
+    {
+      "category_id": "(20",
+      "product_id": 4
+    },
+    {
+      "category_id": "(9",
+      "product_id": 5
+    },
+    {
+      "category_id": "(16",
+      "product_id": 5
+    },
+    {
+      "category_id": "(20",
+      "product_id": 5
+    },
+    {
+      "category_id": "(9",
+      "product_id": 6
+    },
+    {
+      "category_id": "(17",
+      "product_id": 6
+    },
+    {
+      "category_id": "(20",
+      "product_id": 6
+    },
+    {
+      "category_id": "(9",
+      "product_id": 7
+    },
+    {
+      "category_id": "(18",
+      "product_id": 7
+    },
+    {
+      "category_id": "(20",
+      "product_id": 7
+    },
+    {
+      "category_id": "(9",
+      "product_id": 10
+    },
+    {
+      "category_id": "(18",
+      "product_id": 10
+    },
+    {
+      "category_id": "(20",
+      "product_id": 10
+    },
+    {
+      "category_id": "(9",
+      "product_id": 9
+    },
+    {
+      "category_id": "(17",
+      "product_id": 9
+    },
+    {
+      "category_id": "(20",
+      "product_id": 9
+    },
+    {
+      "category_id": "(9",
+      "product_id": 8
+    },
+    {
+      "category_id": "(16",
+      "product_id": 8
+    },
+    {
+      "category_id": "(20",
+      "product_id": 8
+    },
+    {
+      "category_id": "(13",
+      "product_id": 11
+    },
+    {
+      "category_id": "(18",
+      "product_id": 11
+    },
+    {
+      "category_id": "(20",
+      "product_id": 11
+    },
+    {
+      "category_id": "(13",
+      "product_id": 13
+    },
+    {
+      "category_id": "(17",
+      "product_id": 13
+    },
+    {
+      "category_id": "(20",
+      "product_id": 13
+    },
+    {
+      "category_id": "(13",
+      "product_id": 12
+    },
+    {
+      "category_id": "(16",
+      "product_id": 12
+    },
+    {
+      "category_id": "(20",
+      "product_id": 12
+    },
+    {
+      "category_id": "(13",
+      "product_id": 14
+    },
+    {
+      "category_id": "(18",
+      "product_id": 14
+    },
+    {
+      "category_id": "(20",
+      "product_id": 14
+    },
+    {
+      "category_id": "(13",
+      "product_id": 16
+    },
+    {
+      "category_id": "(17",
+      "product_id": 16
+    },
+    {
+      "category_id": "(20",
+      "product_id": 16
+    },
+    {
+      "category_id": "(13",
+      "product_id": 15
+    },
+    {
+      "category_id": "(16",
+      "product_id": 15
+    },
+    {
+      "category_id": "(20",
+      "product_id": 15
+    },
+    {
+      "category_id": "(12",
+      "product_id": 18
+    },
+    {
+      "category_id": "(16",
+      "product_id": 18
+    },
+    {
+      "category_id": "(20",
+      "product_id": 18
+    },
+    {
+      "category_id": "(12",
+      "product_id": 19
+    },
+    {
+      "category_id": "(17",
+      "product_id": 19
+    },
+    {
+      "category_id": "(20",
+      "product_id": 19
+    },
+    {
+      "category_id": "(12",
+      "product_id": 17
+    },
+    {
+      "category_id": "(18",
+      "product_id": 17
+    },
+    {
+      "category_id": "(20",
+      "product_id": 17
+    },
+    {
+      "category_id": "(5",
+      "product_id": 20
+    },
+    {
+      "category_id": "(18",
+      "product_id": 20
+    },
+    {
+      "category_id": "(20",
+      "product_id": 20
+    },
+    {
+      "category_id": "(5",
+      "product_id": 21
+    },
+    {
+      "category_id": "(17",
+      "product_id": 21
+    },
+    {
+      "category_id": "(20",
+      "product_id": 21
+    },
+    {
+      "category_id": "(5",
+      "product_id": 22
+    },
+    {
+      "category_id": "(16",
+      "product_id": 22
+    },
+    {
+      "category_id": "(20",
+      "product_id": 22
+    },
+    {
+      "category_id": "(5",
+      "product_id": 23
+    },
+    {
+      "category_id": "(18",
+      "product_id": 23
+    },
+    {
+      "category_id": "(20",
+      "product_id": 23
+    },
+    {
+      "category_id": "(5",
+      "product_id": 24
+    },
+    {
+      "category_id": "(17",
+      "product_id": 24
+    },
+    {
+      "category_id": "(20",
+      "product_id": 24
+    },
+    {
+      "category_id": "(5",
+      "product_id": 25
+    },
+    {
+      "category_id": "(16",
+      "product_id": 25
+    },
+    {
+      "category_id": "(20",
+      "product_id": 25
+    },
+    {
+      "category_id": "(5",
+      "product_id": 26
+    },
+    {
+      "category_id": "(18",
+      "product_id": 26
+    },
+    {
+      "category_id": "(21",
+      "product_id": 26
+    },
+    {
+      "category_id": "(5",
+      "product_id": 27
+    },
+    {
+      "category_id": "(17",
+      "product_id": 27
+    },
+    {
+      "category_id": "(21",
+      "product_id": 27
+    },
+    {
+      "category_id": "(5",
+      "product_id": 28
+    },
+    {
+      "category_id": "(16",
+      "product_id": 28
+    },
+    {
+      "category_id": "(21",
+      "product_id": 28
+    },
+    {
+      "category_id": "(26",
+      "product_id": 57
+    },
+    {
+      "category_id": "(7",
+      "product_id": 38
+    },
+    {
+      "category_id": "(7",
+      "product_id": 39
+    },
+    {
+      "category_id": "(18",
+      "product_id": 39
+    },
+    {
+      "category_id": "(27",
+      "product_id": 37
+    },
+    {
+      "category_id": "(16",
+      "product_id": 37
+    },
+    {
+      "category_id": "(20",
+      "product_id": 37
+    },
+    {
+      "category_id": "(27",
+      "product_id": 36
+    },
+    {
+      "category_id": "(17",
+      "product_id": 36
+    },
+    {
+      "category_id": "(20",
+      "product_id": 36
+    },
+    {
+      "category_id": "(27",
+      "product_id": 35
+    },
+    {
+      "category_id": "(18",
+      "product_id": 35
+    },
+    {
+      "category_id": "(20",
+      "product_id": 35
+    },
+    {
+      "category_id": "(6",
+      "product_id": 31
+    },
+    {
+      "category_id": "(16",
+      "product_id": 31
+    },
+    {
+      "category_id": "(20",
+      "product_id": 31
+    },
+    {
+      "category_id": "(6",
+      "product_id": 30
+    },
+    {
+      "category_id": "(17",
+      "product_id": 30
+    },
+    {
+      "category_id": "(20",
+      "product_id": 30
+    },
+    {
+      "category_id": "(6",
+      "product_id": 29
+    },
+    {
+      "category_id": "(18",
+      "product_id": 29
+    },
+    {
+      "category_id": "(20",
+      "product_id": 29
+    },
+    {
+      "category_id": "(11",
+      "product_id": 34
+    },
+    {
+      "category_id": "(16",
+      "product_id": 34
+    },
+    {
+      "category_id": "(20",
+      "product_id": 34
+    },
+    {
+      "category_id": "(11",
+      "product_id": 33
+    },
+    {
+      "category_id": "(17",
+      "product_id": 33
+    },
+    {
+      "category_id": "(20",
+      "product_id": 33
+    },
+    {
+      "category_id": "(11",
+      "product_id": 32
+    },
+    {
+      "category_id": "(18",
+      "product_id": 32
+    },
+    {
+      "category_id": "(20",
+      "product_id": 32
+    },
+    {
+      "category_id": "(14",
+      "product_id": 47
+    },
+    {
+      "category_id": "(16",
+      "product_id": 47
+    },
+    {
+      "category_id": "(20",
+      "product_id": 47
+    },
+    {
+      "category_id": "(14",
+      "product_id": 46
+    },
+    {
+      "category_id": "(17",
+      "product_id": 46
+    },
+    {
+      "category_id": "(20",
+      "product_id": 46
+    },
+    {
+      "category_id": "(14",
+      "product_id": 45
+    },
+    {
+      "category_id": "(18",
+      "product_id": 45
+    },
+    {
+      "category_id": "(20",
+      "product_id": 45
+    },
+    {
+      "category_id": "(10",
+      "product_id": 53
+    },
+    {
+      "category_id": "(16",
+      "product_id": 53
+    },
+    {
+      "category_id": "(20",
+      "product_id": 53
+    },
+    {
+      "category_id": "(10",
+      "product_id": 52
+    },
+    {
+      "category_id": "(17",
+      "product_id": 52
+    },
+    {
+      "category_id": "(20",
+      "product_id": 52
+    },
+    {
+      "category_id": "(10",
+      "product_id": 51
+    },
+    {
+      "category_id": "(18",
+      "product_id": 51
+    },
+    {
+      "category_id": "(20",
+      "product_id": 51
+    },
+    {
+      "category_id": "(28",
+      "product_id": 56
+    },
+    {
+      "category_id": "(16",
+      "product_id": 56
+    },
+    {
+      "category_id": "(20",
+      "product_id": 56
+    },
+    {
+      "category_id": "(28",
+      "product_id": 55
+    },
+    {
+      "category_id": "(17",
+      "product_id": 55
+    },
+    {
+      "category_id": "(20",
+      "product_id": 55
+    },
+    {
+      "category_id": "(28",
+      "product_id": 54
+    },
+    {
+      "category_id": "(18",
+      "product_id": 54
+    },
+    {
+      "category_id": "(20",
+      "product_id": 54
+    },
+    {
+      "category_id": "(8",
+      "product_id": 50
+    },
+    {
+      "category_id": "(16",
+      "product_id": 50
+    },
+    {
+      "category_id": "(20",
+      "product_id": 50
+    },
+    {
+      "category_id": "(16",
+      "product_id": 41
+    },
+    {
+      "category_id": "(20",
+      "product_id": 41
+    },
+    {
+      "category_id": "(17",
+      "product_id": 40
+    },
+    {
+      "category_id": "(20",
+      "product_id": 40
+    },
+    {
+      "category_id": "(29",
+      "product_id": 57
+    },
+    {
+      "category_id": "(20",
+      "product_id": 38
+    },
+    {
+      "category_id": "(20",
+      "product_id": 39
+    },
+    {
+      "category_id": "(7",
+      "product_id": 58
+    },
+    {
+      "category_id": "(16",
+      "product_id": 58
+    },
+    {
+      "category_id": "(17",
+      "product_id": 58
+    },
+    {
+      "category_id": "(18",
+      "product_id": 58
+    },
+    {
+      "category_id": "(20",
+      "product_id": 58
+    },
+    {
+      "category_id": "(7",
+      "product_id": 40
+    },
+    {
+      "category_id": "(7",
+      "product_id": 41
+    },
+    {
+      "category_id": "(16",
+      "product_id": 57
+    },
+    {
+      "category_id": "(17",
+      "product_id": 57
+    },
+    {
+      "category_id": "(18",
+      "product_id": 57
+    }
+  ],
+  "doubts": [
+    {
+      "id": 1,
+      "doubt": "O programador testou esse campo",
+      "answer": "Sim, ele testou",
+      "created_at": "2024-10-03 02:36:24",
+      "updated_at": "2024-10-03 02:36:24"
+    }
+  ],
+  "favorites": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "product_id": 8,
+      "created_at": "2024-10-19 04:40:32",
+      "updated_at": "2024-10-19 04:40:32"
+    },
+    {
+      "id": "(2",
+      "user_id": 1,
+      "product_id": 2,
+      "created_at": "2024-10-19 04:41:28",
+      "updated_at": "2024-10-19 04:41:28"
+    },
+    {
+      "id": "(3",
+      "user_id": 1,
+      "product_id": 17,
+      "created_at": "2024-10-19 04:41:51",
+      "updated_at": "2024-10-19 04:41:51"
+    },
+    {
+      "id": "(4",
+      "user_id": 1,
+      "product_id": 53,
+      "created_at": "2024-10-19 04:42:05",
+      "updated_at": "2024-10-19 04:42:05"
+    },
+    {
+      "id": "(5",
+      "user_id": 1,
+      "product_id": 19,
+      "created_at": "2024-10-19 05:25:31",
+      "updated_at": "2024-10-19 05:25:31"
+    },
+    {
+      "id": "(6",
+      "user_id": 1,
+      "product_id": 5,
+      "created_at": "2024-10-19 05:41:08",
+      "updated_at": "2024-10-19 05:41:08"
+    },
+    {
+      "id": "(7",
+      "user_id": 1,
+      "product_id": 15,
+      "created_at": "2024-10-19 17:30:34",
+      "updated_at": "2024-10-19 17:30:34"
+    },
+    {
+      "id": "(8",
+      "user_id": 1,
+      "product_id": 13,
+      "created_at": "2024-10-19 19:03:04",
+      "updated_at": "2024-10-19 19:03:04"
+    },
+    {
+      "id": "(9",
+      "user_id": 1,
+      "product_id": 40,
+      "created_at": "2024-10-19 19:10:32",
+      "updated_at": "2024-10-19 19:10:32"
+    }
+  ],
+  "information": [
+    {
+      "id": 1,
+      "name": "Brasil Cannabiss CBD e THC",
+      "url": "https://brasilcannabiss.com",
+      "keywords": "ignite, delta, cbd, thc, hiddenhills, hallo, jetter, brasil",
+      "description": "Refil, baterias e kits do mundo Thc e Cbd no Brasil, Marcas como Cactus, Ignite, Hidden Hills, Hallo, Jetter Juice entre outras com variedade em Delta",
+      "whatsapp": "595982574068",
+      "logo": "logo/brasil-cannabiss.png",
+      "created_at": "2024-10-03 06:55:28",
+      "updated_at": "2024-10-09 01:22:16"
+    }
+  ],
+  "migrations": [
+    {
+      "id": 27,
+      "migration": "2014_10_12_000000_create_users_table",
+      "batch": 1
+    },
+    {
+      "id": "(28",
+      "migration": "2014_10_12_100000_create_password_resets_table",
+      "batch": 1
+    },
+    {
+      "id": "(29",
+      "migration": "2019_08_19_000000_create_failed_jobs_table",
+      "batch": 1
+    },
+    {
+      "id": "(30",
+      "migration": "2019_12_14_000001_create_personal_access_tokens_table",
+      "batch": 1
+    },
+    {
+      "id": "(31",
+      "migration": "2024_09_11_182134_create_permissions_table",
+      "batch": 1
+    },
+    {
+      "id": "(32",
+      "migration": "2024_09_11_190902_create_categories_table",
+      "batch": 2
+    },
+    {
+      "id": "(33",
+      "migration": "2024_09_11_190903_create_products_table",
+      "batch": 2
+    },
+    {
+      "id": "(34",
+      "migration": "2024_09_12_092659_create_category_product_table",
+      "batch": 2
+    },
+    {
+      "id": "(35",
+      "migration": "2024_09_12_151836_create_product_photos_table",
+      "batch": 3
+    },
+    {
+      "id": "(36",
+      "migration": "2024_09_13_114208_create_doubts_table",
+      "batch": 4
+    },
+    {
+      "id": "(37",
+      "migration": "2024_09_15_144738_create_banners_table",
+      "batch": 4
+    },
+    {
+      "id": "(38",
+      "migration": "2024_09_16_164052_create_carts_table",
+      "batch": 4
+    },
+    {
+      "id": "(39",
+      "migration": "2024_09_16_164338_create_cart_items_table",
+      "batch": 4
+    }
+  ],
+  "permissions": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "created_at": null,
+      "updated_at": null
+    },
+    {
+      "id": "(3",
+      "user_id": 3,
+      "created_at": null,
+      "updated_at": null
+    },
+    {
+      "id": "(4",
+      "user_id": 4,
+      "created_at": null,
+      "updated_at": null
+    }
+  ],
+  "products": [
+    {
+      "id": 24,
+      "code": "hhp2i",
+      "name": "Hidden Hills 2ml PlugPlay Delta 9 Thc A / P / M - Indica",
+      "slug": "hidden-hills-2ml-plugplay-delta-9-thc-a-p-m-indica",
+      "description": "___________________________\\r\n\\r\n___________________________\\r\n\\r\nINDICA \\r\n\\r\nPredominante Físico \\r\nAlívio Sedativo \\r\nRelaxante (Baixa Estresse Mental)\\r\nRelaxante Muscular \\r\nReduz dores Agudas \\r\nReduz Náuseas \\r\nAumenta Apetite \\r\nAumenta Dopamina \\r\nAlivia Enxaqueca",
+      "price": 300.0,
+      "stoke": 100,
+      "featured": null,
+      "status": 0,
+      "created_at": "2024-09-26 04:25:55",
+      "updated_at": "2024-10-05 04:47:01"
+    },
+    {
+      "id": "(25",
+      "code": "hhp2s",
+      "name": "Hidden Hills 2ml PlugPlay Delta 9 Thc A / P / M - Sativa",
+      "slug": "hidden-hills-2ml-plugplay-delta-9-thc-a-p-m-sativa",
+      "description": "___________________________\\r\n\\r\nSATIVA\\r\n\\r\nPredominante Mental \\r\nAntiansiedade \\r\nAntidepressivo \\r\nInstigante (Criatividade a Reflexões)\\r\nFelicidade/Espiritualidade \\r\nAumenta o Foco\\r\nAumenta a Energia \\r\nAumenta Criatividade \\r\nAjuda o Sistema Imunológico",
+      "price": 300.0,
+      "stoke": 100,
+      "featured": null,
+      "status": 0,
+      "created_at": "2024-09-26 04:25:55",
+      "updated_at": "2024-10-05 04:47:26"
+    },
+    {
+      "id": "(26",
+      "code": "hhr2h",
+      "name": "Hidden Hills 2ml Refil Delta 9 Thc A / B / H /P / X - Hibrida",
+      "slug": "hidden-hills-2ml-refil-delta-9-thc-a-b-h-p-x-hibrida",
+      "description": "Fire Fire Fire Blend utiliza canabinóides e processos de mistura de última geração para fornecer uma experiência delta totalmente nova. Os três principais canabinóides perfilados são Delta-11, Delta-9 THC e THC-P Blend.\\r\n\\r\nHidden Hills Club Triple Fire Blend Live Resin 510 cartuchos 2 gramas\\r\nCanabinóides: Delta-11 | Delta-9 THC | THCP\\r\nPerfeito para uso em trânsito\\r\nUSB C recarregável.\\r\nBobina de cerâmica aprimorada: Apresentando uma bobina de cerâmica nova e aprimorada com vaporização mais rápida, fluxo de ar aprimorado e um design maior que evita entupimento e acúmulo de resíduos líquidos, ao mesmo tempo que proporciona um sabor limpo e suave.\\r\nNovas câmaras de canal de ar duplo: Apresentando câmaras de ar duplas, o dispositivo inclui uma câmara atomizadora primária e uma câmara acionada por sensor que evita entupimento e vazamento ao liquefazer o óleo endurecido e manter a câmara primária limpa.\\r\nOperação com botão único\\r\nUSB C recarregável.\\r\nPerfil de Sabor/Estirpe\\r\nCherry Splash – Híbrido\\r\nLimeade Palmer – Sativa\\r\nMelão Mojito – Híbrido\\r\nZnapple Rosa – Híbrido\\r\nPalha Candyland – Híbrido\\r\nVerde Dream OG – Indica\\r\nUso sugerido\\r\nComece com 1 ou 2 acertos\\r\nAumente a dosagem para alcançar os efeitos desejados\\r\nCertificado de Análise\\r\nRespingo de cereja\\r\nLimeade Palmer\\r\nMelão Mojito\\r\nMaçã Rosa\\r\nPalha Candyland\\r\nVerde Dream OG\\r\n\\r\n___________________________\\r\n\\r\nHIBRIDA \\r\n\\r\nÉ composta de 50% Sativa e 50% Indica.\\r\n\\r\n___________________________\\r\n\\r\nSATIVA\\r\n\\r\nPredominante Mental \\r\nAntiansiedade \\r\nAntidepressivo \\r\nInstigante (Criatividade a Reflexões)\\r\nFelicidade/Espiritualidade \\r\nAumenta o Foco\\r\nAumenta a Energia \\r\nAumenta Criatividade \\r\nAjuda o Sistema Imunológico\\r\n___________________________\\r\n\\r\nINDICA \\r\n\\r\nPredominante Físico \\r\nAlívio Sedativo \\r\nRelaxante (Baixa Estresse Mental)\\r\nRelaxante Muscular \\r\nReduz dores Agudas \\r\nReduz Náuseas \\r\nAumenta Apetite \\r\nAumenta Dopamina \\r\nAlivia Enxaqueca",
+      "price": 300.0,
+      "stoke": 100,
+      "featured": null,
+      "status": 1,
+      "created_at": "2024-09-26 04:25:55",
+      "updated_at": "2024-10-10 18:29:50"
+    },
+    {
+      "id": "(27",
+      "code": "hhr2i",
+      "name": "Hidden Hills 2ml Refil Delta 9 Thc A / B / H /P / X - Indica",
+      "slug": "hidden-hills-2ml-refil-delta-9-thc-a-b-h-p-x-indica",
+      "description": "Fire Fire Fire Blend utiliza canabinóides e processos de mistura de última geração para fornecer uma experiência delta totalmente nova. Os três principais canabinóides perfilados são Delta-11, Delta-9 THC e THC-P Blend.\\r\n\\r\nHidden Hills Club Triple Fire Blend Live Resin 510 cartuchos 2 gramas\\r\nCanabinóides: Delta-11 | Delta-9 THC | THCP\\r\nPerfeito para uso em trânsito\\r\nUSB C recarregável.\\r\nBobina de cerâmica aprimorada: Apresentando uma bobina de cerâmica nova e aprimorada com vaporização mais rápida, fluxo de ar aprimorado e um design maior que evita entupimento e acúmulo de resíduos líquidos, ao mesmo tempo que proporciona um sabor limpo e suave.\\r\nNovas câmaras de canal de ar duplo: Apresentando câmaras de ar duplas, o dispositivo inclui uma câmara atomizadora primária e uma câmara acionada por sensor que evita entupimento e vazamento ao liquefazer o óleo endurecido e manter a câmara primária limpa.\\r\nOperação com botão único\\r\nUSB C recarregável.\\r\nPerfil de Sabor/Estirpe\\r\nCherry Splash – Híbrido\\r\nLimeade Palmer – Sativa\\r\nMelão Mojito – Híbrido\\r\nZnapple Rosa – Híbrido\\r\nPalha Candyland – Híbrido\\r\nVerde Dream OG – Indica\\r\nUso sugerido\\r\nComece com 1 ou 2 acertos\\r\nAumente a dosagem para alcançar os efeitos desejados\\r\nCertificado de Análise\\r\nRespingo de cereja\\r\nLimeade Palmer\\r\nMelão Mojito\\r\nMaçã Rosa\\r\nPalha Candyland\\r\nVerde Dream OG\\r\n\\r\n___________________________\\r\n\\r\nINDICA \\r\n\\r\nPredominante Físico \\r\nAlívio Sedativo \\r\nRelaxante (Baixa Estresse Mental)\\r\nRelaxante Muscular \\r\nReduz dores Agudas \\r\nReduz Náuseas \\r\nAumenta Apetite \\r\nAumenta Dopamina \\r\nAlivia Enxaqueca",
+      "price": 300.0,
+      "stoke": 100,
+      "featured": null,
+      "status": 1,
+      "created_at": "2024-09-26 04:25:55",
+      "updated_at": "2024-10-05 05:13:29"
+    },
+    {
+      "id": "(28",
+      "code": "hhr2s",
+      "name": "Hidden Hills 2ml Refil Delta 9 Thc A / B / H /P / X - Sativa",
+      "slug": "hidden-hills-2ml-refil-delta-9-thc-a-b-h-p-x-sativa",
+      "description": "___________________________\\r\n\\r\nSATIVA\\r\n\\r\nPredominante Mental \\r\nAntiansiedade \\r\nAntidepressivo \\r\nInstigante (Criatividade a Reflexões)\\r\nFelicidade/Espiritualidade \\r\nAumenta o Foco\\r\nAumenta a Energia \\r\nAumenta Criatividade \\r\nAjuda o Sistema Imunológico",
+      "price": 300.0,
+      "stoke": 100,
+      "featured": null,
+      "status": 1,
+      "created_at": "2024-09-26 04:25:55",
+      "updated_at": "2024-10-10 18:32:21"
+    },
+    {
+      "id": "(29",
+      "code": "sn3h",
+      "name": "Snoop Dogg 3.5ml Delta 9 / 10 Thc - Hibrida",
+      "slug": "snoop-dogg-3ml-delta-9-10-thc-hibrida",
+      "description": "Apresentando o vaporizador descartável Death Row Records Signature Blend THC-A 3,5ml, endossado por Snoop Dogg e Death Row Records, este descartável é uma solução de ponta para amadores que procuram uma experiência vaping premium. Contendo Delta 8, THCP e THC-A, esta mistura exclusiva encapsula a essência da inovação no mundo dos produtos canabinóides.\\r\n\\r\n\\r\nInformações do produto\\r\nVaporizador descartável recarregável de 3,5 gramas / 3500 mg feito de Delta 8, THCP e THC-A\\r\n\\r\n___________________________\\r\n\\r\nHIBRIDA \\r\n\\r\nÉ composta de 50% Sativa e 50% Indica.\\r\n\\r\n___________________________\\r\n\\r\nSATIVA\\r\n\\r\nPredominante Mental \\r\nAntiansiedade \\r\nAntidepressivo \\r\nInstigante (Criatividade a Reflexões)\\r\nFelicidade/Espiritualidade \\r\nAumenta o Foco\\r\nAumenta a Energia \\r\nAumenta Criatividade \\r\nAjuda o Sistema Imunológico\\r\n___________________________\\r\n\\r\nINDICA \\r\n\\r\nPredominante Físico \\r\nAlívio Sedativo \\r\nRelaxante (Baixa Estresse Mental)\\r\nRelaxante Muscular \\r\nReduz dores Agudas \\r\nReduz Náuseas \\r\nAumenta Apetite \\r\nAumenta Dopamina \\r\nAlivia Enxaqueca",
+      "price": 300.0,
+      "stoke": 100,
+      "featured": null,
+      "status": 1,
+      "created_at": "2024-09-26 04:25:55",
+      "updated_at": "2024-10-09 21:27:16"
+    },
+    {
+      "id": "(30",
+      "code": "sn3i",
+      "name": "Snoop Dogg 3.5ml Delta 9 / 10 Thc - Indica",
+      "slug": "snoop-dogg-3ml-delta-9-10-thc-indica",
+      "description": "Apresentando o vaporizador descartável Death Row Records Signature Blend THC-A 3,5ml, endossado por Snoop Dogg e Death Row Records, este descartável é uma solução de ponta para amadores que procuram uma experiência vaping premium. Contendo Delta 8, THCP e THC-A, esta mistura exclusiva encapsula a essência da inovação no mundo dos produtos canabinóides.\\r\n\\r\n\\r\nInformações do produto\\r\nVaporizador descartável recarregável de 3,5 gramas / 3500 mg feito de Delta 8, THCP e THC-A\\r\n\\r\n___________________________\\r\n\\r\nINDICA \\r\n\\r\nPredominante Físico \\r\nAlívio Sedativo \\r\nRelaxante (Baixa Estresse Mental)\\r\nRelaxante Muscular \\r\nReduz dores Agudas \\r\nReduz Náuseas \\r\nAumenta Apetite \\r\nAumenta Dopamina \\r\nAlivia Enxaqueca",
+      "price": 300.0,
+      "stoke": 100,
+      "featured": null,
+      "status": 1,
+      "created_at": "2024-09-26 04:25:55",
+      "updated_at": "2024-10-10 18:46:26"
+    },
+    {
+      "id": "(31",
+      "code": "sn3s",
+      "name": "Snoop Dogg 3.5ml Delta 9 / 10 Thc - Sativa",
+      "slug": "snoop-dogg-3ml-delta-9-10-thc-sativa",
+      "description": "Apresentando o vaporizador descartável Death Row Records Signature Blend THC-A 3,5ml, endossado por Snoop Dogg e Death Row Records, este descartável é uma solução de ponta para amadores que procuram uma experiência vaping premium. Contendo Delta 8, THCP e THC-A, esta mistura exclusiva encapsula a essência da inovação no mundo dos produtos canabinóides.\\r\n\\r\n\\r\nInformações do produto\\r\nVaporizador descartável recarregável de 3,5 gramas / 3500 mg feito de Delta 8, THCP e THC-A\\r\n\\r\n___________________________\\r\n\\r\nSATIVA\\r\n\\r\nPredominante Mental \\r\nAntiansiedade \\r\nAntidepressivo \\r\nInstigante (Criatividade a Reflexões)\\r\nFelicidade/Espiritualidade \\r\nAumenta o Foco\\r\nAumenta a Energia \\r\nAumenta Criatividade \\r\nAjuda o Sistema Imunológico",
+      "price": 300.0,
+      "stoke": 100,
+      "featured": null,
+      "status": 1,
+      "created_at": "2024-09-26 04:25:55",
+      "updated_at": "2024-10-10 18:47:26"
+    },
+    {
+      "id": "(32",
+      "code": "p6h",
+      "name": "Pressure L.A 6ml Delta 9 Thc A / P - Hibrida",
+      "slug": "pressure-6ml-delta-9-thc-a-p-hibrida",
+      "description": "HomeProdutosPressure LA Live Resin THC-A Descartável | 6g\\r\n\\r\n6 gramas por dispositivo\\r\nVisor LED\\r\nControle de tensão e carregamento USB-C\\r\nMistura Potente de Óleo Infundido de Resina Viva THC-A\\r\nSabor\\r\n\\r\nEscolha uma opção\\r\nMenos Quantidade\\r\n-\\r\nPressão LA Live Resin THC-A descartável | Quantidade de 6g\\r\n1\\r\nMais quantidade\\r\n\\r\nMarca: Pressão LA\\r\n\\r\nMelhor qualidade disponível\\r\n\\r\nGarantia de qualidade\\r\n\\r\nDescrição\\r\nPontos de fidelidade\\r\nResina viva de pressão THC-A descartável | 6g\\r\nO Pressure Live Resin THC-A descartável é o seu ingresso para uma experiência de vaporização de próximo nível. Com robustos 6 gramas por dispositivo, esta potência está equipada com um display LED, permitindo que você acompanhe sua sessão com facilidade. Embalado com óleo infundido de resina viva THC-A, cada baforada oferece um golpe potente e saboroso que certamente impressionará. Além disso, com controle de tensão e carregamento USB-C, você terá controle total sobre sua experiência de vaporização.\\r\n\\r\nObtenha mais retorno do seu investimento com Pressure Live Resin THC-A descartável. Cada dispositivo é carregado com generosos 6 gramas de produtos premium, garantindo prazer duradouro e potência máxima. Mantenha o controle da sua sessão com o display LED integrado. Monitore facilmente suas estatísticas e configurações de vaporização para uma experiência personalizada de acordo com suas preferências.\\r\n\\r\nMergulhe em um mundo de sabor e potência com Pressure Live Resin THC-A Descartável. Infundido com óleo Live Resin THC-A, cada dose oferece um efeito poderoso e saboroso que certamente satisfará até os mais exigentes entusiastas do cânhamo. Ajuste a voltagem de acordo com suas preferências e mantenha seu dispositivo ligado e pronto para uso com o conveniente carregamento USB-C.\\r\n\\r\nCepas descartáveis ​​de resina viva de pressão THC-A\\r\nCandy Runtz (híbrido): Mime-se com os deliciosos sabores de Candy Runtz. Esta variedade híbrida oferece um efeito equilibrado que é perfeito para melhorar o humor e a criatividade.\\r\nCherry Crush (Híbrido): Prepare-se para uma explosão de delícias frutadas com Cherry Crush. Esta variedade híbrida proporciona uma euforia que certamente levantará seu ânimo.\\r\n\\r\nInformações adicionais sobre o produto\\r\nDispositivo 6000 mg\\r\nFunção de pré-aquecimento\\r\n5 cliques ativados / 5 cliques desativados\\r\nCompatível com Farm Bill 2018 contendo menos de 0,3% de Delta-9\\r\n\\r\n___________________________\\r\n\\r\nHIBRIDA \\r\n\\r\nÉ composta de 50% Sativa e 50% Indica.\\r\n\\r\n___________________________\\r\n\\r\nSATIVA\\r\n\\r\nPredominante Mental \\r\nAntiansiedade \\r\nAntidepressivo \\r\nInstigante (Criatividade a Reflexões)\\r\nFelicidade/Espiritualidade \\r\nAumenta o Foco\\r\nAumenta a Energia \\r\nAumenta Criatividade \\r\nAjuda o Sistema Imunológico\\r\n___________________________\\r\n\\r\nINDICA \\r\n\\r\nPredominante Físico \\r\nAlívio Sedativo \\r\nRelaxante (Baixa Estresse Mental)\\r\nRelaxante Muscular \\r\nReduz dores Agudas \\r\nReduz Náuseas \\r\nAumenta Apetite \\r\nAumenta Dopamina \\r\nAlivia Enxaqueca",
+      "price": 300.0,
+      "stoke": 100,
+      "featured": null,
+      "status": 1,
+      "created_at": "2024-09-26 04:25:55",
+      "updated_at": "2024-10-06 00:03:52"
+    },
+    {
+      "id": "(33",
+      "code": "p6i",
+      "name": "Pressure L.A 6ml Delta 9 Thc A / P - Indica",
+      "slug": "pressure-6ml-delta-9-thc-a-p-indica",
+      "description": "HomeProdutosPressure LA Live Resin THC-A Descartável | 6g\\r\n\\r\n6 gramas por dispositivo\\r\nVisor LED\\r\nControle de tensão e carregamento USB-C\\r\nMistura Potente de Óleo Infundido de Resina Viva THC-A\\r\nSabor\\r\n\\r\nEscolha uma opção\\r\nMenos Quantidade\\r\n-\\r\nPressão LA Live Resin THC-A descartável | Quantidade de 6g\\r\n1\\r\nMais quantidade\\r\n\\r\nMarca: Pressão LA\\r\n\\r\nMelhor qualidade disponível\\r\n\\r\nGarantia de qualidade\\r\n\\r\nDescrição\\r\nPontos de fidelidade\\r\nResina viva de pressão THC-A descartável | 6g\\r\nO Pressure Live Resin THC-A descartável é o seu ingresso para uma experiência de vaporização de próximo nível. Com robustos 6 gramas por dispositivo, esta potência está equipada com um display LED, permitindo que você acompanhe sua sessão com facilidade. Embalado com óleo infundido de resina viva THC-A, cada baforada oferece um golpe potente e saboroso que certamente impressionará. Além disso, com controle de tensão e carregamento USB-C, você terá controle total sobre sua experiência de vaporização.\\r\n\\r\nObtenha mais retorno do seu investimento com Pressure Live Resin THC-A descartável. Cada dispositivo é carregado com generosos 6 gramas de produtos premium, garantindo prazer duradouro e potência máxima. Mantenha o controle da sua sessão com o display LED integrado. Monitore facilmente suas estatísticas e configurações de vaporização para uma experiência personalizada de acordo com suas preferências.\\r\n\\r\nMergulhe em um mundo de sabor e potência com Pressure Live Resin THC-A Descartável. Infundido com óleo Live Resin THC-A, cada dose oferece um efeito poderoso e saboroso que certamente satisfará até os mais exigentes entusiastas do cânhamo. Ajuste a voltagem de acordo com suas preferências e mantenha seu dispositivo ligado e pronto para uso com o conveniente carregamento USB-C.\\r\n\\r\nCepas descartáveis ​​de resina viva de pressão THC-A\\r\nApple Zoap (Indica): Delicie-se com os sabores doces e frutados do Apple Zoap. Esta variedade indica oferece um efeito relaxante e sedativo, perfeito para relaxar após um longo dia.\\r\nBlue Cookies (Indica): Mergulhe no abraço calmante dos Blue Cookies. Esta cepa indica é conhecida por seus efeitos tranquilizantes e perfil de sabor doce e terroso.\\r\nJelly Donut (Indica): Mime-se com o Jelly Donut. Esta variedade indica oferece um efeito relaxante e eufórico, perfeito para relaxar no final do dia.\\r\nTiramisu (Indica): Mime-se com os sabores ricos e decadentes do Tiramisu. Esta variedade indica oferece um efeito relaxante e sedativo, perfeito para relaxar e cuidar de si mesmo.\\r\nInformações adicionais sobre o produto\\r\nDispositivo 6000 mg\\r\nFunção de pré-aquecimento\\r\n5 cliques ativados / 5 cliques desativados\\r\nCompatível com Farm Bill 2018 contendo menos de 0,3% de Delta-9\\r\n\\r\n___________________________\\r\n\\r\nINDICA \\r\n\\r\nPredominante Físico \\r\nAlívio Sedativo \\r\nRelaxante (Baixa Estresse Mental)\\r\nRelaxante Muscular \\r\nReduz dores Agudas \\r\nReduz Náuseas \\r\nAumenta Apetite \\r\nAumenta Dopamina \\r\nAlivia Enxaqueca",
+      "price": 300.0,
+      "stoke": 100,
+      "featured": null,
+      "status": 1,
+      "created_at": "2024-09-26 04:25:55",
+      "updated_at": "2024-10-06 00:01:36"
+    },
+    {
+      "id": "(34",
+      "code": "p6s",
+      "name": "Pressure L.A 6ml Delta 9 Thc A / P - Sativa",
+      "slug": "pressure-6ml-delta-9-thc-a-p-sativa",
+      "description": "HomeProdutosPressure LA Live Resin THC-A Descartável | 6g\\r\n\\r\n6 gramas por dispositivo\\r\nVisor LED\\r\nControle de tensão e carregamento USB-C\\r\nMistura Potente de Óleo Infundido de Resina Viva THC-A\\r\nSabor\\r\n\\r\nEscolha uma opção\\r\nMenos Quantidade\\r\n-\\r\nPressão LA Live Resin THC-A descartável | Quantidade de 6g\\r\n1\\r\nMais quantidade\\r\n\\r\nMarca: Pressão LA\\r\n\\r\nMelhor qualidade disponível\\r\n\\r\nGarantia de qualidade\\r\n\\r\nDescrição\\r\nPontos de fidelidade\\r\nResina viva de pressão THC-A descartável | 6g\\r\nO Pressure Live Resin THC-A descartável é o seu ingresso para uma experiência de vaporização de próximo nível. Com robustos 6 gramas por dispositivo, esta potência está equipada com um display LED, permitindo que você acompanhe sua sessão com facilidade. Embalado com óleo infundido de resina viva THC-A, cada baforada oferece um golpe potente e saboroso que certamente impressionará. Além disso, com controle de tensão e carregamento USB-C, você terá controle total sobre sua experiência de vaporização.\\r\n\\r\nObtenha mais retorno do seu investimento com Pressure Live Resin THC-A descartável. Cada dispositivo é carregado com generosos 6 gramas de produtos premium, garantindo prazer duradouro e potência máxima. Mantenha o controle da sua sessão com o display LED integrado. Monitore facilmente suas estatísticas e configurações de vaporização para uma experiência personalizada de acordo com suas preferências.\\r\n\\r\nMergulhe em um mundo de sabor e potência com Pressure Live Resin THC-A Descartável. Infundido com óleo Live Resin THC-A, cada dose oferece um efeito poderoso e saboroso que certamente satisfará até os mais exigentes entusiastas do cânhamo. Ajuste a voltagem de acordo com suas preferências e mantenha seu dispositivo ligado e pronto para uso com o conveniente carregamento USB-C.\\r\n\\r\nCepas descartáveis ​​de resina viva de pressão THC-A\\r\n\\r\nLemon Bubble (Sativa): Energize-se com Lemon Bubble. Esta variedade sativa oferece um efeito edificante e revigorante, perfeito para se manter produtivo e concentrado.\\r\nMessi OG (Sativa): Canalize seu campeão interior com Messi OG. Esta variedade sativa oferece um efeito motivacional perfeito para enfrentar qualquer desafio que surgir em seu caminho.\\r\nOrange Diesel (Sativa): Alimente sua criatividade com Orange Diesel. Esta variedade sativa oferece um efeito cerebral perfeito para despertar a inspiração e fazer fluir a criatividade.\\r\nMarshmallow de Morango (Sativa): Delicie-se com os sabores doces e frutados do Marshmallow de Morango. Oferece um efeito edificante e eufórico, perfeito para socializar e desfrutar de bons momentos com os amigos.\\r\n\\r\nInformações adicionais sobre o produto\\r\nDispositivo 6000 mg\\r\nFunção de pré-aquecimento\\r\n5 cliques ativados / 5 cliques desativados\\r\nCompatível com Farm Bill 2018 contendo menos de 0,3% de Delta-9\\r\n\\r\n___________________________\\r\n\\r\nSATIVA\\r\n\\r\nPredominante Mental \\r\nAntiansiedade \\r\nAntidepressivo \\r\nInstigante (Criatividade a Reflexões)\\r\nFelicidade/Espiritualidade \\r\nAumenta o Foco\\r\nAumenta a Energia \\r\nAumenta Criatividade \\r\nAjuda o Sistema Imunológico",
+      "price": 300.0,
+      "stoke": 100,
+      "featured": null,
+      "status": 1,
+      "created_at": "2024-09-26 04:25:55",
+      "updated_at": "2024-10-06 00:06:26"
+    },
+    {
+      "id": "(35",
+      "code": "th2h",
+      "name": "Tree House 2ml Delta 8 / 9 / 10 Thc A - Hibrida",
+      "slug": "tre-house-2ml-delta-8-9-10-thc-a-hibrida",
+      "description": "___________________________\\r\n\\r\nHIBRIDA \\r\n\\r\nÉ composta de 50% Sativa e 50% Indica.\\r\n\\r\n___________________________\\r\n\\r\nSATIVA\\r\n\\r\nPredominante Mental \\r\nAntiansiedade \\r\nAntidepressivo \\r\nInstigante (Criatividade a Reflexões)\\r\nFelicidade/Espiritualidade \\r\nAumenta o Foco\\r\nAumenta a Energia \\r\nAumenta Criatividade \\r\nAjuda o Sistema Imunológico\\r\n___________________________\\r\n\\r\nINDICA \\r\n\\r\nPredominante Físico \\r\nAlívio Sedativo \\r\nRelaxante (Baixa Estresse Mental)\\r\nRelaxante Muscular \\r\nReduz dores Agudas \\r\nReduz Náuseas \\r\nAumenta Apetite \\r\nAumenta Dopamina \\r\nAlivia Enxaqueca",
+      "price": 300.0,
+      "stoke": 100,
+      "featured": null,
+      "status": 1,
+      "created_at": "2024-09-26 04:25:55",
+      "updated_at": "2024-09-26 08:54:23"
+    },
+    {
+      "id": "(36",
+      "code": "th2i",
+      "name": "Tree House 2ml Delta 8 / 9 / 10 Thc A - Indica",
+      "slug": "tre-house-2ml-delta-8-9-10-thc-a-indica",
+      "description": "___________________________\\r\n\\r\nINDICA \\r\n\\r\nPredominante Físico \\r\nAlívio Sedativo \\r\nRelaxante (Baixa Estresse Mental)\\r\nRelaxante Muscular \\r\nReduz dores Agudas \\r\nReduz Náuseas \\r\nAumenta Apetite \\r\nAumenta Dopamina \\r\nAlivia Enxaqueca",
+      "price": 300.0,
+      "stoke": 100,
+      "featured": null,
+      "status": 1,
+      "created_at": "2024-09-26 04:25:55",
+      "updated_at": "2024-09-26 08:55:14"
+    },
+    {
+      "id": "(37",
+      "code": "th2s",
+      "name": "Tree House 2ml Delta 8 / 9 / 10 Thc A - Sativa",
+      "slug": "tre-house-2ml-delta-8-9-10-thc-a-sativa",
+      "description": "___________________________\\r\n\\r\nSATIVA\\r\n\\r\nPredominante Mental \\r\nAntiansiedade \\r\nAntidepressivo \\r\nInstigante (Criatividade a Reflexões)\\r\nFelicidade/Espiritualidade \\r\nAumenta o Foco\\r\nAumenta a Energia \\r\nAumenta Criatividade \\r\nAjuda o Sistema Imunológico",
+      "price": 300.0,
+      "stoke": 100,
+      "featured": null,
+      "status": 1,
+      "created_at": "2024-09-26 04:25:55",
+      "updated_at": "2024-09-26 08:56:03"
+    },
+    {
+      "id": "(38",
+      "code": "c2amc",
+      "name": "Cactus 2ml Amanita Muscaria Cogumelo",
+      "slug": "cactus-2ml-amanita-muscaria-cogumelo",
+      "description": "Descubra a experiência encantadora do Vape Descartável de Cogumelo Amanita Muscaria da Cactus Labs. Este dispositivo 2g oferece uma mistura única que combina a mística dos cogumelos Amanita Muscaria com a conveniência da vaporização. Cada unidade é meticulosamente trabalhada para garantir uma tração suave e consistente, proporcionando uma fuga tranquila a cada tragada.\\r\n\\r\nO Amanita Muscaria, conhecido pela sua aparência distinta e história em diversas práticas culturais, está agora disponível neste vape fácil de usar e sem necessidade de manutenção. Esta formulação utiliza apenas ingredientes da mais alta qualidade, preservando as propriedades naturais do cogumelo e garantindo uma experiência segura e agradável.\\r\n\\r\nPerfeito para quem aprecia as nuances sutis das misturas de ervas, o vaporizador Cactus Labs foi projetado para ser discreto e portátil. Seu tamanho compacto cabe confortavelmente no bolso ou na bolsa, tornando-o ideal para uso em trânsito. Quer esteja a relaxar após um longo dia ou à procura de um momento de calma, este vaporizador é o seu companheiro perfeito.\\r\n\\r\nCom sua construção robusta e design à prova de vazamentos, o Vape Descartável Cactus Labs é construído para durar, garantindo que cada sessão seja tão satisfatória quanto a primeira. Abrace uma experiência única que estabelece novos padrões na vaporização de ervas!\\r\nEspecificações do produto:\\r\n\\r\n•Contém: Amanita Muscaria\\r\n\\r\n•Tamanho: 2g\\r\n\\r\n•Você recebe: 1x Vape descartável de cogumelo Amanita Muscaria da Cactus Labs - 2g\\r\n\\r\nSabores:\\r\n\\r\nStrawberry banana ice\\r\nWaterberry\\r\nBluerazz Ice\\r\nTropical Rainbow Blast\\r\nWatermellow Bubble Gun\\r\nLimonade Ice",
+      "price": 300.0,
+      "stoke": 100,
+      "featured": null,
+      "status": 1,
+      "created_at": "2024-09-26 04:25:55",
+      "updated_at": "2024-10-10 18:18:55"
+    },
+    {
+      "id": "(39",
+      "code": "c6sh",
+      "name": "Cactus 6ml SixShot Delta 9 Thc A - Hibrida",
+      "slug": "cactus-6ml-sixshot-delta-9-thc-a-hibrida",
+      "description": "Experimente o cartucho vape mais dinâmico com o Vape descartável Six Shooter THC-A da Cactus Labs. Este dispositivo inovador contém 6 gramas de THC-A, sendo 2 gramas de cada extrato -  Híbrida. Alterne facilmente entre variedades para uma experiência de vaporização personalizada. \\r\n\\r\nDivididos em Três compartimentos, 3X Coil\\r\n\\r\n___________________________\\r\n\\r\nHIBRIDA \\r\n\\r\nÉ composta de 50% Sativa e 50% Indica.\\r\n\\r\n___________________________\\r\n\\r\nSATIVA\\r\n\\r\nPredominante Mental \\r\nAntiansiedade \\r\nAntidepressivo \\r\nInstigante (Criatividade a Reflexões)\\r\nFelicidade/Espiritualidade \\r\nAumenta o Foco\\r\nAumenta a Energia \\r\nAumenta Criatividade \\r\nAjuda o Sistema Imunológico\\r\n___________________________\\r\n\\r\nINDICA \\r\n\\r\nPredominante Físico \\r\nAlívio Sedativo \\r\nRelaxante (Baixa Estresse Mental)\\r\nRelaxante Muscular \\r\nReduz dores Agudas \\r\nReduz Náuseas \\r\nAumenta Apetite \\r\nAumenta Dopamina \\r\nAlivia Enxaqueca",
+      "price": 300.0,
+      "stoke": 100,
+      "featured": null,
+      "status": 1,
+      "created_at": "2024-09-26 04:25:55",
+      "updated_at": "2024-10-09 18:42:28"
+    },
+    {
+      "id": "(40",
+      "code": "c6si",
+      "name": "Cactus 6ml SixShot Delta 9 Thc A - Indica",
+      "slug": "cactus-6ml-sixshot-delta-9-thc-a-indica",
+      "description": "Experimente o cartucho vape mais dinâmico com o Vape descartável Six Shooter THC-A da Cactus Labs. Este dispositivo inovador contém 6 gramas de THC-A, sendo 2 gramas de cada extrato -  Sativa, Híbrida e Indica. Alterne facilmente entre variedades para uma experiência de vaporização personalizada. \\r\n\\r\nDivididos em Três compartimentos, 3X Coil\\r\n\\r\n___________________________\\r\n\\r\nINDICA \\r\n\\r\nPredominante Físico \\r\nAlívio Sedativo \\r\nRelaxante (Baixa Estresse Mental)\\r\nRelaxante Muscular \\r\nReduz dores Agudas \\r\nReduz Náuseas \\r\nAumenta Apetite \\r\nAumenta Dopamina \\r\nAlivia Enxaqueca",
+      "price": 300.0,
+      "stoke": 100,
+      "featured": 1,
+      "status": 1,
+      "created_at": "2024-09-26 04:25:55",
+      "updated_at": "2024-10-19 19:09:07"
+    },
+    {
+      "id": "(41",
+      "code": "c6ss",
+      "name": "Cactus 6ml SixShot Delta 9 Thc A - Sativa",
+      "slug": "cactus-6ml-sixshot-delta-9-thc-a-sativa",
+      "description": "Experimente o cartucho vape mais dinâmico com o Vape descartável Six Shooter THC-A da Cactus Labs. Este dispositivo inovador contém 6 gramas de THC-A, sendo 2 gramas de cada extrato - Híbrida. Alterne facilmente entre variedades para uma experiência de vaporização personalizada.\\r\n\\r\nDivididos em Três compartimentos, 3X Coil\\r\n\\r\n___________________________\\r\n\\r\nSATIVA\\r\n\\r\nPredominante Mental \\r\nAntiansiedade \\r\nAntidepressivo \\r\nInstigante (Criatividade a Reflexões)\\r\nFelicidade/Espiritualidade \\r\nAumenta o Foco\\r\nAumenta a Energia \\r\nAumenta Criatividade \\r\nAjuda o Sistema Imunológico",
+      "price": 300.0,
+      "stoke": 100,
+      "featured": null,
+      "status": 1,
+      "created_at": "2024-09-26 04:25:55",
+      "updated_at": "2024-10-05 03:32:28"
+    },
+    {
+      "id": "(45",
+      "code": "p5ddh",
+      "name": "Pulse 5ml Digital Display Delta 9 Thc P Hhc P - Hibrida",
+      "slug": "pulse-5ml-digital-display-delta-9-thc-a-hibrida",
+      "description": "Pulse THC 5G Vape descartável - Pacote com 5: Liquid Diamonds THC-A + D9 + THC-P + HHC-P\\r\n\\r\nDescubra a melhor experiência de vaporização com o vaporizador descartável Pulse THC 5G, agora disponível em um prático pacote com 5 unidades. Cada vaporizador descartável é meticulosamente elaborado para proporcionar uma experiência potente e saborosa, combinando vários canabinoides para uma sensação única e equilibrada.\\r\n\\r\nCaracterísticas do produto:\\r\n\\r\nMistura avançada de canabinoides :\\r\n\\r\nTHC-A (ácido tetrahidrocanabinólico) : conhecido por seus potenciais efeitos anti-inflamatórios e neuroprotetores.\\r\nD9-THC (Delta-9-Tetrahidrocanabinol) : Oferece a clássica euforia associada à cannabis.\\r\nTHC-P (Tetrahidrocanabiforol) : Até 30 vezes mais potente que o THC comum, proporcionando uma experiência poderosa.\\r\nHHC-P (Hexahydrocannabinol-Phorol) : Oferece um efeito suave, relaxante e terapêutico.\\r\nTecnologia Liquid Diamonds : Utilizando um processo de extração de alta qualidade, este vape preserva todo o espectro de canabinoides e terpenos, garantindo uma experiência rica, saborosa e potente. O método Liquid Diamonds aprimora o efeito entourage, proporcionando uma alta completa e satisfatória.\\r\nDesign descartável fácil de usar : Pré-preenchido e pronto para uso, o Pulse THC Disposable Vape possui uma tela de LED que exibe a duração da bateria e os níveis de líquido para maior conveniência e controle. Perfeito para uso em trânsito, não requer manutenção ou recarga.\\r\nCapacidade generosa de 5g : Cada dispositivo contém 5 gramas de conteúdo líquido, oferecendo sessões de vaporização prolongadas antes de precisar ser substituído. Desfrute de uso duradouro com qualidade e desempenho consistentes.\\r\nVariedade de cepa :\\r\n\\r\nOG Banana Squirt (Híbrido) : Um híbrido bem equilibrado que combina sabores frutados e terrosos para uma experiência de vaporização suave.\\r\nGranny Apple Express X LSD 25 (Híbrido) : Um híbrido exclusivo que combina os sabores crocantes da maçã com os efeitos potentes do LSD 25.\\r\n\\r\n___________________________\\r\n\\r\nHIBRIDA \\r\n\\r\nÉ composta de 50% Sativa e 50% Indica.\\r\n\\r\n___________________________\\r\n\\r\nSATIVA\\r\n\\r\nPredominante Mental \\r\nAntiansiedade \\r\nAntidepressivo \\r\nInstigante (Criatividade a Reflexões)\\r\nFelicidade/Espiritualidade \\r\nAumenta o Foco\\r\nAumenta a Energia \\r\nAumenta Criatividade \\r\nAjuda o Sistema Imunológico\\r\n___________________________\\r\n\\r\nINDICA \\r\n\\r\nPredominante Físico \\r\nAlívio Sedativo \\r\nRelaxante (Baixa Estresse Mental)\\r\nRelaxante Muscular \\r\nReduz dores Agudas \\r\nReduz Náuseas \\r\nAumenta Apetite \\r\nAumenta Dopamina \\r\nAlivia Enxaqueca",
+      "price": 300.0,
+      "stoke": 100,
+      "featured": null,
+      "status": 1,
+      "created_at": "2024-09-26 04:25:55",
+      "updated_at": "2024-10-10 18:37:21"
+    },
+    {
+      "id": "(46",
+      "code": "p5ddi",
+      "name": "Pulse 5ml Digital Display Delta 9 Thc P Hhc P - Indica",
+      "slug": "pulse-5ml-digital-display-delta-9-thc-a-indica",
+      "description": "Pulse THC 5G Vape descartável - Pacote com 5: Liquid Diamonds THC-A + D9 + THC-P + HHC-P\\r\n\\r\nDescubra a melhor experiência de vaporização com o vaporizador descartável Pulse THC 5G, agora disponível em um prático pacote com 5 unidades. Cada vaporizador descartável é meticulosamente elaborado para proporcionar uma experiência potente e saborosa, combinando vários canabinoides para uma sensação única e equilibrada.\\r\n\\r\nCaracterísticas do produto:\\r\n\\r\nMistura avançada de canabinoides :\\r\n\\r\nTHC-A (ácido tetrahidrocanabinólico) : conhecido por seus potenciais efeitos anti-inflamatórios e neuroprotetores.\\r\nD9-THC (Delta-9-Tetrahidrocanabinol) : Oferece a clássica euforia associada à cannabis.\\r\nTHC-P (Tetrahidrocanabiforol) : Até 30 vezes mais potente que o THC comum, proporcionando uma experiência poderosa.\\r\nHHC-P (Hexahydrocannabinol-Phorol) : Oferece um efeito suave, relaxante e terapêutico.\\r\nTecnologia Liquid Diamonds : Utilizando um processo de extração de alta qualidade, este vape preserva todo o espectro de canabinoides e terpenos, garantindo uma experiência rica, saborosa e potente. O método Liquid Diamonds aprimora o efeito entourage, proporcionando uma alta completa e satisfatória.\\r\nDesign descartável fácil de usar : Pré-preenchido e pronto para uso, o Pulse THC Disposable Vape possui uma tela de LED que exibe a duração da bateria e os níveis de líquido para maior conveniência e controle. Perfeito para uso em trânsito, não requer manutenção ou recarga.\\r\nCapacidade generosa de 5g : Cada dispositivo contém 5 gramas de conteúdo líquido, oferecendo sessões de vaporização prolongadas antes de precisar ser substituído. Desfrute de uso duradouro com qualidade e desempenho consistentes.\\r\nVariedade de cepa :\\r\n\\r\nRazz Runtz #69 (Indica) : Uma variedade indica calmante com tons de frutas vermelhas, ideal para relaxamento e descontracção.\\r\nBlue Bubba Dream (Índica) : Uma variedade indica calmante com sabores de mirtilo e terrosos, perfeita para uso noturno.\\r\n\\r\n___________________________\\r\n\\r\nINDICA \\r\n\\r\nPredominante Físico \\r\nAlívio Sedativo \\r\nRelaxante (Baixa Estresse Mental)\\r\nRelaxante Muscular \\r\nReduz dores Agudas \\r\nReduz Náuseas \\r\nAumenta Apetite \\r\nAumenta Dopamina \\r\nAlivia Enxaqueca",
+      "price": 300.0,
+      "stoke": 100,
+      "featured": null,
+      "status": 1,
+      "created_at": "2024-09-26 04:25:55",
+      "updated_at": "2024-10-10 18:43:08"
+    },
+    {
+      "id": "(47",
+      "code": "p5dds",
+      "name": "Pulse 5ml Digital Display Delta 9 Thc P Hhc P - Sativa",
+      "slug": "pulse-5ml-digital-display-delta-9-thc-a-sativa",
+      "description": "Pulse THC 5G Vape descartável - Pacote com 5: Liquid Diamonds THC-A + D9 + THC-P + HHC-P\\r\n\\r\nDescubra a melhor experiência de vaporização com o vaporizador descartável Pulse THC 5G, agora disponível em um prático pacote com 5 unidades. Cada vaporizador descartável é meticulosamente elaborado para proporcionar uma experiência potente e saborosa, combinando vários canabinoides para uma sensação única e equilibrada.\\r\n\\r\nCaracterísticas do produto:\\r\n\\r\nMistura avançada de canabinoides :\\r\n\\r\nTHC-A (ácido tetrahidrocanabinólico) : conhecido por seus potenciais efeitos anti-inflamatórios e neuroprotetores.\\r\nD9-THC (Delta-9-Tetrahidrocanabinol) : Oferece a clássica euforia associada à cannabis.\\r\nTHC-P (Tetrahidrocanabiforol) : Até 30 vezes mais potente que o THC comum, proporcionando uma experiência poderosa.\\r\nHHC-P (Hexahydrocannabinol-Phorol) : Oferece um efeito suave, relaxante e terapêutico.\\r\nTecnologia Liquid Diamonds : Utilizando um processo de extração de alta qualidade, este vape preserva todo o espectro de canabinoides e terpenos, garantindo uma experiência rica, saborosa e potente. O método Liquid Diamonds aprimora o efeito entourage, proporcionando uma alta completa e satisfatória.\\r\nDesign descartável fácil de usar : Pré-preenchido e pronto para uso, o Pulse THC Disposable Vape possui uma tela de LED que exibe a duração da bateria e os níveis de líquido para maior conveniência e controle. Perfeito para uso em trânsito, não requer manutenção ou recarga.\\r\nCapacidade generosa de 5g : Cada dispositivo contém 5 gramas de conteúdo líquido, oferecendo sessões de vaporização prolongadas antes de precisar ser substituído. Desfrute de uso duradouro com qualidade e desempenho consistentes.\\r\nVariedade de cepa :\\r\n\\r\n\\r\nSweet Sugar Pop Gelato : Delicie-se com as notas doces e açucaradas do doce combinadas com os sabores cremosos e de sobremesa do Gelato. Esta variedade oferece uma experiência prazerosa e equilibrada com um efeito relaxante, mas estimulante.\\r\nMango Martini Haze : Uma variedade sativa refrescante com notas tropicais de manga, perfeita para um efeito energético e estimulante.\\r\nStrawberry Banana Whip Auto : Desfrute da combinação doce e frutada de morangos e bananas, proporcionando um potente efeito sativa.\\r\nSour Cotton Candy Skittlez : Experimente os sabores picantes e doces do algodão doce e dos Skittles com esta variedade sativa revigorante.\\r\nSuper Lemon Diesel : Uma variedade sativa cítrica e picante que proporciona uma sensação de euforia energética e lúcida.\\r\nGrape Guava Gasoline : Aproveite a mistura exótica de sabores de uva e goiaba com uma variedade sativa que energiza e eleva.\\r\n\\r\n___________________________\\r\n\\r\nSATIVA\\r\n\\r\nPredominante Mental \\r\nAntiansiedade \\r\nAntidepressivo \\r\nInstigante (Criatividade a Reflexões)\\r\nFelicidade/Espiritualidade \\r\nAumenta o Foco\\r\nAumenta a Energia \\r\nAumenta Criatividade \\r\nAjuda o Sistema Imunológico",
+      "price": 300.0,
+      "stoke": 100,
+      "featured": null,
+      "status": 1,
+      "created_at": "2024-09-26 04:25:55",
+      "updated_at": "2024-10-10 18:44:07"
+    },
+    {
+      "id": "(50",
+      "code": "csd5s",
+      "name": "Chapo SuperMax Diamont 5ml Delta 9 Thc A / P - Sativa",
+      "slug": "chapo-supermax-diamont-5ml-delta-9-thc-a-p-sativa",
+      "description": "___________________________\\r\n\\r\nSATIVA\\r\n\\r\nPredominante Mental \\r\nAntiansiedade \\r\nAntidepressivo \\r\nInstigante (Criatividade a Reflexões)\\r\nFelicidade/Espiritualidade \\r\nAumenta o Foco\\r\nAumenta a Energia \\r\nAumenta Criatividade \\r\nAjuda o Sistema Imunológico",
+      "price": 300.0,
+      "stoke": 100,
+      "featured": null,
+      "status": 1,
+      "created_at": "2024-09-26 04:25:55",
+      "updated_at": "2024-10-10 18:27:01"
+    },
+    {
+      "id": "(51",
+      "code": "e2h",
+      "name": "EigthSix 2ml Delta 8 / 9 - Hibrida",
+      "slug": "sigthsix-2ml-delta-9-hibrida",
+      "description": "EigthSix contendo 2ml Thc / Thc - A Delta 8 e/ou Delta 9 de extrato Hibrida\\r\n\\r\n___________________________\\r\n\\r\nHIBRIDA \\r\n\\r\nÉ composta de 50% Sativa e 50% Indica.\\r\n\\r\n___________________________\\r\n\\r\nSATIVA\\r\n\\r\nPredominante Mental \\r\nAntiansiedade \\r\nAntidepressivo \\r\nInstigante (Criatividade a Reflexões)\\r\nFelicidade/Espiritualidade \\r\nAumenta o Foco\\r\nAumenta a Energia \\r\nAumenta Criatividade \\r\nAjuda o Sistema Imunológico\\r\n___________________________\\r\n\\r\nINDICA \\r\n\\r\nPredominante Físico \\r\nAlívio Sedativo \\r\nRelaxante (Baixa Estresse Mental)\\r\nRelaxante Muscular \\r\nReduz dores Agudas \\r\nReduz Náuseas \\r\nAumenta Apetite \\r\nAumenta Dopamina \\r\nAlivia Enxaqueca",
+      "price": 300.0,
+      "stoke": 100,
+      "featured": null,
+      "status": 1,
+      "created_at": "2024-09-26 04:25:55",
+      "updated_at": "2024-10-05 04:17:59"
+    },
+    {
+      "id": "(52",
+      "code": "e2i",
+      "name": "EigthSix 2ml Delta 8 / 9 - Indica",
+      "slug": "sigthsix-2ml-delta-9-indica",
+      "description": "EigthSix contendo 2ml Thc / Thc - A Delta 8 e/ou Delta 9 de extrato Indica\\r\n\\r\n___________________________\\r\n\\r\nINDICA \\r\n\\r\nPredominante Físico \\r\nAlívio Sedativo \\r\nRelaxante (Baixa Estresse Mental)\\r\nRelaxante Muscular \\r\nReduz dores Agudas \\r\nReduz Náuseas \\r\nAumenta Apetite \\r\nAumenta Dopamina \\r\nAlivia Enxaqueca",
+      "price": 300.0,
+      "stoke": 100,
+      "featured": null,
+      "status": 1,
+      "created_at": "2024-09-26 04:25:55",
+      "updated_at": "2024-10-05 04:15:08"
+    },
+    {
+      "id": "(53",
+      "code": "e2s",
+      "name": "EigthSix 2ml Delta 8 / 9 - Sativa",
+      "slug": "sigthsix-2ml-delta-8-9-sativa",
+      "description": "EigthSix contendo 2ml Thc / Thc - A Delta 8 e/ou Delta 9 de extrato Sativa\\r\n\\r\n___________________________\\r\n\\r\nSATIVA\\r\n\\r\nPredominante Mental \\r\nAntiansiedade \\r\nAntidepressivo \\r\nInstigante (Criatividade a Reflexões)\\r\nFelicidade/Espiritualidade \\r\nAumenta o Foco\\r\nAumenta a Energia \\r\nAumenta Criatividade \\r\nAjuda o Sistema Imunológico",
+      "price": 300.0,
+      "stoke": 100,
+      "featured": null,
+      "status": 1,
+      "created_at": "2024-09-26 04:25:55",
+      "updated_at": "2024-10-05 04:07:58"
+    },
+    {
+      "id": "(54",
+      "code": "d8h",
+      "name": "Delta 8ml Diamont Delta 9 / 10 / 11 Thc A / P / X - Hibrida",
+      "slug": "delta-8ml-diamont-delta-9-10-11-thc-a-p-x-hibrida",
+      "description": "Eleve a sua experiência de vaporização com o Vape Descartável Savage THC-A, habilmente pré-preenchido com 8gr do mais puro óleo Liquid Diamonds THCA. Extrato de cannabis feito de colofónia viva Delta 8, Delta 10, HHC e HHCP.\\r\n\\r\nEste produto excepcional combina os efeitos revigorantes do Delta 8 THC e Delta 10 THC e do potente extrato de cânhamo HHC e HHCP, oferecendo uma jornada de vaporização holística e dinâmica.\\r\n\\r\nSabores à base de cepa Savage THC-A:\\r\nHÍBRIDO: Blueberry OG, White Widow, Gushers Runtz\\r\n\\r\n___________________________\\r\n\\r\nHIBRIDA \\r\n\\r\nÉ composta de 50% Sativa e 50% Indica.\\r\n\\r\n___________________________\\r\n\\r\nSATIVA\\r\n\\r\nPredominante Mental \\r\nAntiansiedade \\r\nAntidepressivo \\r\nInstigante (Criatividade a Reflexões)\\r\nFelicidade/Espiritualidade \\r\nAumenta o Foco\\r\nAumenta a Energia \\r\nAumenta Criatividade \\r\nAjuda o Sistema Imunológico\\r\n___________________________\\r\n\\r\nINDICA \\r\n\\r\nPredominante Físico \\r\nAlívio Sedativo \\r\nRelaxante (Baixa Estresse Mental)\\r\nRelaxante Muscular \\r\nReduz dores Agudas \\r\nReduz Náuseas \\r\nAumenta Apetite \\r\nAumenta Dopamina \\r\nAlivia Enxaqueca",
+      "price": 300.0,
+      "stoke": 100,
+      "featured": 1,
+      "status": 1,
+      "created_at": "2024-09-26 04:25:55",
+      "updated_at": "2024-10-19 18:46:01"
+    },
+    {
+      "id": "(55",
+      "code": "d8i",
+      "name": "Delta 8ml Diamont Delta 9 / 10 / 11 Tch A / P / X - Indica",
+      "slug": "delta-8ml-diamont-delta-9-10-11-tch-a-p-x-indica",
+      "description": "Delta contendo 8ml Diamont Delta 9, 10 e 11 composto por Tch A, P e X na extrato Indica\\r\n\\r\nEleve a sua experiência de vaporização com o Vape Descartável Savage THC-A, habilmente pré-preenchido com 8gr do mais puro óleo Liquid Diamonds THCA. Extrato de cannabis feito de colofónia viva Delta 8, Delta 10, HHC e HHCP.\\r\n\\r\nEste produto excepcional combina os efeitos revigorantes do Delta 8 THC e Delta 10 THC e do potente extrato de cânhamo HHC e HHCP, oferecendo uma jornada de vaporização holística e dinâmica.\\r\n\\r\nSabores à base de cepa Savage THC-A:\\r\nINDICA: OG Kush, Grand Daddy Purple, Strawberry Runtz, ZKittles\\r\n\\r\n___________________________\\r\n\\r\nINDICA \\r\n\\r\nPredominante Físico \\r\nAlívio Sedativo \\r\nRelaxante (Baixa Estresse Mental)\\r\nRelaxante Muscular \\r\nReduz dores Agudas \\r\nReduz Náuseas \\r\nAumenta Apetite \\r\nAumenta Dopamina \\r\nAlivia Enxaqueca",
+      "price": 300.0,
+      "stoke": 100,
+      "featured": null,
+      "status": 1,
+      "created_at": "2024-09-26 04:25:55",
+      "updated_at": "2024-10-05 03:46:46"
+    },
+    {
+      "id": "(56",
+      "code": "d8s",
+      "name": "Delta 8ml Diamont Delta 9 / 10 / 11 Tch A / P / X - Sativa",
+      "slug": "delta-8ml-diamont-delta-9-10-11-thc-a-p-x-sativa",
+      "description": "Delta contendo 8ml Diamont Delta 9, 10 e 11 composto por Tch A, P e X na extrato Indica\\r\n\\r\nEleve a sua experiência de vaporização com o Vape Descartável Savage THC-A, habilmente pré-preenchido com 8gr do mais puro óleo Liquid Diamonds THCA. Extrato de cannabis feito de colofónia viva Delta 8, Delta 10, HHC e HHCP.\\r\n\\r\nEste produto excepcional combina os efeitos revigorantes do Delta 8 THC e Delta 10 THC e do potente extrato de cânhamo HHC e HHCP, oferecendo uma jornada de vaporização holística e dinâmica.\\r\n\\r\nSabores à base de cepa Savage THC-A:\\r\nSATIVA: Blue Dream, Pineapple Express, Sour Diesel\\r\n___________________________\\r\n\\r\nSATIVA\\r\n\\r\nPredominante Mental \\r\nAntiansiedade \\r\nAntidepressivo \\r\nInstigante (Criatividade a Reflexões)\\r\nFelicidade/Espiritualidade \\r\nAumenta o Foco\\r\nAumenta a Energia \\r\nAumenta Criatividade \\r\nAjuda o Sistema Imunológico",
+      "price": 300.0,
+      "stoke": 100,
+      "featured": null,
+      "status": 1,
+      "created_at": "2024-09-26 04:25:55",
+      "updated_at": "2024-10-05 03:49:31"
+    },
+    {
+      "id": "(57",
+      "code": "gmt25",
+      "name": "Goma Mike Tysson 25mg x1 Gummy Pack 20un Delta 9 Thc",
+      "slug": "mike-tysson-25mg-x1-gummy-pack-20un-delta-9-thc",
+      "description": "O Mike Bites Gomes 2.0 da Tyson embala 20un por ponche com 25MG cada, infundido com Delta △ THC e dividido em três opções saborosas.\\r\n\\r\nFeito com precisão, o Tyson 2.0 Mike Bites exemplifica a arte americana requintada e apresenta ingredientes premium para uma experiência de fumar consistentemente deliciosa.\\r\n\\r\nO selo orgânico do USDA adorna orgulhosamente o Tyson 2.0 Mike Bites, certificando-o como um produto orgânico com impressionantes 95% ou mais de conteúdo orgânico.\\r\n\\r\nTodos os Tyson 2.0 Mike Bites passam por rigorosos testes de laboratório, garantindo os mais altos padrões de qualidade e segurança para nossos clientes.\\r\n\\r\nA bolsa Tyson 2.0 Mike Bites vem com 20 gomas, cada uma oferecendo uma dosagem de 25 mg de THC e uma mistura balanceada de 10 mg de Delta △ e 10 mg de CBD por goma.\\r\n\\r\n___________________________\\r\n\\r\nHIBRIDA\\r\n\\r\nÉ composta de 50% Sativa e 50% Indica.\\r\n\\r\n___________________________\\r\n\\r\nSATIVA\\r\n\\r\nPredominante Mental\\r\nAntiansiedade\\r\nAntidepressivo\\r\nInstigante (Criatividade a Reflexões)\\r\nFelicidade/Espiritualidade\\r\nAumenta o Foco\\r\nAumenta a Energia\\r\nAumenta Criatividade\\r\nAjuda o Sistema Imunológico\\r\n___________________________\\r\n\\r\nINDICA\\r\n\\r\nPredominante Físico\\r\nAlívio Sedativo\\r\nRelaxante (Baixa Estresse Mental)\\r\nRelaxante Muscular\\r\nReduz dores Agudas\\r\nReduz Náuseas\\r\nAumenta Apetite\\r\nAumenta Dopamina\\r\nAlivia Enxaqueca",
+      "price": 300.0,
+      "stoke": 100,
+      "featured": null,
+      "status": 1,
+      "created_at": "2024-09-26 06:57:28",
+      "updated_at": "2024-10-09 19:34:14"
+    },
+    {
+      "id": "(58",
+      "code": "c6shsi",
+      "name": "Cactus 6ml SixShot Delta 9 Thc A - ( 2ml Hibrida, 2ml Sativo e 2ml Indica )",
+      "slug": "cactus-6ml-sixshot-delta-9-thc-a-h",
+      "description": "Experimente o cartucho vape mais dinâmico com o Vape descartável Six Shooter THC-A da Cactus Labs. Este dispositivo inovador contém 6 gramas de THC-A, sendo 2 gramas de cada extrato -  Sativa, Híbrida e Indica. Alterne facilmente entre variedades para uma experiência de vaporização personalizada. \\r\n\\r\nDivididos em Três compartimentos, 3X Coil\\r\n\\r\n___________________________\\r\n\\r\nHIBRIDA \\r\n\\r\nÉ composta de 50% Sativa e 50% Indica.\\r\n\\r\n___________________________\\r\n\\r\nSATIVA\\r\n\\r\nPredominante Mental \\r\nAntiansiedade \\r\nAntidepressivo \\r\nInstigante (Criatividade a Reflexões)\\r\nFelicidade/Espiritualidade \\r\nAumenta o Foco\\r\nAumenta a Energia \\r\nAumenta Criatividade \\r\nAjuda o Sistema Imunológico\\r\n___________________________\\r\n\\r\nINDICA \\r\n\\r\nPredominante Físico \\r\nAlívio Sedativo \\r\nRelaxante (Baixa Estresse Mental)\\r\nRelaxante Muscular \\r\nReduz dores Agudas \\r\nReduz Náuseas \\r\nAumenta Apetite \\r\nAumenta Dopamina \\r\nAlivia Enxaqueca",
+      "price": 300.0,
+      "stoke": 100,
+      "featured": null,
+      "status": 1,
+      "created_at": "2024-09-26 04:25:55",
+      "updated_at": "2024-10-05 03:16:09"
+    }
+  ],
+  "product_photos": [
+    {
+      "id": 1,
+      "product_id": 1,
+      "image": "products/produto-teste-1-1726783929.jpg",
+      "queue": null,
+      "created_at": "2024-09-20 02:12:09",
+      "updated_at": "2024-09-20 02:12:09"
+    },
+    {
+      "id": "(2",
+      "product_id": 1,
+      "image": "products/produto-teste-2-1726783929.jpg",
+      "queue": null,
+      "created_at": "2024-09-20 02:12:09",
+      "updated_at": "2024-09-20 02:12:09"
+    },
+    {
+      "id": "(3",
+      "product_id": 1,
+      "image": "products/produto-teste-3-1726783929.jpg",
+      "queue": null,
+      "created_at": "2024-09-20 02:12:09",
+      "updated_at": "2024-09-20 02:12:09"
+    },
+    {
+      "id": "(4",
+      "product_id": 2,
+      "image": "products/jetter-juice-pen-1ml-thc-a-delta-9-sativa-1-1726872996.jpg",
+      "queue": 1,
+      "created_at": "2024-09-21 02:56:36",
+      "updated_at": "2024-09-22 06:24:58"
+    },
+    {
+      "id": "(5",
+      "product_id": 2,
+      "image": "products/jetter-juice-pen-1ml-thc-a-delta-9-sativa-2-1726874906.jpg",
+      "queue": 3,
+      "created_at": "2024-09-21 03:28:26",
+      "updated_at": "2024-09-22 06:24:58"
+    },
+    {
+      "id": "(6",
+      "product_id": 2,
+      "image": "products/jetter-juice-pen-1ml-thc-a-delta-9-sativa-3-1726874906.jpg",
+      "queue": 4,
+      "created_at": "2024-09-21 03:28:26",
+      "updated_at": "2024-09-22 06:24:58"
+    },
+    {
+      "id": "(9",
+      "product_id": 3,
+      "image": "products/jetter-juice-pen-1ml-thc-a-delta-9-indica-1-1726876520.jpg",
+      "queue": 2,
+      "created_at": "2024-09-21 03:55:20",
+      "updated_at": "2024-09-21 04:06:28"
+    },
+    {
+      "id": "(10",
+      "product_id": 3,
+      "image": "products/jetter-juice-pen-1ml-thc-a-delta-9-indica-2-1726876520.jpg",
+      "queue": 1,
+      "created_at": "2024-09-21 03:55:20",
+      "updated_at": "2024-09-21 04:06:28"
+    },
+    {
+      "id": "(11",
+      "product_id": 3,
+      "image": "products/jetter-juice-pen-1ml-thc-a-delta-9-indica-3-1726876520.jpg",
+      "queue": 3,
+      "created_at": "2024-09-21 03:55:20",
+      "updated_at": "2024-09-21 04:06:28"
+    },
+    {
+      "id": "(12",
+      "product_id": 3,
+      "image": "products/jetter-juice-pen-1ml-thc-a-delta-9-indica-4-1726876520.jpg",
+      "queue": 4,
+      "created_at": "2024-09-21 03:55:20",
+      "updated_at": "2024-09-21 04:06:28"
+    },
+    {
+      "id": "(14",
+      "product_id": 2,
+      "image": "products/jetter-juice-pen-1ml-thc-a-delta-9-sativa-4-1726969702.webp",
+      "queue": 8,
+      "created_at": "2024-09-22 05:48:22",
+      "updated_at": "2024-09-22 06:24:58"
+    },
+    {
+      "id": "(15",
+      "product_id": 2,
+      "image": "products/jetter-juice-pen-1ml-thc-a-delta-9-sativa-5-1726969702.webp",
+      "queue": 9,
+      "created_at": "2024-09-22 05:48:22",
+      "updated_at": "2024-09-22 06:24:58"
+    },
+    {
+      "id": "(16",
+      "product_id": 3,
+      "image": "products/jetter-juice-pen-1ml-thc-a-delta-9-indica-5-1726969729.webp",
+      "queue": 7,
+      "created_at": "2024-09-22 05:48:49",
+      "updated_at": "2024-09-22 06:23:08"
+    },
+    {
+      "id": "(17",
+      "product_id": 3,
+      "image": "products/jetter-juice-pen-1ml-thc-a-delta-9-indica-6-1726969729.webp",
+      "queue": 8,
+      "created_at": "2024-09-22 05:48:49",
+      "updated_at": "2024-09-22 06:23:08"
+    },
+    {
+      "id": "(21",
+      "product_id": 7,
+      "image": "products/torch-dimound-2-5g-delta-9-thc-a-p-hibrida-1-1727318071.jpg",
+      "queue": null,
+      "created_at": "2024-09-26 02:34:31",
+      "updated_at": "2024-09-26 02:34:31"
+    },
+    {
+      "id": "(22",
+      "product_id": 5,
+      "image": "products/torch-dimound-2-5g-delta-9-thc-a-p-sativa-1-1727318115.jpg",
+      "queue": null,
+      "created_at": "2024-09-26 02:35:15",
+      "updated_at": "2024-09-26 02:35:15"
+    },
+    {
+      "id": "(23",
+      "product_id": 6,
+      "image": "products/torch-dimound-2-5g-delta-9-thc-a-p-indica-1-1727318177.jpg",
+      "queue": null,
+      "created_at": "2024-09-26 02:36:17",
+      "updated_at": "2024-09-26 02:36:17"
+    },
+    {
+      "id": "(24",
+      "product_id": 10,
+      "image": "products/torch-dimound-5g-delta-9-thc-a-p-hibrida-1-1727318412.jpg",
+      "queue": null,
+      "created_at": "2024-09-26 02:40:12",
+      "updated_at": "2024-09-26 02:40:12"
+    },
+    {
+      "id": "(25",
+      "product_id": 10,
+      "image": "products/torch-dimound-5g-delta-9-thc-a-p-hibrida-2-1727318412.jpg",
+      "queue": null,
+      "created_at": "2024-09-26 02:40:12",
+      "updated_at": "2024-09-26 02:40:12"
+    },
+    {
+      "id": "(26",
+      "product_id": 10,
+      "image": "products/torch-dimound-5g-delta-9-thc-a-p-hibrida-3-1727318412.jpg",
+      "queue": null,
+      "created_at": "2024-09-26 02:40:12",
+      "updated_at": "2024-09-26 02:40:12"
+    },
+    {
+      "id": "(27",
+      "product_id": 10,
+      "image": "products/torch-dimound-5g-delta-9-thc-a-p-hibrida-4-1727318412.jpg",
+      "queue": null,
+      "created_at": "2024-09-26 02:40:12",
+      "updated_at": "2024-09-26 02:40:12"
+    },
+    {
+      "id": "(28",
+      "product_id": 9,
+      "image": "products/torch-dimound-5g-delta-9-thc-a-p-indica-1-1727318467.jpg",
+      "queue": null,
+      "created_at": "2024-09-26 02:41:07",
+      "updated_at": "2024-09-26 02:41:07"
+    },
+    {
+      "id": "(29",
+      "product_id": 9,
+      "image": "products/torch-dimound-5g-delta-9-thc-a-p-indica-2-1727318467.jpg",
+      "queue": null,
+      "created_at": "2024-09-26 02:41:07",
+      "updated_at": "2024-09-26 02:41:07"
+    },
+    {
+      "id": "(30",
+      "product_id": 9,
+      "image": "products/torch-dimound-5g-delta-9-thc-a-p-indica-3-1727318467.jpg",
+      "queue": null,
+      "created_at": "2024-09-26 02:41:07",
+      "updated_at": "2024-09-26 02:41:07"
+    },
+    {
+      "id": "(31",
+      "product_id": 9,
+      "image": "products/torch-dimound-5g-delta-9-thc-a-p-indica-4-1727318467.jpg",
+      "queue": null,
+      "created_at": "2024-09-26 02:41:07",
+      "updated_at": "2024-09-26 02:41:07"
+    },
+    {
+      "id": "(32",
+      "product_id": 9,
+      "image": "products/torch-dimound-5g-delta-9-thc-a-p-indica-5-1727318467.jpg",
+      "queue": null,
+      "created_at": "2024-09-26 02:41:07",
+      "updated_at": "2024-09-26 02:41:07"
+    },
+    {
+      "id": "(33",
+      "product_id": 9,
+      "image": "products/torch-dimound-5g-delta-9-thc-a-p-indica-6-1727318467.jpg",
+      "queue": null,
+      "created_at": "2024-09-26 02:41:07",
+      "updated_at": "2024-09-26 02:41:07"
+    },
+    {
+      "id": "(34",
+      "product_id": 9,
+      "image": "products/torch-dimound-5g-delta-9-thc-a-p-indica-7-1727318467.jpg",
+      "queue": null,
+      "created_at": "2024-09-26 02:41:07",
+      "updated_at": "2024-09-26 02:41:07"
+    },
+    {
+      "id": "(35",
+      "product_id": 8,
+      "image": "products/torch-dimound-5g-delta-9-thc-a-p-sativa-1-1727318499.jpg",
+      "queue": null,
+      "created_at": "2024-09-26 02:41:39",
+      "updated_at": "2024-09-26 02:41:39"
+    },
+    {
+      "id": "(36",
+      "product_id": 8,
+      "image": "products/torch-dimound-5g-delta-9-thc-a-p-sativa-2-1727318499.jpg",
+      "queue": null,
+      "created_at": "2024-09-26 02:41:39",
+      "updated_at": "2024-09-26 02:41:39"
+    },
+    {
+      "id": "(37",
+      "product_id": 8,
+      "image": "products/torch-dimound-5g-delta-9-thc-a-p-sativa-3-1727318499.jpg",
+      "queue": null,
+      "created_at": "2024-09-26 02:41:39",
+      "updated_at": "2024-09-26 02:41:39"
+    },
+    {
+      "id": "(38",
+      "product_id": 8,
+      "image": "products/torch-dimound-5g-delta-9-thc-a-p-sativa-4-1727318499.jpg",
+      "queue": null,
+      "created_at": "2024-09-26 02:41:39",
+      "updated_at": "2024-09-26 02:41:39"
+    },
+    {
+      "id": "(39",
+      "product_id": 8,
+      "image": "products/torch-dimound-5g-delta-9-thc-a-p-sativa-5-1727318499.jpg",
+      "queue": null,
+      "created_at": "2024-09-26 02:41:39",
+      "updated_at": "2024-09-26 02:41:39"
+    },
+    {
+      "id": "(40",
+      "product_id": 8,
+      "image": "products/torch-dimound-5g-delta-9-thc-a-p-sativa-6-1727318499.jpg",
+      "queue": null,
+      "created_at": "2024-09-26 02:41:39",
+      "updated_at": "2024-09-26 02:41:39"
+    },
+    {
+      "id": "(41",
+      "product_id": 8,
+      "image": "products/torch-dimound-5g-delta-9-thc-a-p-sativa-7-1727318499.jpg",
+      "queue": null,
+      "created_at": "2024-09-26 02:41:39",
+      "updated_at": "2024-09-26 02:41:39"
+    },
+    {
+      "id": "(42",
+      "product_id": 8,
+      "image": "products/torch-dimound-5g-delta-9-thc-a-p-sativa-8-1727318499.jpg",
+      "queue": null,
+      "created_at": "2024-09-26 02:41:39",
+      "updated_at": "2024-09-26 02:41:39"
+    },
+    {
+      "id": "(43",
+      "product_id": 6,
+      "image": "products/torch-dimound-2-5g-delta-9-thc-a-p-indica-2-1727321099.jpg",
+      "queue": null,
+      "created_at": "2024-09-26 03:24:59",
+      "updated_at": "2024-09-26 03:24:59"
+    },
+    {
+      "id": "(44",
+      "product_id": 6,
+      "image": "products/torch-dimound-2-5g-delta-9-thc-a-p-indica-3-1727321099.jpg",
+      "queue": null,
+      "created_at": "2024-09-26 03:24:59",
+      "updated_at": "2024-09-26 03:24:59"
+    },
+    {
+      "id": "(45",
+      "product_id": 6,
+      "image": "products/torch-dimound-2-5g-delta-9-thc-a-p-indica-4-1727321099.jpg",
+      "queue": null,
+      "created_at": "2024-09-26 03:24:59",
+      "updated_at": "2024-09-26 03:24:59"
+    },
+    {
+      "id": "(46",
+      "product_id": 6,
+      "image": "products/torch-dimound-2-5g-delta-9-thc-a-p-indica-5-1727321099.jpg",
+      "queue": null,
+      "created_at": "2024-09-26 03:24:59",
+      "updated_at": "2024-09-26 03:24:59"
+    },
+    {
+      "id": "(47",
+      "product_id": 6,
+      "image": "products/torch-dimound-2-5g-delta-9-thc-a-p-indica-6-1727321099.jpg",
+      "queue": null,
+      "created_at": "2024-09-26 03:24:59",
+      "updated_at": "2024-09-26 03:24:59"
+    },
+    {
+      "id": "(48",
+      "product_id": 6,
+      "image": "products/torch-dimound-2-5g-delta-9-thc-a-p-indica-7-1727321099.jpg",
+      "queue": null,
+      "created_at": "2024-09-26 03:24:59",
+      "updated_at": "2024-09-26 03:24:59"
+    },
+    {
+      "id": "(49",
+      "product_id": 6,
+      "image": "products/torch-dimound-2-5g-delta-9-thc-a-p-indica-8-1727321099.jpg",
+      "queue": null,
+      "created_at": "2024-09-26 03:24:59",
+      "updated_at": "2024-09-26 03:24:59"
+    },
+    {
+      "id": "(50",
+      "product_id": 6,
+      "image": "products/torch-dimound-2-5g-delta-9-thc-a-p-indica-9-1727321099.jpg",
+      "queue": null,
+      "created_at": "2024-09-26 03:24:59",
+      "updated_at": "2024-09-26 03:24:59"
+    },
+    {
+      "id": "(51",
+      "product_id": 5,
+      "image": "products/torch-dimound-2-5g-delta-9-thc-a-p-sativa-2-1727321125.jpg",
+      "queue": null,
+      "created_at": "2024-09-26 03:25:25",
+      "updated_at": "2024-09-26 03:25:25"
+    },
+    {
+      "id": "(52",
+      "product_id": 5,
+      "image": "products/torch-dimound-2-5g-delta-9-thc-a-p-sativa-3-1727321125.jpg",
+      "queue": null,
+      "created_at": "2024-09-26 03:25:25",
+      "updated_at": "2024-09-26 03:25:25"
+    },
+    {
+      "id": "(53",
+      "product_id": 5,
+      "image": "products/torch-dimound-2-5g-delta-9-thc-a-p-sativa-4-1727321125.jpg",
+      "queue": null,
+      "created_at": "2024-09-26 03:25:25",
+      "updated_at": "2024-09-26 03:25:25"
+    },
+    {
+      "id": "(54",
+      "product_id": 18,
+      "image": "products/ignite-7ml-diamont-thc-a-p-delta-9-sativa-1-1727403296.jpg",
+      "queue": 1,
+      "created_at": "2024-09-27 03:14:56",
+      "updated_at": "2024-10-05 23:13:52"
+    },
+    {
+      "id": "(55",
+      "product_id": 19,
+      "image": "products/ignite-7ml-diamont-thc-a-p-delta-9-indica-1-1727403349.jpg",
+      "queue": 1,
+      "created_at": "2024-09-27 03:15:49",
+      "updated_at": "2024-10-05 23:14:37"
+    },
+    {
+      "id": "(56",
+      "product_id": 17,
+      "image": "products/ignite-7ml-diamont-thc-a-p-delta-9-hibrida-1-1727403371.jpg",
+      "queue": 1,
+      "created_at": "2024-09-27 03:16:11",
+      "updated_at": "2024-10-05 23:15:41"
+    },
+    {
+      "id": "(57",
+      "product_id": 45,
+      "image": "products/pulse-5ml-digital-display-delta-9-thc-a-hibrida-1-1727411077.jpg",
+      "queue": 1,
+      "created_at": "2024-09-27 05:24:37",
+      "updated_at": "2024-10-05 23:44:56"
+    },
+    {
+      "id": "(58",
+      "product_id": 47,
+      "image": "products/pulse-5ml-digital-display-delta-9-thc-a-sativa-1-1727411490.png",
+      "queue": 1,
+      "created_at": "2024-09-27 05:31:30",
+      "updated_at": "2024-10-05 23:45:46"
+    },
+    {
+      "id": "(59",
+      "product_id": 46,
+      "image": "products/pulse-5ml-digital-display-delta-9-thc-a-indica-1-1727412084.jpg",
+      "queue": 1,
+      "created_at": "2024-09-27 05:41:24",
+      "updated_at": "2024-10-05 23:44:28"
+    },
+    {
+      "id": "(60",
+      "product_id": 50,
+      "image": "products/chapo-supermax-diamont-5ml-delta-9-thc-a-p-sativa-1-1727416284.jpg",
+      "queue": 2,
+      "created_at": "2024-09-27 06:51:24",
+      "updated_at": "2024-10-10 18:27:30"
+    },
+    {
+      "id": "(61",
+      "product_id": 50,
+      "image": "products/chapo-supermax-diamont-5ml-delta-9-thc-a-p-sativa-2-1727416284.jpg",
+      "queue": 3,
+      "created_at": "2024-09-27 06:51:24",
+      "updated_at": "2024-10-10 18:27:30"
+    },
+    {
+      "id": "(63",
+      "product_id": 4,
+      "image": "products/jetter-juice-pen-1ml-thc-a-delta-9-hibrida-1-1727893994.webp",
+      "queue": null,
+      "created_at": "2024-10-02 19:33:14",
+      "updated_at": "2024-10-02 19:33:14"
+    },
+    {
+      "id": "(65",
+      "product_id": 11,
+      "image": "products/hallu-monkey-2ml-thc-delta-8-hibrida-2-1727894728.png",
+      "queue": 3,
+      "created_at": "2024-10-02 19:45:28",
+      "updated_at": "2024-10-05 22:02:46"
+    },
+    {
+      "id": "(69",
+      "product_id": 12,
+      "image": "products/hallu-monkey-2ml-thc-delta-8-sativa-2-1727894986.png",
+      "queue": 3,
+      "created_at": "2024-10-02 19:49:46",
+      "updated_at": "2024-10-05 22:06:53"
+    },
+    {
+      "id": "(70",
+      "product_id": 38,
+      "image": "products/cactus-2ml-amanita-muscaria-cogumelo-1-1728091965.webp",
+      "queue": 4,
+      "created_at": "2024-10-05 02:32:45",
+      "updated_at": "2024-10-10 18:19:30"
+    },
+    {
+      "id": "(71",
+      "product_id": 38,
+      "image": "products/cactus-2ml-amanita-muscaria-cogumelo-2-1728091965.webp",
+      "queue": 3,
+      "created_at": "2024-10-05 02:32:45",
+      "updated_at": "2024-10-10 18:19:30"
+    },
+    {
+      "id": "(72",
+      "product_id": 38,
+      "image": "products/cactus-2ml-amanita-muscaria-cogumelo-3-1728091965.jpg",
+      "queue": 2,
+      "created_at": "2024-10-05 02:32:45",
+      "updated_at": "2024-10-10 18:19:30"
+    },
+    {
+      "id": "(73",
+      "product_id": 39,
+      "image": "products/cactus-6ml-sixshot-delta-9-thc-a-hibrida-1-1728094446.jpg",
+      "queue": 1,
+      "created_at": "2024-10-05 03:14:06",
+      "updated_at": "2024-10-05 04:19:08"
+    },
+    {
+      "id": "(74",
+      "product_id": 39,
+      "image": "products/cactus-6ml-sixshot-delta-9-thc-a-hibrida-2-1728094446.jpeg",
+      "queue": 2,
+      "created_at": "2024-10-05 03:14:06",
+      "updated_at": "2024-10-05 04:19:08"
+    },
+    {
+      "id": "(75",
+      "product_id": 39,
+      "image": "products/cactus-6ml-sixshot-delta-9-thc-a-hibrida-3-1728094446.jpg",
+      "queue": 3,
+      "created_at": "2024-10-05 03:14:06",
+      "updated_at": "2024-10-05 04:19:08"
+    },
+    {
+      "id": "(76",
+      "product_id": 58,
+      "image": "products/cactus-6ml-sixshot-delta-9-thc-a-h-1-1728094548.jpg",
+      "queue": 1,
+      "created_at": "2024-10-05 03:15:48",
+      "updated_at": "2024-10-05 04:19:25"
+    },
+    {
+      "id": "(77",
+      "product_id": 58,
+      "image": "products/cactus-6ml-sixshot-delta-9-thc-a-h-2-1728094548.jpeg",
+      "queue": 2,
+      "created_at": "2024-10-05 03:15:48",
+      "updated_at": "2024-10-05 04:19:25"
+    },
+    {
+      "id": "(78",
+      "product_id": 58,
+      "image": "products/cactus-6ml-sixshot-delta-9-thc-a-h-3-1728094548.jpg",
+      "queue": 3,
+      "created_at": "2024-10-05 03:15:48",
+      "updated_at": "2024-10-05 04:19:25"
+    },
+    {
+      "id": "(79",
+      "product_id": 40,
+      "image": "products/cactus-6ml-sixshot-delta-9-thc-a-indica-1-1728095263.jpg",
+      "queue": 1,
+      "created_at": "2024-10-05 03:27:43",
+      "updated_at": "2024-10-05 04:20:03"
+    },
+    {
+      "id": "(80",
+      "product_id": 40,
+      "image": "products/cactus-6ml-sixshot-delta-9-thc-a-indica-2-1728095263.jpeg",
+      "queue": 2,
+      "created_at": "2024-10-05 03:27:43",
+      "updated_at": "2024-10-05 04:20:03"
+    },
+    {
+      "id": "(81",
+      "product_id": 40,
+      "image": "products/cactus-6ml-sixshot-delta-9-thc-a-indica-3-1728095263.jpg",
+      "queue": 3,
+      "created_at": "2024-10-05 03:27:43",
+      "updated_at": "2024-10-05 04:20:03"
+    },
+    {
+      "id": "(82",
+      "product_id": 41,
+      "image": "products/cactus-6ml-sixshot-delta-9-thc-a-sativa-1-1728095548.jpg",
+      "queue": 1,
+      "created_at": "2024-10-05 03:32:28",
+      "updated_at": "2024-10-05 03:55:58"
+    },
+    {
+      "id": "(83",
+      "product_id": 41,
+      "image": "products/cactus-6ml-sixshot-delta-9-thc-a-sativa-2-1728095548.jpeg",
+      "queue": 2,
+      "created_at": "2024-10-05 03:32:28",
+      "updated_at": "2024-10-05 03:55:58"
+    },
+    {
+      "id": "(84",
+      "product_id": 41,
+      "image": "products/cactus-6ml-sixshot-delta-9-thc-a-sativa-3-1728095548.jpg",
+      "queue": 3,
+      "created_at": "2024-10-05 03:32:28",
+      "updated_at": "2024-10-05 03:55:58"
+    },
+    {
+      "id": "(85",
+      "product_id": 55,
+      "image": "products/delta-8ml-diamont-delta-9-10-11-tch-a-p-x-indica-1-1728096406.webp",
+      "queue": 1,
+      "created_at": "2024-10-05 03:46:46",
+      "updated_at": "2024-10-05 03:55:31"
+    },
+    {
+      "id": "(86",
+      "product_id": 55,
+      "image": "products/delta-8ml-diamont-delta-9-10-11-tch-a-p-x-indica-2-1728096406.webp",
+      "queue": 2,
+      "created_at": "2024-10-05 03:46:46",
+      "updated_at": "2024-10-05 03:55:31"
+    },
+    {
+      "id": "(87",
+      "product_id": 56,
+      "image": "products/delta-8ml-diamont-delta-9-10-11-thc-a-p-x-sativa-1-1728096571.webp",
+      "queue": 2,
+      "created_at": "2024-10-05 03:49:31",
+      "updated_at": "2024-10-05 04:20:26"
+    },
+    {
+      "id": "(88",
+      "product_id": 56,
+      "image": "products/delta-8ml-diamont-delta-9-10-11-thc-a-p-x-sativa-2-1728096571.webp",
+      "queue": 1,
+      "created_at": "2024-10-05 03:49:31",
+      "updated_at": "2024-10-05 04:20:26"
+    },
+    {
+      "id": "(89",
+      "product_id": 54,
+      "image": "products/delta-8ml-diamont-delta-9-10-11-thc-a-p-x-hibrida-1-1728096891.webp",
+      "queue": null,
+      "created_at": "2024-10-05 03:54:51",
+      "updated_at": "2024-10-05 03:54:51"
+    },
+    {
+      "id": "(90",
+      "product_id": 54,
+      "image": "products/delta-8ml-diamont-delta-9-10-11-thc-a-p-x-hibrida-2-1728096891.webp",
+      "queue": null,
+      "created_at": "2024-10-05 03:54:51",
+      "updated_at": "2024-10-05 03:54:51"
+    },
+    {
+      "id": "(91",
+      "product_id": 53,
+      "image": "products/sigthsix-2ml-delta-8-9-sativa-1-1728097165.jpg",
+      "queue": 3,
+      "created_at": "2024-10-05 03:59:25",
+      "updated_at": "2024-10-05 04:09:16"
+    },
+    {
+      "id": "(92",
+      "product_id": 53,
+      "image": "products/sigthsix-2ml-delta-8-9-sativa-2-1728097165.jpg",
+      "queue": 2,
+      "created_at": "2024-10-05 03:59:25",
+      "updated_at": "2024-10-05 04:09:16"
+    },
+    {
+      "id": "(93",
+      "product_id": 53,
+      "image": "products/sigthsix-2ml-delta-8-9-sativa-3-1728097165.png",
+      "queue": 1,
+      "created_at": "2024-10-05 03:59:25",
+      "updated_at": "2024-10-05 04:09:16"
+    },
+    {
+      "id": "(94",
+      "product_id": 52,
+      "image": "products/sigthsix-2ml-delta-9-indica-1-1728098108.png",
+      "queue": null,
+      "created_at": "2024-10-05 04:15:08",
+      "updated_at": "2024-10-05 04:15:08"
+    },
+    {
+      "id": "(95",
+      "product_id": 52,
+      "image": "products/sigthsix-2ml-delta-9-indica-2-1728098108.jpg",
+      "queue": null,
+      "created_at": "2024-10-05 04:15:08",
+      "updated_at": "2024-10-05 04:15:08"
+    },
+    {
+      "id": "(96",
+      "product_id": 52,
+      "image": "products/sigthsix-2ml-delta-9-indica-3-1728098108.jpg",
+      "queue": null,
+      "created_at": "2024-10-05 04:15:08",
+      "updated_at": "2024-10-05 04:15:08"
+    },
+    {
+      "id": "(97",
+      "product_id": 51,
+      "image": "products/sigthsix-2ml-delta-9-hibrida-1-1728098279.png",
+      "queue": 1,
+      "created_at": "2024-10-05 04:17:59",
+      "updated_at": "2024-10-05 04:18:18"
+    },
+    {
+      "id": "(98",
+      "product_id": 51,
+      "image": "products/sigthsix-2ml-delta-9-hibrida-2-1728098279.jpg",
+      "queue": 3,
+      "created_at": "2024-10-05 04:17:59",
+      "updated_at": "2024-10-05 04:18:18"
+    },
+    {
+      "id": "(99",
+      "product_id": 51,
+      "image": "products/sigthsix-2ml-delta-9-hibrida-3-1728098279.jpg",
+      "queue": 2,
+      "created_at": "2024-10-05 04:17:59",
+      "updated_at": "2024-10-05 04:18:18"
+    },
+    {
+      "id": "(101",
+      "product_id": 20,
+      "image": "products/hidden-hills-2ml-limites-delta-9-11-thc-a-ultra---hibrida-2-1728098637.png",
+      "queue": 8,
+      "created_at": "2024-10-05 04:23:57",
+      "updated_at": "2024-10-05 04:29:18"
+    },
+    {
+      "id": "(104",
+      "product_id": 20,
+      "image": "products/hidden-hills-2ml-limites-delta-9-11-thc-a-ultra---hibrida-5-1728098907.jpg",
+      "queue": 4,
+      "created_at": "2024-10-05 04:28:27",
+      "updated_at": "2024-10-05 04:29:18"
+    },
+    {
+      "id": "(105",
+      "product_id": 21,
+      "image": "products/hidden-hills-2ml-limites-delta-9-11-thc-a-ultra-indica-1-1728099674.png",
+      "queue": 1,
+      "created_at": "2024-10-05 04:41:14",
+      "updated_at": "2024-10-05 04:41:52"
+    },
+    {
+      "id": "(106",
+      "product_id": 21,
+      "image": "products/hidden-hills-2ml-limites-delta-9-11-thc-a-ultra-indica-2-1728099674.png",
+      "queue": 3,
+      "created_at": "2024-10-05 04:41:14",
+      "updated_at": "2024-10-05 04:41:52"
+    },
+    {
+      "id": "(107",
+      "product_id": 21,
+      "image": "products/hidden-hills-2ml-limites-delta-9-11-thc-a-ultra-indica-3-1728099674.jpg",
+      "queue": 2,
+      "created_at": "2024-10-05 04:41:14",
+      "updated_at": "2024-10-05 04:41:52"
+    },
+    {
+      "id": "(108",
+      "product_id": 22,
+      "image": "products/hidden-hills-2ml-limites-delta-9-11-thc-a-ultra-sativa-1-1728099774.jpg",
+      "queue": null,
+      "created_at": "2024-10-05 04:42:54",
+      "updated_at": "2024-10-05 04:42:54"
+    },
+    {
+      "id": "(109",
+      "product_id": 22,
+      "image": "products/hidden-hills-2ml-limites-delta-9-11-thc-a-ultra-sativa-2-1728099774.png",
+      "queue": null,
+      "created_at": "2024-10-05 04:42:54",
+      "updated_at": "2024-10-05 04:42:54"
+    },
+    {
+      "id": "(110",
+      "product_id": 26,
+      "image": "products/hidden-hills-2ml-refil-delta-9-thc-a-b-h-p-x-hibrida-1-1728101025.png",
+      "queue": 1,
+      "created_at": "2024-10-05 05:03:45",
+      "updated_at": "2024-10-05 05:04:05"
+    },
+    {
+      "id": "(111",
+      "product_id": 26,
+      "image": "products/hidden-hills-2ml-refil-delta-9-thc-a-b-h-p-x-hibrida-2-1728101025.png",
+      "queue": 2,
+      "created_at": "2024-10-05 05:03:45",
+      "updated_at": "2024-10-05 05:04:05"
+    },
+    {
+      "id": "(112",
+      "product_id": 28,
+      "image": "products/hidden-hills-2ml-refil-delta-9-thc-a-b-h-p-x-sativa-1-1728101414.png",
+      "queue": 1,
+      "created_at": "2024-10-05 05:10:14",
+      "updated_at": "2024-10-05 05:10:35"
+    },
+    {
+      "id": "(113",
+      "product_id": 28,
+      "image": "products/hidden-hills-2ml-refil-delta-9-thc-a-b-h-p-x-sativa-2-1728101414.png",
+      "queue": 2,
+      "created_at": "2024-10-05 05:10:14",
+      "updated_at": "2024-10-05 05:10:35"
+    },
+    {
+      "id": "(114",
+      "product_id": 27,
+      "image": "products/hidden-hills-2ml-refil-delta-9-thc-a-b-h-p-x-indica-1-1728101537.png",
+      "queue": 1,
+      "created_at": "2024-10-05 05:12:17",
+      "updated_at": "2024-10-05 05:13:03"
+    },
+    {
+      "id": "(115",
+      "product_id": 27,
+      "image": "products/hidden-hills-2ml-refil-delta-9-thc-a-b-h-p-x-indica-2-1728101537.png",
+      "queue": 2,
+      "created_at": "2024-10-05 05:12:17",
+      "updated_at": "2024-10-05 05:13:03"
+    },
+    {
+      "id": "(116",
+      "product_id": 11,
+      "image": "products/hallu-monkey-2ml-thc-delta-8-hibrida-2-1728162126.jpg",
+      "queue": 1,
+      "created_at": "2024-10-05 22:02:06",
+      "updated_at": "2024-10-05 22:02:46"
+    },
+    {
+      "id": "(117",
+      "product_id": 11,
+      "image": "products/hallu-monkey-2ml-thc-delta-8-hibrida-3-1728162126.jpg",
+      "queue": 4,
+      "created_at": "2024-10-05 22:02:06",
+      "updated_at": "2024-10-05 22:02:46"
+    },
+    {
+      "id": "(118",
+      "product_id": 11,
+      "image": "products/hallu-monkey-2ml-thc-delta-8-hibrida-4-1728162126.jpg",
+      "queue": 2,
+      "created_at": "2024-10-05 22:02:06",
+      "updated_at": "2024-10-05 22:02:46"
+    },
+    {
+      "id": "(119",
+      "product_id": 11,
+      "image": "products/hallu-monkey-2ml-thc-delta-8-hibrida-5-1728162126.jpg",
+      "queue": 5,
+      "created_at": "2024-10-05 22:02:06",
+      "updated_at": "2024-10-05 22:02:46"
+    },
+    {
+      "id": "(120",
+      "product_id": 12,
+      "image": "products/hallu-monkey-2ml-thc-delta-8-sativa-2-1728162349.jpg",
+      "queue": 1,
+      "created_at": "2024-10-05 22:05:49",
+      "updated_at": "2024-10-05 22:06:53"
+    },
+    {
+      "id": "(121",
+      "product_id": 12,
+      "image": "products/hallu-monkey-2ml-thc-delta-8-sativa-3-1728162349.jpg",
+      "queue": 2,
+      "created_at": "2024-10-05 22:05:49",
+      "updated_at": "2024-10-05 22:06:53"
+    },
+    {
+      "id": "(122",
+      "product_id": 12,
+      "image": "products/hallu-monkey-2ml-thc-delta-8-sativa-4-1728162349.jpg",
+      "queue": 4,
+      "created_at": "2024-10-05 22:05:49",
+      "updated_at": "2024-10-05 22:06:53"
+    },
+    {
+      "id": "(123",
+      "product_id": 12,
+      "image": "products/hallu-monkey-2ml-thc-delta-8-sativa-5-1728162349.jpg",
+      "queue": 5,
+      "created_at": "2024-10-05 22:05:49",
+      "updated_at": "2024-10-05 22:06:53"
+    },
+    {
+      "id": "(124",
+      "product_id": 13,
+      "image": "products/hallu-monkey-2ml-thc-delta-8-indica-2-1728163194.png",
+      "queue": 1,
+      "created_at": "2024-10-05 22:19:54",
+      "updated_at": "2024-10-05 22:20:54"
+    },
+    {
+      "id": "(125",
+      "product_id": 13,
+      "image": "products/hallu-monkey-2ml-thc-delta-8-indica-3-1728163194.jpeg",
+      "queue": 2,
+      "created_at": "2024-10-05 22:19:54",
+      "updated_at": "2024-10-05 22:20:54"
+    },
+    {
+      "id": "(126",
+      "product_id": 13,
+      "image": "products/hallu-monkey-2ml-thc-delta-8-indica-4-1728163194.jpg",
+      "queue": 3,
+      "created_at": "2024-10-05 22:19:54",
+      "updated_at": "2024-10-05 22:20:54"
+    },
+    {
+      "id": "(127",
+      "product_id": 13,
+      "image": "products/hallu-monkey-2ml-thc-delta-8-indica-5-1728163194.jpg",
+      "queue": 4,
+      "created_at": "2024-10-05 22:19:54",
+      "updated_at": "2024-10-05 22:20:54"
+    },
+    {
+      "id": "(128",
+      "product_id": 14,
+      "image": "products/hallu-monkey-5ml-thc-delta-8-10-11-hibrida-1-1728164031.png",
+      "queue": 2,
+      "created_at": "2024-10-05 22:33:51",
+      "updated_at": "2024-10-05 22:36:45"
+    },
+    {
+      "id": "(129",
+      "product_id": 14,
+      "image": "products/hallu-monkey-5ml-thc-delta-8-10-11-hibrida-2-1728164031.jpg",
+      "queue": 3,
+      "created_at": "2024-10-05 22:33:51",
+      "updated_at": "2024-10-05 22:36:45"
+    },
+    {
+      "id": "(130",
+      "product_id": 14,
+      "image": "products/hallu-monkey-5ml-thc-delta-8-10-11-hibrida-3-1728164181.jpg",
+      "queue": 1,
+      "created_at": "2024-10-05 22:36:21",
+      "updated_at": "2024-10-05 22:36:45"
+    },
+    {
+      "id": "(131",
+      "product_id": 16,
+      "image": "products/hallu-monkey-5ml-thc-delta-8-10-11-indica-1-1728164356.jpg",
+      "queue": 1,
+      "created_at": "2024-10-05 22:39:16",
+      "updated_at": "2024-10-05 22:40:05"
+    },
+    {
+      "id": "(132",
+      "product_id": 16,
+      "image": "products/hallu-monkey-5ml-thc-delta-8-10-11-indica-2-1728164356.png",
+      "queue": 2,
+      "created_at": "2024-10-05 22:39:16",
+      "updated_at": "2024-10-05 22:40:05"
+    },
+    {
+      "id": "(133",
+      "product_id": 16,
+      "image": "products/hallu-monkey-5ml-thc-delta-8-10-11-indica-3-1728164356.jpg",
+      "queue": 3,
+      "created_at": "2024-10-05 22:39:16",
+      "updated_at": "2024-10-05 22:40:05"
+    },
+    {
+      "id": "(134",
+      "product_id": 15,
+      "image": "products/hallu-monkey-5ml-thc-delta-8-10-11-sativa-1-1728164488.jpg",
+      "queue": 1,
+      "created_at": "2024-10-05 22:41:28",
+      "updated_at": "2024-10-05 22:41:55"
+    },
+    {
+      "id": "(135",
+      "product_id": 15,
+      "image": "products/hallu-monkey-5ml-thc-delta-8-10-11-sativa-2-1728164488.png",
+      "queue": 2,
+      "created_at": "2024-10-05 22:41:28",
+      "updated_at": "2024-10-05 22:41:55"
+    },
+    {
+      "id": "(136",
+      "product_id": 15,
+      "image": "products/hallu-monkey-5ml-thc-delta-8-10-11-sativa-3-1728164488.jpg",
+      "queue": 3,
+      "created_at": "2024-10-05 22:41:28",
+      "updated_at": "2024-10-05 22:41:55"
+    },
+    {
+      "id": "(137",
+      "product_id": 18,
+      "image": "products/ignite-7ml-diamont-thc-a-p-delta-9-sativa-2-1728166413.png",
+      "queue": 2,
+      "created_at": "2024-10-05 23:13:33",
+      "updated_at": "2024-10-05 23:13:52"
+    },
+    {
+      "id": "(138",
+      "product_id": 18,
+      "image": "products/ignite-7ml-diamont-thc-a-p-delta-9-sativa-3-1728166413.jpeg",
+      "queue": 3,
+      "created_at": "2024-10-05 23:13:33",
+      "updated_at": "2024-10-05 23:13:52"
+    },
+    {
+      "id": "(139",
+      "product_id": 19,
+      "image": "products/ignite-7ml-diamont-thc-a-p-delta-9-indica-2-1728166466.png",
+      "queue": 2,
+      "created_at": "2024-10-05 23:14:26",
+      "updated_at": "2024-10-05 23:14:37"
+    },
+    {
+      "id": "(140",
+      "product_id": 19,
+      "image": "products/ignite-7ml-diamont-thc-a-p-delta-9-indica-3-1728166466.jpeg",
+      "queue": 3,
+      "created_at": "2024-10-05 23:14:26",
+      "updated_at": "2024-10-05 23:14:37"
+    },
+    {
+      "id": "(141",
+      "product_id": 17,
+      "image": "products/ignite-7ml-diamont-thc-a-p-delta-9-hibrida-2-1728166521.png",
+      "queue": 2,
+      "created_at": "2024-10-05 23:15:21",
+      "updated_at": "2024-10-05 23:15:41"
+    },
+    {
+      "id": "(142",
+      "product_id": 17,
+      "image": "products/ignite-7ml-diamont-thc-a-p-delta-9-hibrida-3-1728166521.jpeg",
+      "queue": 3,
+      "created_at": "2024-10-05 23:15:21",
+      "updated_at": "2024-10-05 23:15:41"
+    },
+    {
+      "id": "(144",
+      "product_id": 45,
+      "image": "products/pulse-5ml-digital-display-delta-9-thc-a-hibrida-2-1728168217.webp",
+      "queue": 3,
+      "created_at": "2024-10-05 23:43:37",
+      "updated_at": "2024-10-05 23:44:56"
+    },
+    {
+      "id": "(145",
+      "product_id": 45,
+      "image": "products/pulse-5ml-digital-display-delta-9-thc-a-hibrida-3-1728168217.jpg",
+      "queue": 2,
+      "created_at": "2024-10-05 23:43:37",
+      "updated_at": "2024-10-05 23:44:56"
+    },
+    {
+      "id": "(146",
+      "product_id": 46,
+      "image": "products/pulse-5ml-digital-display-delta-9-thc-a-indica-2-1728168254.webp",
+      "queue": 3,
+      "created_at": "2024-10-05 23:44:14",
+      "updated_at": "2024-10-05 23:44:28"
+    },
+    {
+      "id": "(147",
+      "product_id": 46,
+      "image": "products/pulse-5ml-digital-display-delta-9-thc-a-indica-3-1728168254.jpg",
+      "queue": 2,
+      "created_at": "2024-10-05 23:44:14",
+      "updated_at": "2024-10-05 23:44:28"
+    },
+    {
+      "id": "(148",
+      "product_id": 47,
+      "image": "products/pulse-5ml-digital-display-delta-9-thc-a-sativa-2-1728168332.webp",
+      "queue": 3,
+      "created_at": "2024-10-05 23:45:32",
+      "updated_at": "2024-10-05 23:45:46"
+    },
+    {
+      "id": "(149",
+      "product_id": 47,
+      "image": "products/pulse-5ml-digital-display-delta-9-thc-a-sativa-3-1728168332.jpg",
+      "queue": 2,
+      "created_at": "2024-10-05 23:45:32",
+      "updated_at": "2024-10-05 23:45:46"
+    },
+    {
+      "id": "(150",
+      "product_id": 34,
+      "image": "products/pressure-6ml-delta-9-thc-a-p-sativa-1-1728168659.jpg",
+      "queue": 2,
+      "created_at": "2024-10-05 23:50:59",
+      "updated_at": "2024-10-05 23:51:20"
+    },
+    {
+      "id": "(151",
+      "product_id": 34,
+      "image": "products/pressure-6ml-delta-9-thc-a-p-sativa-2-1728168659.png",
+      "queue": 1,
+      "created_at": "2024-10-05 23:50:59",
+      "updated_at": "2024-10-05 23:51:20"
+    },
+    {
+      "id": "(152",
+      "product_id": 34,
+      "image": "products/pressure-6ml-delta-9-thc-a-p-sativa-3-1728168659.webp",
+      "queue": 4,
+      "created_at": "2024-10-05 23:50:59",
+      "updated_at": "2024-10-05 23:51:20"
+    },
+    {
+      "id": "(153",
+      "product_id": 34,
+      "image": "products/pressure-6ml-delta-9-thc-a-p-sativa-4-1728168659.jpg",
+      "queue": 3,
+      "created_at": "2024-10-05 23:50:59",
+      "updated_at": "2024-10-05 23:51:20"
+    },
+    {
+      "id": "(158",
+      "product_id": 33,
+      "image": "products/pressure-6ml-delta-9-thc-a-p-indica-1-1728168891.png",
+      "queue": 1,
+      "created_at": "2024-10-05 23:54:51",
+      "updated_at": "2024-10-05 23:55:10"
+    },
+    {
+      "id": "(159",
+      "product_id": 33,
+      "image": "products/pressure-6ml-delta-9-thc-a-p-indica-2-1728168891.jpg",
+      "queue": 2,
+      "created_at": "2024-10-05 23:54:51",
+      "updated_at": "2024-10-05 23:55:10"
+    },
+    {
+      "id": "(160",
+      "product_id": 33,
+      "image": "products/pressure-6ml-delta-9-thc-a-p-indica-3-1728168891.webp",
+      "queue": 3,
+      "created_at": "2024-10-05 23:54:51",
+      "updated_at": "2024-10-05 23:55:10"
+    },
+    {
+      "id": "(161",
+      "product_id": 32,
+      "image": "products/pressure-6ml-delta-9-thc-a-p-hibrida-1-1728169432.png",
+      "queue": 1,
+      "created_at": "2024-10-06 00:03:52",
+      "updated_at": "2024-10-06 00:04:28"
+    },
+    {
+      "id": "(162",
+      "product_id": 32,
+      "image": "products/pressure-6ml-delta-9-thc-a-p-hibrida-2-1728169432.webp",
+      "queue": 2,
+      "created_at": "2024-10-06 00:03:52",
+      "updated_at": "2024-10-06 00:04:28"
+    },
+    {
+      "id": "(163",
+      "product_id": 32,
+      "image": "products/pressure-6ml-delta-9-thc-a-p-hibrida-3-1728169432.jpg",
+      "queue": 3,
+      "created_at": "2024-10-06 00:03:52",
+      "updated_at": "2024-10-06 00:04:28"
+    },
+    {
+      "id": "(164",
+      "product_id": 29,
+      "image": "products/snoop-dogg-3ml-delta-9-10-thc-hibrida-1-1728339849.png",
+      "queue": 1,
+      "created_at": "2024-10-07 22:24:09",
+      "updated_at": "2024-10-07 22:24:30"
+    },
+    {
+      "id": "(165",
+      "product_id": 29,
+      "image": "products/snoop-dogg-3ml-delta-9-10-thc-hibrida-2-1728339849.jpg",
+      "queue": 2,
+      "created_at": "2024-10-07 22:24:09",
+      "updated_at": "2024-10-07 22:24:30"
+    },
+    {
+      "id": "(166",
+      "product_id": 29,
+      "image": "products/snoop-dogg-3ml-delta-9-10-thc-hibrida-3-1728339849.jpg",
+      "queue": 3,
+      "created_at": "2024-10-07 22:24:09",
+      "updated_at": "2024-10-07 22:24:30"
+    },
+    {
+      "id": "(167",
+      "product_id": 30,
+      "image": "products/snoop-dogg-3ml-delta-9-10-thc-indica-1-1728339934.png",
+      "queue": 1,
+      "created_at": "2024-10-07 22:25:34",
+      "updated_at": "2024-10-07 22:26:05"
+    },
+    {
+      "id": "(168",
+      "product_id": 30,
+      "image": "products/snoop-dogg-3ml-delta-9-10-thc-indica-2-1728339934.jpg",
+      "queue": 2,
+      "created_at": "2024-10-07 22:25:34",
+      "updated_at": "2024-10-07 22:26:05"
+    },
+    {
+      "id": "(169",
+      "product_id": 30,
+      "image": "products/snoop-dogg-3ml-delta-9-10-thc-indica-3-1728339934.jpg",
+      "queue": 3,
+      "created_at": "2024-10-07 22:25:34",
+      "updated_at": "2024-10-07 22:26:05"
+    },
+    {
+      "id": "(170",
+      "product_id": 31,
+      "image": "products/snoop-dogg-3ml-delta-9-10-thc-sativa-1-1728340050.png",
+      "queue": 4,
+      "created_at": "2024-10-07 22:27:30",
+      "updated_at": "2024-10-10 18:48:05"
+    },
+    {
+      "id": "(171",
+      "product_id": 31,
+      "image": "products/snoop-dogg-3ml-delta-9-10-thc-sativa-2-1728340050.jpg",
+      "queue": 3,
+      "created_at": "2024-10-07 22:27:30",
+      "updated_at": "2024-10-10 18:48:05"
+    },
+    {
+      "id": "(173",
+      "product_id": 39,
+      "image": "products/cactus-6ml-sixshot-delta-9-thc-a-hibrida-4-1728499348.jpg",
+      "queue": null,
+      "created_at": "2024-10-09 18:42:28",
+      "updated_at": "2024-10-09 18:42:28"
+    },
+    {
+      "id": "(174",
+      "product_id": 6,
+      "image": "products/torch-dimound-2-5g-delta-9-thc-a-p-indica-10-1728501278.jpg",
+      "queue": 1,
+      "created_at": "2024-10-09 19:14:38",
+      "updated_at": "2024-10-09 19:20:45"
+    },
+    {
+      "id": "(175",
+      "product_id": 57,
+      "image": "products/mike-tysson-25mg-x1-gummy-pack-20un-delta-9-thc-1-1728502454.jpg",
+      "queue": null,
+      "created_at": "2024-10-09 19:34:14",
+      "updated_at": "2024-10-09 19:34:14"
+    },
+    {
+      "id": "(176",
+      "product_id": 20,
+      "image": "products/hidden-hills-2ml-limites-delta-9-11-thc-a-ultra---hibrida-3-1728506062.jpg",
+      "queue": null,
+      "created_at": "2024-10-09 20:34:22",
+      "updated_at": "2024-10-09 20:34:22"
+    },
+    {
+      "id": "(177",
+      "product_id": 22,
+      "image": "products/hidden-hills-2ml-limites-delta-9-11-thc-a-ultra-sativa-3-1728506262.jpg",
+      "queue": null,
+      "created_at": "2024-10-09 20:37:42",
+      "updated_at": "2024-10-09 20:37:42"
+    },
+    {
+      "id": "(178",
+      "product_id": 29,
+      "image": "products/snoop-dogg-3ml-delta-9-10-thc-hibrida-4-1728509236.jpg",
+      "queue": null,
+      "created_at": "2024-10-09 21:27:16",
+      "updated_at": "2024-10-09 21:27:16"
+    },
+    {
+      "id": "(179",
+      "product_id": 31,
+      "image": "products/snoop-dogg-3ml-delta-9-10-thc-sativa-4-1728509475.jpg",
+      "queue": null,
+      "created_at": "2024-10-09 21:31:15",
+      "updated_at": "2024-10-09 21:31:15"
+    },
+    {
+      "id": "(180",
+      "product_id": 38,
+      "image": "products/cactus-2ml-amanita-muscaria-cogumelo-4-1728584335.jpg",
+      "queue": 1,
+      "created_at": "2024-10-10 18:18:55",
+      "updated_at": "2024-10-10 18:19:30"
+    },
+    {
+      "id": "(181",
+      "product_id": 50,
+      "image": "products/chapo-supermax-diamont-5ml-delta-9-thc-a-p-sativa-3-1728584821.jpg",
+      "queue": 1,
+      "created_at": "2024-10-10 18:27:01",
+      "updated_at": "2024-10-10 18:27:30"
+    },
+    {
+      "id": "(182",
+      "product_id": 26,
+      "image": "products/hidden-hills-2ml-refil-delta-9-thc-a-b-h-p-x-hibrida-3-1728584990.jpg",
+      "queue": null,
+      "created_at": "2024-10-10 18:29:50",
+      "updated_at": "2024-10-10 18:29:50"
+    },
+    {
+      "id": "(183",
+      "product_id": 28,
+      "image": "products/hidden-hills-2ml-refil-delta-9-thc-a-b-h-p-x-sativa-3-1728585141.jpg",
+      "queue": null,
+      "created_at": "2024-10-10 18:32:21",
+      "updated_at": "2024-10-10 18:32:21"
+    },
+    {
+      "id": "(184",
+      "product_id": 45,
+      "image": "products/pulse-5ml-digital-display-delta-9-thc-a-hibrida-4-1728585441.jpg",
+      "queue": null,
+      "created_at": "2024-10-10 18:37:21",
+      "updated_at": "2024-10-10 18:37:21"
+    },
+    {
+      "id": "(185",
+      "product_id": 46,
+      "image": "products/pulse-5ml-digital-display-delta-9-thc-a-indica-4-1728585788.jpg",
+      "queue": null,
+      "created_at": "2024-10-10 18:43:08",
+      "updated_at": "2024-10-10 18:43:08"
+    },
+    {
+      "id": "(186",
+      "product_id": 47,
+      "image": "products/pulse-5ml-digital-display-delta-9-thc-a-sativa-4-1728585847.jpg",
+      "queue": null,
+      "created_at": "2024-10-10 18:44:07",
+      "updated_at": "2024-10-10 18:44:07"
+    },
+    {
+      "id": "(187",
+      "product_id": 30,
+      "image": "products/snoop-dogg-3ml-delta-9-10-thc-indica-4-1728585986.jpg",
+      "queue": null,
+      "created_at": "2024-10-10 18:46:26",
+      "updated_at": "2024-10-10 18:46:26"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Jhon Doe",
+      "email": "weedhighlander@gmail.com",
+      "email_verified_at": null,
+      "password": "$2y$10$QLrIp6XsVMlHza1ZOeKhX.b8l6W6PYip3MJu21ajCNcIdevKhvVwe",
+      "remember_token": null,
+      "created_at": "2024-09-19 19:42:47",
+      "updated_at": "2024-09-19 19:42:47"
+    },
+    {
+      "id": "(2",
+      "name": "Seila",
+      "email": "seila123@gmail.com",
+      "email_verified_at": null,
+      "password": "$2y$10$.JOkV2d4rnbiBc6gRQ1tgOLInJLTKAcXq66ACBk6V.JSwFsInJjd6",
+      "remember_token": null,
+      "created_at": "2024-09-20 21:05:25",
+      "updated_at": "2024-09-20 21:05:25"
+    },
+    {
+      "id": "(3",
+      "name": "Abrebala",
+      "email": "abrebala@gmail.com",
+      "email_verified_at": null,
+      "password": "$2y$10$DURflepRBm3/vvEIr0uSU.10htIeg2WtMzYCLxvCpyPlYuTddmWfS",
+      "remember_token": null,
+      "created_at": "2024-09-21 01:03:32",
+      "updated_at": "2024-09-21 01:03:32"
+    },
+    {
+      "id": "(4",
+      "name": "Adim",
+      "email": "adim@gmail.com",
+      "email_verified_at": null,
+      "password": "$2y$10$EVFrsRZrhT2zEykRqXhF/epOE9JO63adZWyFomEmOEg/mhh1qN1vK",
+      "remember_token": "a8zpkUmxzHtpgX463eCi87bGVgMgioq8UcWZSKFQQZ4qIEpNNrnYNNQK8f8B",
+      "created_at": "2024-10-02 17:05:40",
+      "updated_at": "2024-10-02 17:05:40"
+    }
+  ]
+}
