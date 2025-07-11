@@ -65,20 +65,26 @@ const NavList = styled.nav`
     &:not(:last-child) {
       margin-right: 30px;
     }
+
+    @media screen and (max-width: 768px) {
+      font-size: 0.875rem;
+      margin-right: 0;
+    } 
   }`;
 
 export const Header = () => {
   return (
     <HeaderContainer>
-      <AppTitle>American Cannabis</AppTitle>
+      <Link href="/">
+        <AppTitle>American Cannabis</AppTitle>
+      </Link>
 
-      {/* Navegação principal */}
       <NavList aria-label="Navegação Principal">
         <ul>
           <li><Link href="/">Início</Link></li>
-          <li><Link href="/sobre">Sobre</Link></li>
-          <li><Link href="/servicos">Produtos</Link></li>
-          <li><Link href="/contato">Contato</Link></li>
+          <li><Link href="/#about">Sobre</Link></li>
+          <li><Link href="/products">Produtos</Link></li>
+          <li><Link href="/#feedbacks">Feedbacks</Link></li>
         </ul>
       </NavList>
     </HeaderContainer>

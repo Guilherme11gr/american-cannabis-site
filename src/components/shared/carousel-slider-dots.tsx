@@ -1,4 +1,3 @@
-// src/components/CarouselDots.tsx
 import React from 'react'
 import styled from '@emotion/styled'
 import { KeenSliderInstance } from 'keen-slider/react'
@@ -6,15 +5,15 @@ import { KeenSliderInstance } from 'keen-slider/react'
 const DotsContainer = styled.div`
   display: flex;
   justify-content: center;
-  margin-top: 1rem;
+  margin-top: 2rem;
 `
 
 const DotButton = styled.button`
-  width: 10px;
-  height: 10px;
+  width: 0.625rem;
+  height: 0.625rem;
   border-radius: 50%;
   background: ${({ theme }) => theme.colors.background};
-  margin: 0 4px;
+  margin: 0 0.25rem;
   border: none;
   cursor: pointer;
   opacity: 0.5;
@@ -22,7 +21,7 @@ const DotButton = styled.button`
 
   &.active {
     opacity: 1;
-    background: ${({ theme }) => theme.colors.primary};
+    background: ${({ theme }) => theme.colors.primaryLight};
   }
 `
 

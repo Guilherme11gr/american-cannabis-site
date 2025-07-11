@@ -1,7 +1,17 @@
 import { useState } from 'react'
 import { useKeenSlider, KeenSliderInstance } from 'keen-slider/react'
 
-export function useCarouselSlider<T extends HTMLElement = HTMLElement>() {
+export type UseCarouselSliderParams = {
+  autoplay?: boolean
+  loop?: boolean
+  slidesPerView?: {
+    mobile: number
+    desktop: number
+    spacing: number
+  }
+}
+
+export function useCarouselSlider<T extends HTMLElement = HTMLElement>(params?: UseCarouselSliderParams) {
   const [currentSlide, setCurrentSlide] = useState(0)
   const [loaded, setLoaded] = useState(false)
   const AUTOPLAY_DELAY = 3000
@@ -28,14 +38,14 @@ export function useCarouselSlider<T extends HTMLElement = HTMLElement>() {
         easing: (t: number) => t,
       },
       slides: {
-        perView: 1,
-        spacing: 16,
+        perView: params?.slidesPerView?.mobile || 1,
+        spacing: params?.slidesPerView?.spacing || 16,
       },
       breakpoints: {
         '(min-width: 768px)': {
           slides: {
-            perView: 3,
-            spacing: 24,
+            perView: params?.slidesPerView?.desktop || 3,
+            spacing: params?.slidesPerView?.spacing || 24,
           },
         },
       },

@@ -6,6 +6,7 @@
     "slug": "jetter-juice-pen-1ml-thc-a-delta-9-sativa",
     "price": 300,
     "stoke": 100,
+    "featured": true,
     "photo_ids": [
       4,
       5,
@@ -27,6 +28,7 @@
     "slug": "jetter-juice-pen-1ml-thc-a-delta-9-indica",
     "price": 300,
     "stoke": 100,
+    "featured": true,
     "photo_ids": [
       9,
       10,
@@ -49,6 +51,7 @@
     "slug": "jetter-juice-pen-1ml-thc-a-delta-9-hibrida",
     "price": 300,
     "stoke": 100,
+    "featured": true,
     "photo_ids": [
       63
     ],
@@ -847,6 +850,7 @@
     "slug": "pulse-5ml-digital-display-delta-9-thc-a-sativa",
     "price": 300,
     "stoke": 100,
+    "featured": true,
     "photo_ids": [
       58,
       148,
@@ -866,6 +870,7 @@
     "name": "Chapo SuperMax Diamont 5ml Delta 9 Thc A / P - Sativa",
     "slug": "chapo-supermax-diamont-5ml-delta-9-thc-a-p-sativa",
     "price": 300,
+    "featured": true,
     "stoke": 100,
     "photo_ids": [
       60,
@@ -886,6 +891,7 @@
     "slug": "sigthsix-2ml-delta-9-hibrida",
     "price": 300,
     "stoke": 100,
+    "featured": true,
     "photo_ids": [
       97,
       98,
@@ -958,6 +964,7 @@
     "name": "Goma Mike Tysson 25mg x1 Gummy Pack 20un Delta 9 Thc",
     "slug": "mike-tysson-25mg-x1-gummy-pack-20un-delta-9-thc",
     "price": 300,
+    "featured": true,
     "stoke": 100,
     "photo_ids": [
       175

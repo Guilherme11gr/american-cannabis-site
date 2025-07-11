@@ -1,4 +1,6 @@
 import styled from '@emotion/styled'
+import Image from 'next/image';
+import Link from 'next/link';
 
 const FooterContainer = styled.div`
   width: 100%;
@@ -67,17 +69,24 @@ const InfoContainer = styled.div`
 `
 
 export const Footer = () => {
+  const message = encodeURIComponent(`Olá, gostaria de saber mais sobre os produtos.`);
+  const phone = '5516996140277'
+  const whatsUrl = `https://api.whatsapp.com/send?phone=${phone}&text=${message}`;
   return (
-    <FooterContainer>
+    <FooterContainer id='contato'>
       <SocialMediaContainer>
-        <SocialMediaButton>
-          <img src="/imgs/whatsapp-icon.svg" alt="Logo" />
-          <span>Fale conosco</span>
-        </SocialMediaButton>
-        <SocialMediaButton>
-          <img src="/imgs/instagram-icon.svg" alt="Logo" />
-          <span>@Instagram</span>
-        </SocialMediaButton>
+        <Link href={whatsUrl} target="_blank" rel="noopener noreferrer">
+          <SocialMediaButton>
+            <Image src="/imgs/whatsapp-icon.svg" alt="Logo" width={32} height={32} />
+            <span>Fale conosco</span>
+          </SocialMediaButton>
+        </Link>
+        <Link href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+          <SocialMediaButton>
+            <Image src="/imgs/instagram-icon.svg" width={32} height={32} alt="Instagram" />
+            <span>@Instagram</span>
+          </SocialMediaButton>
+        </Link>
       </SocialMediaContainer>
       <InfoContainer>
         <p><i>Venda proibida para menores de 18 anos</i></p>

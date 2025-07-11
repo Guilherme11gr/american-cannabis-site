@@ -1,10 +1,19 @@
-/* eslint-disable @next/next/no-img-element */
 import { Layout } from "@/components/layout/layout";
 import { Button } from "@/components/shared/button";
 import styled from "@emotion/styled";
 import { CustomerFeedbackSection } from "./components/customer-feedback-section";
 import { HighlightsProductsSection } from "./components/highlights-products-section";
 import { ProductSummary } from "@/data/lib/data-manager";
+import NextLink from "next/link";
+import HeroRotator from "./components/hero-rotator";
+import { keyframes } from "@emotion/react";
+import Image from "next/image";
+
+const floatAnimation = keyframes`
+  0%   { transform: translateY(0)   rotate(0deg); }
+  50%  { transform: translateY(-8px) rotate(1deg); }
+  100% { transform: translateY(0)   rotate(0deg); }
+`
 
 const InitialSectionContainer = styled.div`
   display: flex;
@@ -14,7 +23,7 @@ const InitialSectionContainer = styled.div`
   justify-content: center;
   position: relative;
 
-    @media screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     width: 100%;
     flex-direction: column;
   }
@@ -75,17 +84,22 @@ const GummyImageContainer = styled.div`
   @media screen and (max-width: 768px) {
     width: 100%;
   }
+
   img {
     position: absolute;
-    width: 642px;
+    width: 40.125rem !important;
     top: -4.375rem;
-    right: -97px;
+    right: -6.0625rem;
+    will-change: transform;
+    animation: ${floatAnimation} 7s ease-in-out infinite;
+    opacity: 0.95;
 
     @media screen and (max-width: 768px) {
       position: unset;
       top: 0;
       right: 0;
       width: 100%;
+      margin-bottom: -3.125rem;
     }
   }
 `;
@@ -117,7 +131,7 @@ const CategoriesSectionContainer = styled.div`
 
     @media screen and (max-width: 768px) {
       align-items: flex-start;
-      gap: 0.75rem;
+      gap: 1rem;
     }
 
     li {
@@ -128,6 +142,22 @@ const CategoriesSectionContainer = styled.div`
       text-align: center;
       animation: bounce-in 0.8s cubic-bezier(.17,.67,.83,.67);
 
+      @media screen and (max-width: 768px) {
+        &:last-of-type {
+          img {
+            width: 7.875rem;
+            height: auto;
+          }
+        }
+      }
+
+      a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        
+      }
 
       &:hover {
         img {
@@ -142,7 +172,7 @@ const CategoriesSectionContainer = styled.div`
       h3 {
         font-size: 1.5rem;
         font-weight: 500;
-        color: ${({ theme }) => theme.colors.primary};
+        color: ${({ theme }) => theme.colors.primaryLight};
         margin-top: 0.5rem;
         font-weight: bold;
         transition: transform 0.15s ease-in-out;
@@ -158,7 +188,7 @@ const CategoriesSectionContainer = styled.div`
         transition: transform 0.15s ease-in-out;
 
         @media screen and (max-width: 768px) {
-          width: 120px;
+          width: 7.5rem;
           height: auto;
         }
       }
@@ -209,8 +239,9 @@ const AboutCompanyCard = styled.div`
     right: 0;
     bottom: 0;
     transform: translate(2%, 10%);
+
     @media screen and (max-width: 768px) {
-      display: none; /* esconde a imagem no mobile */
+      display: none;
     }
   }
 
@@ -259,50 +290,56 @@ type HomePageComponentProps = {
   featured: ProductSummary[]
 }
 export const HomePageComponent: React.FC<HomePageComponentProps> = ({ featured }) => {
-  console.log(featured)
   return (
     <Layout>
       <InitialSectionContainer>
         <TitleContainer>
-          <h1>Transparência e confiabilidade</h1>
-          <h2>Todos os ingredientes testados em laboratório.</h2>
+          <HeroRotator />
           <CTAButtonContainer>
-            <Button>
-              Confira nossos produtos
-              <img src="/imgs/arrow-right-svgrepo-com.svg" alt="" height={42} />
-            </Button>
+            <NextLink href={'products'} style={{ width: '100%' }}>
+              <Button>
+                Confira nossos produtos
+                <Image src="/imgs/arrow-right-svgrepo-com.svg" alt="" height={42} width={42} />
+              </Button>
+            </NextLink>
           </CTAButtonContainer>
         </TitleContainer>
         <GummyImageContainer>
-          <img src="/imgs/gummy-home.png" alt="Gummy Bear" />
+          <Image
+            src="/imgs/gummy-home.png"
+            alt="Gummy Bear"
+            width={300}
+            height={300}
+            layout="responsive"
+          />
         </GummyImageContainer>
       </InitialSectionContainer>
       <CategoriesSectionContainer>
         <ul>
           <li>
-            <a href="">
-              <img src="/imgs/categories-pods.png" alt="Seta para a direita" />
-              <h3>THC Pods</h3>
-            </a>
+            <NextLink href="products?group=descartaveis">
+              <img src="/imgs/categories-pods.png" alt="Categoria Pods" />
+              <h3>Pods</h3>
+            </NextLink>
           </li>
           <li>
-            <a href="">
-              <img src="/imgs/categories-refil.png" alt="Seta para a direita" />
-              <h3>THC Refis</h3>
-            </a>
+            <NextLink href="products?group=refil">
+              <img src="/imgs/categories-refil.png" alt="Categoria Refil" />
+              <h3>Refil</h3>
+            </NextLink>
           </li>
           <li>
-            <a href="">
-              <img src="/imgs/categories-gummy.png" alt="Seta para a direita" />
-              <h3>THC Gummies</h3>
-            </a>
+            <NextLink href="products?group=gummy">
+              <img src="/imgs/categories-gummy.png" alt="Categoria Gummy" />
+              <h3>Gummy</h3>
+            </NextLink>
           </li>
         </ul>
       </CategoriesSectionContainer>
 
       <HighlightsProductsSection featuredProducts={featured} />
 
-      <AboutCompanyContainer>
+      <AboutCompanyContainer id="about">
         <AboutCompanyCard>
           <div>
             <h3>Sobre a American Cannabis</h3>

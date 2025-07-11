@@ -3,189 +3,222 @@
     "id": 3,
     "name": "Marcas",
     "slug": "marcas",
-    "image": "categories/marcas-1728360515.png",
-    "description": "teste"
-  },
-  {
-    "id": 4,
-    "name": "Jetter Juice",
-    "slug": "jetter-juice",
-    "image": null,
-    "description": null
-  },
-  {
-    "id": 5,
-    "name": "Hidden Hills",
-    "slug": "hidden-hills",
-    "image": null,
-    "description": null
-  },
-  {
-    "id": 6,
-    "name": "Snoop Dog",
-    "slug": "snoop-dog",
-    "image": null,
-    "description": null
-  },
-  {
-    "id": 7,
-    "name": "Cactus",
-    "slug": "cactus",
-    "image": null,
-    "description": null
-  },
-  {
-    "id": 8,
-    "name": "Chapo",
-    "slug": "chapo",
-    "image": null,
-    "description": null
-  },
-  {
-    "id": 9,
-    "name": "Torch",
-    "slug": "torch",
-    "image": null,
-    "description": null
-  },
-  {
-    "id": 10,
-    "name": "Eight Six",
-    "slug": "eight-six",
-    "image": null,
-    "description": null
-  },
-  {
-    "id": 11,
-    "name": "Pressure",
-    "slug": "pressure",
-    "image": null,
-    "description": null
-  },
-  {
-    "id": 12,
-    "name": "Ignite",
-    "slug": "ignite",
-    "image": null,
-    "description": null
-  },
-  {
-    "id": 13,
-    "name": "Hallo",
-    "slug": "hallo",
-    "image": null,
-    "description": null
-  },
-  {
-    "id": 14,
-    "name": "Pulse Thc",
-    "slug": "pulse-thc",
-    "image": null,
-    "description": null
+    "count": 0,
+    "queue": "1",
+    "carousel": false,
+    "categories": [
+      {
+        "id": 4,
+        "name": "Jetter Juice",
+        "slug": "jetter-juice",
+        "count": 3,
+        "queue": "0",
+        "carousel": null
+      },
+      {
+        "id": 5,
+        "name": "Hidden Hills",
+        "slug": "hidden-hills",
+        "count": 6,
+        "queue": "0",
+        "carousel": null
+      },
+      {
+        "id": 6,
+        "name": "Snoop Dog",
+        "slug": "snoop-dog",
+        "count": 3,
+        "queue": "0",
+        "carousel": null
+      },
+      {
+        "id": 7,
+        "name": "Cactus",
+        "slug": "cactus",
+        "count": 5,
+        "queue": "0",
+        "carousel": null
+      },
+      {
+        "id": 8,
+        "name": "Chapo",
+        "slug": "chapo",
+        "count": 1,
+        "queue": "0",
+        "carousel": null
+      },
+      {
+        "id": 9,
+        "name": "Torch",
+        "slug": "torch",
+        "count": 6,
+        "queue": "0",
+        "carousel": null
+      },
+      {
+        "id": 10,
+        "name": "Eight Six",
+        "slug": "eight-six",
+        "count": 3,
+        "queue": "0",
+        "carousel": null
+      },
+      {
+        "id": 11,
+        "name": "Pressure",
+        "slug": "pressure",
+        "count": 3,
+        "queue": "0",
+        "carousel": null
+      },
+      {
+        "id": 12,
+        "name": "Ignite",
+        "slug": "ignite",
+        "count": 3,
+        "queue": "0",
+        "carousel": null
+      },
+      {
+        "id": 13,
+        "name": "Hallo",
+        "slug": "hallo",
+        "count": 6,
+        "queue": "0",
+        "carousel": null
+      },
+      {
+        "id": 14,
+        "name": "Pulse Thc",
+        "slug": "pulse-thc",
+        "count": 3,
+        "queue": "0",
+        "carousel": null
+      },
+      {
+        "id": 27,
+        "name": "Tree House",
+        "slug": "tree-house",
+        "count": 3,
+        "queue": "0",
+        "carousel": null
+      },
+      {
+        "id": 28,
+        "name": "Delta King",
+        "slug": "delta",
+        "count": 3,
+        "queue": "0",
+        "carousel": null
+      },
+      {
+        "id": 29,
+        "name": "Tysson Gummy",
+        "slug": "tysson-gummy",
+        "count": 1,
+        "queue": "0",
+        "carousel": null
+      }
+    ]
   },
   {
     "id": 15,
     "name": "Tipo",
     "slug": "tipo",
-    "image": null,
-    "description": null
-  },
-  {
-    "id": 16,
-    "name": "Sativa",
-    "slug": "sativa",
-    "image": null,
-    "description": null
-  },
-  {
-    "id": 17,
-    "name": "Indica",
-    "slug": "indica",
-    "image": null,
-    "description": null
-  },
-  {
-    "id": 18,
-    "name": "Hibrida",
-    "slug": "hibrida",
-    "image": null,
-    "description": null
+    "count": 0,
+    "queue": "2",
+    "carousel": null,
+    "categories": [
+      {
+        "id": 16,
+        "name": "Sativa",
+        "slug": "sativa",
+        "count": 18,
+        "queue": "0",
+        "carousel": null
+      },
+      {
+        "id": 17,
+        "name": "Indica",
+        "slug": "indica",
+        "count": 17,
+        "queue": "0",
+        "carousel": null
+      },
+      {
+        "id": 18,
+        "name": "Hibrida",
+        "slug": "hibrida",
+        "count": 17,
+        "queue": "0",
+        "carousel": null
+      }
+    ]
   },
   {
     "id": 19,
     "name": "Produtos",
     "slug": "grupo",
-    "image": null,
-    "description": null
-  },
-  {
-    "id": 20,
-    "name": "Descartáveis",
-    "slug": "descartaveis",
-    "image": "categories/descartaveis-1728928529.jpg",
-    "description": null
-  },
-  {
-    "id": 21,
-    "name": "Refil",
-    "slug": "refil",
-    "image": "categories/refil-1728928585.jpg",
-    "description": null
-  },
-  {
-    "id": 22,
-    "name": "Baterias",
-    "slug": "bateria",
-    "image": "categories/bateria-1728928648.jpg",
-    "description": null
-  },
-  {
-    "id": 23,
-    "name": "Kit",
-    "slug": "kit",
-    "image": null,
-    "description": null
-  },
-  {
-    "id": 24,
-    "name": "Vaporizador Óleo",
-    "slug": "vaporizador-oleo",
-    "image": null,
-    "description": null
-  },
-  {
-    "id": 25,
-    "name": "Vaporizador Ervas",
-    "slug": "vaporizador-ervas",
-    "image": null,
-    "description": null
-  },
-  {
-    "id": 26,
-    "name": "Gummy",
-    "slug": "gummy",
-    "image": "categories/gummy-1728928698.jpg",
-    "description": null
-  },
-  {
-    "id": 27,
-    "name": "Tree House",
-    "slug": "tree-house",
-    "image": null,
-    "description": null
-  },
-  {
-    "id": 28,
-    "name": "Delta King",
-    "slug": "delta",
-    "image": null,
-    "description": null
-  },
-  {
-    "id": 29,
-    "name": "Tysson Gummy",
-    "slug": "tysson-gummy",
-    "image": null,
-    "description": null
+    "count": 0,
+    "queue": "3",
+    "carousel": null,
+    "categories": [
+      {
+        "id": 20,
+        "name": "Descartáveis",
+        "slug": "descartaveis",
+        "count": 45,
+        "queue": "1",
+        "carousel": true
+      },
+      {
+        "id": 21,
+        "name": "Refil",
+        "slug": "refil",
+        "count": 3,
+        "queue": "2",
+        "carousel": true
+      },
+      {
+        "id": 26,
+        "name": "Gummy",
+        "slug": "gummy",
+        "count": 1,
+        "queue": "3",
+        "carousel": true
+      },
+      {
+        "id": 22,
+        "name": "Baterias",
+        "slug": "bateria",
+        "count": 0,
+        "queue": "4",
+        "carousel": true
+      },
+      {
+        "id": 23,
+        "name": "Kit",
+        "slug": "kit",
+        "count": 0,
+        "queue": "0",
+        "carousel": false
+      },
+      {
+        "id": 24,
+        "name": "Vaporizador Óleo",
+        "slug": "vaporizador-oleo",
+        "count": 0,
+        "queue": "0",
+        "carousel": null
+      },
+      {
+        "id": 25,
+        "name": "Vaporizador Ervas",
+        "slug": "vaporizador-ervas",
+        "count": 0,
+        "queue": "0",
+        "carousel": null
+      }
+    ]
   }
 ]

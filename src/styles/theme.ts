@@ -3,7 +3,7 @@ import { Theme } from '@emotion/react';
 
 export const theme: Theme = {
   colors: {
-    primary: '#3dc54f',        // verde vibrante
+    primary: '#48d95c',        // verde vibrante
     primaryLight: '#50f166',        // verde vibrante
     primaryDark: '#278d46',    // verde escuro
     secondary: '#602e9e',      // roxo vivo

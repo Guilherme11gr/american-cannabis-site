@@ -1,11 +1,20 @@
-// lib/data.ts
-
 export interface Category {
   id: number
   name: string
   slug: string
-  image: string | null
-  description: string | null
+  count: number
+  queue: string
+  carousel: boolean
+}
+
+export interface CategoryGroup {
+  id: number
+  name: string
+  slug: string
+  count: number
+  queue: string
+  carousel: boolean
+  categories: Category[]
 }
 
 export interface Image {
@@ -24,6 +33,7 @@ export interface Product {
   description: string
   category_ids: number[] | null
   photo_ids: number[] | null
+  featured?: boolean
 }
 
 export interface ProductWithRelations extends Product {
@@ -37,19 +47,42 @@ export interface ProductSummary {
   slug: string
   price: number
   code: string
+  featured?: boolean
   description: string
   mainPhoto: Image | null
   categorySlugs: string[]
 }
 
 export class DataManager {
+  private flatCategories: Category[] | null = null
+
   constructor(
     private products: Product[],
-    private categories: Category[],
+    private categoryGroups: CategoryGroup[] | null,
     private images: Image[]
-  ) { }
+  ) {
+    if (categoryGroups) {
+      this.flatCategories = categoryGroups.flatMap(g => g.categories)
+    }
+  }
 
-  /** Retorna o produto puro (sem relações) */
+  getCategoryGroups(): CategoryGroup[] | null {
+    return this.categoryGroups
+  }
+
+  getSubcategoriesByGroupId(groupId: number): Category[] {
+    const grp = this.categoryGroups?.find(g => g.id === groupId)
+    return grp ? grp.categories : []
+  }
+
+  getAllCategories(): Category[] | null {
+    return this.flatCategories ?? null
+  }
+
+  getCategoriesByIds(ids: number[]): Category[] {
+    return this.flatCategories?.filter(c => ids.includes(c.id)) ?? []
+  }
+
   getProductById(id: number): Product | undefined {
     return this.products.find(p => p.id === id)
   }
@@ -58,23 +91,13 @@ export class DataManager {
     return this.products.find(p => p.slug === slug)
   }
 
-  /** Pega categorias pelo array de ids */
-  getCategoriesByIds(ids: number[]): Category[] {
-    return this.categories.filter(c => ids.includes(c.id))
-  }
-
-  /** Pega todas as imagens de um produto */
   getPhotosByProductId(productId: number): Image[] {
     return this.images.filter(img => img.product_id === productId)
   }
 
-  /**
-   * Monta um produto completo, com categorias e fotos
-   * @returns null se não encontrar
-   */
   getProductWithRelationsById(id: number): ProductWithRelations | null {
     const prod = this.getProductById(id)
-    if (!prod || prod.category_ids === null || prod.photo_ids === null) return null
+    if (!prod || !prod.category_ids) return null
     return {
       ...prod,
       categories: this.getCategoriesByIds(prod.category_ids),
@@ -87,10 +110,6 @@ export class DataManager {
     return prod ? this.getProductWithRelationsById(prod.id) : null
   }
 
-  /**
-   * Retorna um array com dados resumidos,
-   * ideal para listagem / página de produtos
-   */
   getAllProductsSummaries(): ProductSummary[] {
     return this.products.map(p => ({
       id: p.id,
@@ -98,9 +117,14 @@ export class DataManager {
       slug: p.slug,
       price: p.price,
       code: p.code,
+      featured: p.featured ?? false,
       description: p.description,
       mainPhoto: this.getPhotosByProductId(p.id)[0] || null,
       categorySlugs: this.getCategoriesByIds(p.category_ids ?? []).map(c => c.slug),
     }))
+  }
+
+  getFeaturedProducts(): ProductSummary[] {
+    return this.getAllProductsSummaries().filter(p => p.featured)
   }
 }

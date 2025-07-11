@@ -5,7 +5,7 @@ const ButtonContainer = styled.button`
   align-items: center;
   justify-content: center;
   width: 100%;
-  background-color: ${({ theme }) => theme.colors.primary};
+  background-color: ${({ theme }) => theme.colors.primaryLight};
   padding: 1.5rem;
   max-width: 412px;
   max-height: 3rem;
@@ -23,11 +23,12 @@ const ButtonContainer = styled.button`
   }
 
   &:hover {
-    background-color: ${({ theme }) => theme.colors.primaryLight};
+    background-color: ${({ theme }) => theme.colors.primary};
+    
   }
 
   &:active {
-    background-color: ${({ theme }) => theme.colors.primary};
+    background-color: ${({ theme }) => theme.colors.primaryLight};
   }
 `;
 

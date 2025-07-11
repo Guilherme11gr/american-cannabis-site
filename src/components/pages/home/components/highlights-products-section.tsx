@@ -6,6 +6,8 @@ import { useCarouselSlider } from '@/hooks/use-carousel-slider'
 import { toCurrency } from '@/utils/mask'
 import styled from '@emotion/styled'
 import 'keen-slider/keen-slider.min.css'
+import Image from 'next/image'
+import Link from 'next/link'
 
 const HighlightsProductsContainer = styled.div`
   width: 100%;
@@ -17,18 +19,17 @@ const HighlightsProductsContainer = styled.div`
   h4 {
     font-size: 1.5rem;
     font-weight: 800;
-    color: ${({ theme }) => theme.colors.primary};
+    color: ${({ theme }) => theme.colors.primaryLight};
     margin-bottom: 1rem;
   }
 
   ul {
     width: 100%;
     margin-top: 1rem;
-    /* o Keen controla o layout interno */
   }
 
   li {
-    flex: 0 0 auto; /* garante que cada slide tenha seu tamanho */
+    flex: 0 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,7 +37,7 @@ const HighlightsProductsContainer = styled.div`
     text-align: center;
     background-color: ${({ theme }) => theme.colors.background};
     color: ${({ theme }) => theme.colors.action};
-    padding: 32px 24px;
+    padding: 1rem 1rem;
     border-radius: 12px;
     max-width: 280px;
 
@@ -52,7 +53,14 @@ const HighlightsProductsContainer = styled.div`
       justify-content: center;
 
       h3 {
-        margin-top: 1rem;
+        margin-top: 0.5rem;
+        font-weight: 500;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;       /* número de linhas antes do “…” */
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-weight: 500;
       }
 
       h2 {
@@ -64,12 +72,12 @@ const HighlightsProductsContainer = styled.div`
     }
 
     button {
-      margin-top: 1rem;
+      margin-top: 0.5rem;
     }
 
     img {
-      height: 212px;
-      border-radius: 10px;
+      width: 100%;
+      border-radius: 12px;
       object-fit: cover;
     }
   }
@@ -97,12 +105,12 @@ export const HighlightsProductsSection: React.FC<{ featuredProducts: ProductSumm
       <ul ref={sliderRef} className="keen-slider">
         {featuredProducts.map((product, idx) => (
           <li className="keen-slider__slide" key={idx}>
-            <a href="">
-              <img src={`imgs/${product.mainPhoto?.image}`} alt={product.name} />
+            <Link href={`/products/${product.slug}`} className="product-link">
+              <Image src={`imgs/${product.mainPhoto?.image}`} width={277} height={277} alt={product.name} />
               <h3>{product.name}</h3>
               <h2>{toCurrency(product.price)}</h2>
-            </a>
-            <Button>Ver Detalhes</Button>
+              <Button>Ver Detalhes</Button>
+            </Link>
           </li>
         ))}
       </ul>
@@ -112,10 +120,13 @@ export const HighlightsProductsSection: React.FC<{ featuredProducts: ProductSumm
       )}
 
       <CtaButtonContainer>
-        <Button>
-          Ver todos os produtos
-          <img src="/imgs/arrow-right-svgrepo-com.svg" alt="" height={42} />
-        </Button>
+
+        <Link href={'/products'}>
+          <Button>
+            Ver todos os produtos
+            <img src="/imgs/arrow-right-svgrepo-com.svg" alt="" height={42} />
+          </Button>
+        </Link>
       </CtaButtonContainer>
     </HighlightsProductsContainer>
   )
