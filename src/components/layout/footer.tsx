@@ -77,13 +77,13 @@ export const Footer = () => {
       <SocialMediaContainer>
         <Link href={whatsUrl} target="_blank" rel="noopener noreferrer">
           <SocialMediaButton>
-            <Image src="/imgs/whatsapp-icon.svg" alt="Logo" width={32} height={32} />
+            <Image src="imgs/whatsapp-icon.svg" alt="Logo" width={32} height={32} />
             <span>Fale conosco</span>
           </SocialMediaButton>
         </Link>
         <Link href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
           <SocialMediaButton>
-            <Image src="/imgs/instagram-icon.svg" width={32} height={32} alt="Instagram" />
+            <Image src="imgs/instagram-icon.svg" width={32} height={32} alt="Instagram" />
             <span>@Instagram</span>
           </SocialMediaButton>
         </Link>

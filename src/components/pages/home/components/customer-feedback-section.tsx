@@ -61,7 +61,7 @@ const PhoneFrame = styled.div`
   width: 100%;
   max-width: 300px;
   aspect-ratio: 300 / 615;
-  background: url('/imgs/phone-template.svg') center/contain no-repeat;
+  background: url('imgs/phone-template.svg') center/contain no-repeat;
   overflow: hidden;
   padding: 2rem;
 `;
