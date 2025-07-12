@@ -5,7 +5,6 @@ import { useCarouselSlider } from "@/hooks/use-carousel-slider"
 import { useMediaQuery } from "@/hooks/use-media-query"
 import { toCurrency } from "@/utils/mask"
 import styled from "@emotion/styled"
-import 'keen-slider/keen-slider.min.css'
 import NextImage from "next/image"
 import DescriptionAccordion from "./description-accordeon"
 import Link from "next/link"
