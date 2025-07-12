@@ -24,7 +24,7 @@ export const globalStyles = css`
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
     background-color: #3c1663;
-    background-image: url('/background.svg');
+    background-image: url('background.svg');
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
