@@ -124,7 +124,7 @@ export const HighlightsProductsSection: React.FC<{ featuredProducts: ProductSumm
         <Link href={'/products'}>
           <Button>
             Ver todos os produtos
-            <img src="/imgs/arrow-right-svgrepo-com.svg" alt="" height={42} />
+            <img src="imgs/arrow-right-svgrepo-com.svg" alt="" height={42} />
           </Button>
         </Link>
       </CtaButtonContainer>

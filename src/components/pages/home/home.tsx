@@ -269,7 +269,7 @@ const AboutCompanyCard = styled.div`
       content: '';
       position: absolute;
       inset: 0;
-      background-image: url('/imgs/background-ilustracao-about-us.png');
+      background-image: url('imgs/background-ilustracao-about-us.png');
       background-repeat: repeat;
       background-size: 250%;
       opacity: 0.1;
@@ -299,14 +299,14 @@ export const HomePageComponent: React.FC<HomePageComponentProps> = ({ featured }
             <NextLink href={'products'} style={{ width: '100%' }}>
               <Button>
                 Confira nossos produtos
-                <Image src="/imgs/arrow-right-svgrepo-com.svg" alt="" height={42} width={42} />
+                <Image src="imgs/arrow-right-svgrepo-com.svg" alt="" height={42} width={42} />
               </Button>
             </NextLink>
           </CTAButtonContainer>
         </TitleContainer>
         <GummyImageContainer>
           <Image
-            src="/imgs/gummy-home.png"
+            src="imgs/gummy-home.png"
             alt="Gummy Bear"
             width={300}
             height={300}
@@ -318,19 +318,19 @@ export const HomePageComponent: React.FC<HomePageComponentProps> = ({ featured }
         <ul>
           <li>
             <NextLink href="products?group=descartaveis">
-              <img src="/imgs/categories-pods.png" alt="Categoria Pods" />
+              <img src="imgs/categories-pods.png" alt="Categoria Pods" />
               <h3>Pods</h3>
             </NextLink>
           </li>
           <li>
             <NextLink href="products?group=refil">
-              <img src="/imgs/categories-refil.png" alt="Categoria Refil" />
+              <img src="imgs/categories-refil.png" alt="Categoria Refil" />
               <h3>Refil</h3>
             </NextLink>
           </li>
           <li>
             <NextLink href="products?group=gummy">
-              <img src="/imgs/categories-gummy.png" alt="Categoria Gummy" />
+              <img src="imgs/categories-gummy.png" alt="Categoria Gummy" />
               <h3>Gummy</h3>
             </NextLink>
           </li>
@@ -348,7 +348,7 @@ export const HomePageComponent: React.FC<HomePageComponentProps> = ({ featured }
             <br />
             <p>Com logística ágil e transparente, entregamos para todo o Brasil, garantindo a melhor experiência de compra e suporte dedicado.</p>
           </div>
-          <img src="/imgs/ilustracao-sobre-nos.png" alt="Sobre a empresa" />
+          <img src="imgs/ilustracao-sobre-nos.png" alt="Sobre a empresa" />
         </AboutCompanyCard>
       </AboutCompanyContainer>
 

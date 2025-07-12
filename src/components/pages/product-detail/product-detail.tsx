@@ -188,7 +188,7 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({ images, pr
           {images.map((img) => (
             <li key={img.id} className="keen-slider__slide">
               <NextImage
-                src={`/imgs/${img.image ?? '/sys/not-found.jpg'}`}
+                src={`imgs/${img.image ?? '/sys/not-found.jpg'}`}
                 alt={img.image}
                 width={480}
                 height={480}
@@ -215,27 +215,27 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({ images, pr
         <Link href={whatsappUrl} target="_blank" rel="noopener noreferrer" style={{ width: '100%' }}>
           <Button>
             Comprar agora
-            <NextImage src="/imgs/arrow-right-svgrepo-com.svg" alt="" height={42} width={42} />
+            <NextImage src="imgs/arrow-right-svgrepo-com.svg" alt="" height={42} width={42} />
           </Button>
         </Link>
 
         <WarningList>
           <li>
-            <NextImage src="/imgs/sys/check-accent-primary.svg" alt="aviso" width={28} height={28} />
+            <NextImage src="imgs/sys/check-accent-primary.svg" alt="aviso" width={28} height={28} />
             <span>
               Nossos itens podem conter diferentes concentrações de THC e/ou CBD,
               todas devidamente testadas em laboratório.
             </span>
           </li>
           <li>
-            <NextImage src="/imgs/sys/check-accent-primary.svg" alt="aviso" width={28} height={28} />
+            <NextImage src="imgs/sys/check-accent-primary.svg" alt="aviso" width={28} height={28} />
             <span>
               A confirmação e finalização do seu pedido são feitas via WhatsApp,
               garantindo agilidade, segurança e um atendimento personalizado.
             </span>
           </li>
           <li>
-            <NextImage src="/imgs/sys/check-accent-primary.svg" alt="aviso" width={28} height={28} />
+            <NextImage src="imgs/sys/check-accent-primary.svg" alt="aviso" width={28} height={28} />
 
             <span>
               Caso o produto desejado esteja temporariamente fora de estoque,
@@ -247,15 +247,15 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({ images, pr
         <SecurityInfoContainer>
           <ul>
             <li>
-              <NextImage src="/imgs/sys/security.svg" alt="segurança" width={28} height={28} />
+              <NextImage src="imgs/sys/security.svg" alt="segurança" width={28} height={28} />
               <span><strong>100%</strong> seguro</span>
             </li>
             <li>
-              <NextImage src="/imgs/sys/lab-test.svg" alt="segurança" width={28} height={28} />
+              <NextImage src="imgs/sys/lab-test.svg" alt="segurança" width={28} height={28} />
               <span>Testado em <strong>laboratório</strong></span>
             </li>
             <li>
-              <NextImage src="/imgs/sys/whatsapp-primary.svg" alt="segurança" width={28} height={28} />
+              <NextImage src="imgs/sys/whatsapp-primary.svg" alt="segurança" width={28} height={28} />
               <span>Pagamento via <strong>Whatsapp</strong></span>
             </li>
           </ul>
