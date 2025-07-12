@@ -1,0 +1,1119 @@
+[
+  {
+    "id": 24,
+    "code": "hhp2i",
+    "name": "Hidden Hills 2ml PlugPlay Delta 9 Thc A / P / M - Indica",
+    "slug": "hidden-hills-2ml-plugplay-delta-9-thc-a-p-m-indica",
+    "description": "___________________________rnrn___________________________rnrnINDICA rnrnPredominante Físico rnAlívio Sedativo rnRelaxante (Baixa Estresse Mental)rnRelaxante Muscular rnReduz dores Agudas rnReduz Náuseas rnAumenta Apetite rnAumenta Dopamina rnAlivia Enxaqueca",
+    "price": 300.0,
+    "stock": 100,
+    "status": 0,
+    "created_at": "2024-09-26 04:25:55",
+    "updated_at": "2024-10-05 04:47:01",
+    "categories": [
+      {
+        "id": 5,
+        "name": "Hidden Hills",
+        "slug": "hidden-hills"
+      },
+      {
+        "id": 17,
+        "name": "Indica",
+        "slug": "indica"
+      },
+      {
+        "id": 20,
+        "name": "Descartáveis",
+        "slug": "descartaveis"
+      }
+    ],
+    "images": [],
+    "avaliations": [],
+    "favorites": [],
+    "comments": []
+  },
+  {
+    "id": 25,
+    "code": "hhp2s",
+    "name": "Hidden Hills 2ml PlugPlay Delta 9 Thc A / P / M - Sativa",
+    "slug": "hidden-hills-2ml-plugplay-delta-9-thc-a-p-m-sativa",
+    "description": "___________________________rnrnSATIVArnrnPredominante Mental rnAntiansiedade rnAntidepressivo rnInstigante (Criatividade a Reflexões)rnFelicidade/Espiritualidade rnAumenta o FocornAumenta a Energia rnAumenta Criatividade rnAjuda o Sistema Imunológico",
+    "price": 300.0,
+    "stock": 100,
+    "status": 0,
+    "created_at": "2024-09-26 04:25:55",
+    "updated_at": "2024-10-05 04:47:26",
+    "categories": [
+      {
+        "id": 5,
+        "name": "Hidden Hills",
+        "slug": "hidden-hills"
+      },
+      {
+        "id": 16,
+        "name": "Sativa",
+        "slug": "sativa"
+      },
+      {
+        "id": 20,
+        "name": "Descartáveis",
+        "slug": "descartaveis"
+      }
+    ],
+    "images": [],
+    "avaliations": [],
+    "favorites": [],
+    "comments": []
+  },
+  {
+    "id": 26,
+    "code": "hhr2h",
+    "name": "Hidden Hills 2ml Refil Delta 9 Thc A / B / H /P / X - Hibrida",
+    "slug": "hidden-hills-2ml-refil-delta-9-thc-a-b-h-p-x-hibrida",
+    "description": "Fire Fire Fire Blend utiliza canabinóides e processos de mistura de última geração para fornecer uma experiência delta totalmente nova. Os três principais canabinóides perfilados são Delta-11, Delta-9 THC e THC-P Blend.rnrnHidden Hills Club Triple Fire Blend Live Resin 510 cartuchos 2 gramasrnCanabinóides: Delta-11 | Delta-9 THC | THCPrnPerfeito para uso em trânsitornUSB C recarregável.rnBobina de cerâmica aprimorada: Apresentando uma bobina de cerâmica nova e aprimorada com vaporização mais rápida, fluxo de ar aprimorado e um design maior que evita entupimento e acúmulo de resíduos líquidos, ao mesmo tempo que proporciona um sabor limpo e suave.rnNovas câmaras de canal de ar duplo: Apresentando câmaras de ar duplas, o dispositivo inclui uma câmara atomizadora primária e uma câmara acionada por sensor que evita entupimento e vazamento ao liquefazer o óleo endurecido e manter a câmara primária limpa.rnOperação com botão únicornUSB C recarregável.rnPerfil de Sabor/EstirpernCherry Splash – HíbridornLimeade Palmer – SativarnMelão Mojito – HíbridornZnapple Rosa – HíbridornPalha Candyland – HíbridornVerde Dream OG – IndicarnUso sugeridornComece com 1 ou 2 acertosrnAumente a dosagem para alcançar os efeitos desejadosrnCertificado de AnálisernRespingo de cerejarnLimeade PalmerrnMelão MojitornMaçã RosarnPalha CandylandrnVerde Dream OGrnrn___________________________rnrnHIBRIDA rnrnÉ composta de 50% Sativa e 50% Indica.rnrn___________________________rnrnSATIVArnrnPredominante Mental rnAntiansiedade rnAntidepressivo rnInstigante (Criatividade a Reflexões)rnFelicidade/Espiritualidade rnAumenta o FocornAumenta a Energia rnAumenta Criatividade rnAjuda o Sistema Imunológicorn___________________________rnrnINDICA rnrnPredominante Físico rnAlívio Sedativo rnRelaxante (Baixa Estresse Mental)rnRelaxante Muscular rnReduz dores Agudas rnReduz Náuseas rnAumenta Apetite rnAumenta Dopamina rnAlivia Enxaqueca",
+    "price": 300.0,
+    "stock": 100,
+    "status": 1,
+    "created_at": "2024-09-26 04:25:55",
+    "updated_at": "2024-10-10 18:29:50",
+    "categories": [
+      {
+        "id": 5,
+        "name": "Hidden Hills",
+        "slug": "hidden-hills"
+      },
+      {
+        "id": 18,
+        "name": "Hibrida",
+        "slug": "hibrida"
+      },
+      {
+        "id": 21,
+        "name": "Refil",
+        "slug": "refil"
+      }
+    ],
+    "images": [
+      "products/hidden-hills-2ml-refil-delta-9-thc-a-b-h-p-x-hibrida-1-1728101025.png",
+      "products/hidden-hills-2ml-refil-delta-9-thc-a-b-h-p-x-hibrida-2-1728101025.png",
+      "products/hidden-hills-2ml-refil-delta-9-thc-a-b-h-p-x-hibrida-3-1728584990.jpg"
+    ],
+    "avaliations": [],
+    "favorites": [],
+    "comments": []
+  },
+  {
+    "id": 27,
+    "code": "hhr2i",
+    "name": "Hidden Hills 2ml Refil Delta 9 Thc A / B / H /P / X - Indica",
+    "slug": "hidden-hills-2ml-refil-delta-9-thc-a-b-h-p-x-indica",
+    "description": "Fire Fire Fire Blend utiliza canabinóides e processos de mistura de última geração para fornecer uma experiência delta totalmente nova. Os três principais canabinóides perfilados são Delta-11, Delta-9 THC e THC-P Blend.rnrnHidden Hills Club Triple Fire Blend Live Resin 510 cartuchos 2 gramasrnCanabinóides: Delta-11 | Delta-9 THC | THCPrnPerfeito para uso em trânsitornUSB C recarregável.rnBobina de cerâmica aprimorada: Apresentando uma bobina de cerâmica nova e aprimorada com vaporização mais rápida, fluxo de ar aprimorado e um design maior que evita entupimento e acúmulo de resíduos líquidos, ao mesmo tempo que proporciona um sabor limpo e suave.rnNovas câmaras de canal de ar duplo: Apresentando câmaras de ar duplas, o dispositivo inclui uma câmara atomizadora primária e uma câmara acionada por sensor que evita entupimento e vazamento ao liquefazer o óleo endurecido e manter a câmara primária limpa.rnOperação com botão únicornUSB C recarregável.rnPerfil de Sabor/EstirpernCherry Splash – HíbridornLimeade Palmer – SativarnMelão Mojito – HíbridornZnapple Rosa – HíbridornPalha Candyland – HíbridornVerde Dream OG – IndicarnUso sugeridornComece com 1 ou 2 acertosrnAumente a dosagem para alcançar os efeitos desejadosrnCertificado de AnálisernRespingo de cerejarnLimeade PalmerrnMelão MojitornMaçã RosarnPalha CandylandrnVerde Dream OGrnrn___________________________rnrnINDICA rnrnPredominante Físico rnAlívio Sedativo rnRelaxante (Baixa Estresse Mental)rnRelaxante Muscular rnReduz dores Agudas rnReduz Náuseas rnAumenta Apetite rnAumenta Dopamina rnAlivia Enxaqueca",
+    "price": 300.0,
+    "stock": 100,
+    "status": 1,
+    "created_at": "2024-09-26 04:25:55",
+    "updated_at": "2024-10-05 05:13:29",
+    "categories": [
+      {
+        "id": 5,
+        "name": "Hidden Hills",
+        "slug": "hidden-hills"
+      },
+      {
+        "id": 17,
+        "name": "Indica",
+        "slug": "indica"
+      },
+      {
+        "id": 21,
+        "name": "Refil",
+        "slug": "refil"
+      }
+    ],
+    "images": [
+      "products/hidden-hills-2ml-refil-delta-9-thc-a-b-h-p-x-indica-1-1728101537.png",
+      "products/hidden-hills-2ml-refil-delta-9-thc-a-b-h-p-x-indica-2-1728101537.png"
+    ],
+    "avaliations": [],
+    "favorites": [],
+    "comments": []
+  },
+  {
+    "id": 28,
+    "code": "hhr2s",
+    "name": "Hidden Hills 2ml Refil Delta 9 Thc A / B / H /P / X - Sativa",
+    "slug": "hidden-hills-2ml-refil-delta-9-thc-a-b-h-p-x-sativa",
+    "description": "___________________________rnrnSATIVArnrnPredominante Mental rnAntiansiedade rnAntidepressivo rnInstigante (Criatividade a Reflexões)rnFelicidade/Espiritualidade rnAumenta o FocornAumenta a Energia rnAumenta Criatividade rnAjuda o Sistema Imunológico",
+    "price": 300.0,
+    "stock": 100,
+    "status": 1,
+    "created_at": "2024-09-26 04:25:55",
+    "updated_at": "2024-10-10 18:32:21",
+    "categories": [
+      {
+        "id": 5,
+        "name": "Hidden Hills",
+        "slug": "hidden-hills"
+      },
+      {
+        "id": 16,
+        "name": "Sativa",
+        "slug": "sativa"
+      },
+      {
+        "id": 21,
+        "name": "Refil",
+        "slug": "refil"
+      }
+    ],
+    "images": [
+      "products/hidden-hills-2ml-refil-delta-9-thc-a-b-h-p-x-sativa-1-1728101414.png",
+      "products/hidden-hills-2ml-refil-delta-9-thc-a-b-h-p-x-sativa-2-1728101414.png",
+      "products/hidden-hills-2ml-refil-delta-9-thc-a-b-h-p-x-sativa-3-1728585141.jpg"
+    ],
+    "avaliations": [],
+    "favorites": [],
+    "comments": []
+  },
+  {
+    "id": 29,
+    "code": "sn3h",
+    "name": "Snoop Dogg 3.5ml Delta 9 / 10 Thc - Hibrida",
+    "slug": "snoop-dogg-3ml-delta-9-10-thc-hibrida",
+    "description": "Apresentando o vaporizador descartável Death Row Records Signature Blend THC-A 3,5ml, endossado por Snoop Dogg e Death Row Records, este descartável é uma solução de ponta para amadores que procuram uma experiência vaping premium. Contendo Delta 8, THCP e THC-A, esta mistura exclusiva encapsula a essência da inovação no mundo dos produtos canabinóides.rnrnrnInformações do produtornVaporizador descartável recarregável de 3,5 gramas / 3500 mg feito de Delta 8, THCP e THC-Arnrn___________________________rnrnHIBRIDA rnrnÉ composta de 50% Sativa e 50% Indica.rnrn___________________________rnrnSATIVArnrnPredominante Mental rnAntiansiedade rnAntidepressivo rnInstigante (Criatividade a Reflexões)rnFelicidade/Espiritualidade rnAumenta o FocornAumenta a Energia rnAumenta Criatividade rnAjuda o Sistema Imunológicorn___________________________rnrnINDICA rnrnPredominante Físico rnAlívio Sedativo rnRelaxante (Baixa Estresse Mental)rnRelaxante Muscular rnReduz dores Agudas rnReduz Náuseas rnAumenta Apetite rnAumenta Dopamina rnAlivia Enxaqueca",
+    "price": 300.0,
+    "stock": 100,
+    "status": 1,
+    "created_at": "2024-09-26 04:25:55",
+    "updated_at": "2024-10-09 21:27:16",
+    "categories": [
+      {
+        "id": 6,
+        "name": "Snoop Dog",
+        "slug": "snoop-dog"
+      },
+      {
+        "id": 18,
+        "name": "Hibrida",
+        "slug": "hibrida"
+      },
+      {
+        "id": 20,
+        "name": "Descartáveis",
+        "slug": "descartaveis"
+      }
+    ],
+    "images": [
+      "products/snoop-dogg-3ml-delta-9-10-thc-hibrida-1-1728339849.png",
+      "products/snoop-dogg-3ml-delta-9-10-thc-hibrida-2-1728339849.jpg",
+      "products/snoop-dogg-3ml-delta-9-10-thc-hibrida-3-1728339849.jpg",
+      "products/snoop-dogg-3ml-delta-9-10-thc-hibrida-4-1728509236.jpg"
+    ],
+    "avaliations": [],
+    "favorites": [],
+    "comments": []
+  },
+  {
+    "id": 30,
+    "code": "sn3i",
+    "name": "Snoop Dogg 3.5ml Delta 9 / 10 Thc - Indica",
+    "slug": "snoop-dogg-3ml-delta-9-10-thc-indica",
+    "description": "Apresentando o vaporizador descartável Death Row Records Signature Blend THC-A 3,5ml, endossado por Snoop Dogg e Death Row Records, este descartável é uma solução de ponta para amadores que procuram uma experiência vaping premium. Contendo Delta 8, THCP e THC-A, esta mistura exclusiva encapsula a essência da inovação no mundo dos produtos canabinóides.rnrnrnInformações do produtornVaporizador descartável recarregável de 3,5 gramas / 3500 mg feito de Delta 8, THCP e THC-Arnrn___________________________rnrnINDICA rnrnPredominante Físico rnAlívio Sedativo rnRelaxante (Baixa Estresse Mental)rnRelaxante Muscular rnReduz dores Agudas rnReduz Náuseas rnAumenta Apetite rnAumenta Dopamina rnAlivia Enxaqueca",
+    "price": 300.0,
+    "stock": 100,
+    "status": 1,
+    "created_at": "2024-09-26 04:25:55",
+    "updated_at": "2024-10-10 18:46:26",
+    "categories": [
+      {
+        "id": 6,
+        "name": "Snoop Dog",
+        "slug": "snoop-dog"
+      },
+      {
+        "id": 17,
+        "name": "Indica",
+        "slug": "indica"
+      },
+      {
+        "id": 20,
+        "name": "Descartáveis",
+        "slug": "descartaveis"
+      }
+    ],
+    "images": [
+      "products/snoop-dogg-3ml-delta-9-10-thc-indica-1-1728339934.png",
+      "products/snoop-dogg-3ml-delta-9-10-thc-indica-2-1728339934.jpg",
+      "products/snoop-dogg-3ml-delta-9-10-thc-indica-3-1728339934.jpg",
+      "products/snoop-dogg-3ml-delta-9-10-thc-indica-4-1728585986.jpg"
+    ],
+    "avaliations": [],
+    "favorites": [],
+    "comments": []
+  },
+  {
+    "id": 31,
+    "code": "sn3s",
+    "name": "Snoop Dogg 3.5ml Delta 9 / 10 Thc - Sativa",
+    "slug": "snoop-dogg-3ml-delta-9-10-thc-sativa",
+    "description": "Apresentando o vaporizador descartável Death Row Records Signature Blend THC-A 3,5ml, endossado por Snoop Dogg e Death Row Records, este descartável é uma solução de ponta para amadores que procuram uma experiência vaping premium. Contendo Delta 8, THCP e THC-A, esta mistura exclusiva encapsula a essência da inovação no mundo dos produtos canabinóides.rnrnrnInformações do produtornVaporizador descartável recarregável de 3,5 gramas / 3500 mg feito de Delta 8, THCP e THC-Arnrn___________________________rnrnSATIVArnrnPredominante Mental rnAntiansiedade rnAntidepressivo rnInstigante (Criatividade a Reflexões)rnFelicidade/Espiritualidade rnAumenta o FocornAumenta a Energia rnAumenta Criatividade rnAjuda o Sistema Imunológico",
+    "price": 300.0,
+    "stock": 100,
+    "status": 1,
+    "created_at": "2024-09-26 04:25:55",
+    "updated_at": "2024-10-10 18:47:26",
+    "categories": [
+      {
+        "id": 6,
+        "name": "Snoop Dog",
+        "slug": "snoop-dog"
+      },
+      {
+        "id": 16,
+        "name": "Sativa",
+        "slug": "sativa"
+      },
+      {
+        "id": 20,
+        "name": "Descartáveis",
+        "slug": "descartaveis"
+      }
+    ],
+    "images": [
+      "products/snoop-dogg-3ml-delta-9-10-thc-sativa-1-1728340050.png",
+      "products/snoop-dogg-3ml-delta-9-10-thc-sativa-2-1728340050.jpg",
+      "products/snoop-dogg-3ml-delta-9-10-thc-sativa-4-1728509475.jpg"
+    ],
+    "avaliations": [],
+    "favorites": [],
+    "comments": []
+  },
+  {
+    "id": 32,
+    "code": "p6h",
+    "name": "Pressure L.A 6ml Delta 9 Thc A / P - Hibrida",
+    "slug": "pressure-6ml-delta-9-thc-a-p-hibrida",
+    "description": "HomeProdutosPressure LA Live Resin THC-A Descartável | 6grnrn6 gramas por dispositivornVisor LEDrnControle de tensão e carregamento USB-CrnMistura Potente de Óleo Infundido de Resina Viva THC-ArnSaborrnrnEscolha uma opçãornMenos Quantidadern-rnPressão LA Live Resin THC-A descartável | Quantidade de 6grn1rnMais quantidadernrnMarca: Pressão LArnrnMelhor qualidade disponívelrnrnGarantia de qualidadernrnDescriçãornPontos de fidelidadernResina viva de pressão THC-A descartável | 6grnO Pressure Live Resin THC-A descartável é o seu ingresso para uma experiência de vaporização de próximo nível. Com robustos 6 gramas por dispositivo, esta potência está equipada com um display LED, permitindo que você acompanhe sua sessão com facilidade. Embalado com óleo infundido de resina viva THC-A, cada baforada oferece um golpe potente e saboroso que certamente impressionará. Além disso, com controle de tensão e carregamento USB-C, você terá controle total sobre sua experiência de vaporização.rnrnObtenha mais retorno do seu investimento com Pressure Live Resin THC-A descartável. Cada dispositivo é carregado com generosos 6 gramas de produtos premium, garantindo prazer duradouro e potência máxima. Mantenha o controle da sua sessão com o display LED integrado. Monitore facilmente suas estatísticas e configurações de vaporização para uma experiência personalizada de acordo com suas preferências.rnrnMergulhe em um mundo de sabor e potência com Pressure Live Resin THC-A Descartável. Infundido com óleo Live Resin THC-A, cada dose oferece um efeito poderoso e saboroso que certamente satisfará até os mais exigentes entusiastas do cânhamo. Ajuste a voltagem de acordo com suas preferências e mantenha seu dispositivo ligado e pronto para uso com o conveniente carregamento USB-C.rnrnCepas descartáveis ​​de resina viva de pressão THC-ArnCandy Runtz (híbrido): Mime-se com os deliciosos sabores de Candy Runtz. Esta variedade híbrida oferece um efeito equilibrado que é perfeito para melhorar o humor e a criatividade.rnCherry Crush (Híbrido): Prepare-se para uma explosão de delícias frutadas com Cherry Crush. Esta variedade híbrida proporciona uma euforia que certamente levantará seu ânimo.rnrnInformações adicionais sobre o produtornDispositivo 6000 mgrnFunção de pré-aquecimentorn5 cliques ativados / 5 cliques desativadosrnCompatível com Farm Bill 2018 contendo menos de 0,3% de Delta-9rnrn___________________________rnrnHIBRIDA rnrnÉ composta de 50% Sativa e 50% Indica.rnrn___________________________rnrnSATIVArnrnPredominante Mental rnAntiansiedade rnAntidepressivo rnInstigante (Criatividade a Reflexões)rnFelicidade/Espiritualidade rnAumenta o FocornAumenta a Energia rnAumenta Criatividade rnAjuda o Sistema Imunológicorn___________________________rnrnINDICA rnrnPredominante Físico rnAlívio Sedativo rnRelaxante (Baixa Estresse Mental)rnRelaxante Muscular rnReduz dores Agudas rnReduz Náuseas rnAumenta Apetite rnAumenta Dopamina rnAlivia Enxaqueca",
+    "price": 300.0,
+    "stock": 100,
+    "status": 1,
+    "created_at": "2024-09-26 04:25:55",
+    "updated_at": "2024-10-06 00:03:52",
+    "categories": [
+      {
+        "id": 11,
+        "name": "Pressure",
+        "slug": "pressure"
+      },
+      {
+        "id": 18,
+        "name": "Hibrida",
+        "slug": "hibrida"
+      },
+      {
+        "id": 20,
+        "name": "Descartáveis",
+        "slug": "descartaveis"
+      }
+    ],
+    "images": [
+      "products/pressure-6ml-delta-9-thc-a-p-hibrida-1-1728169432.png",
+      "products/pressure-6ml-delta-9-thc-a-p-hibrida-2-1728169432.webp",
+      "products/pressure-6ml-delta-9-thc-a-p-hibrida-3-1728169432.jpg"
+    ],
+    "avaliations": [],
+    "favorites": [],
+    "comments": []
+  },
+  {
+    "id": 33,
+    "code": "p6i",
+    "name": "Pressure L.A 6ml Delta 9 Thc A / P - Indica",
+    "slug": "pressure-6ml-delta-9-thc-a-p-indica",
+    "description": "HomeProdutosPressure LA Live Resin THC-A Descartável | 6grnrn6 gramas por dispositivornVisor LEDrnControle de tensão e carregamento USB-CrnMistura Potente de Óleo Infundido de Resina Viva THC-ArnSaborrnrnEscolha uma opçãornMenos Quantidadern-rnPressão LA Live Resin THC-A descartável | Quantidade de 6grn1rnMais quantidadernrnMarca: Pressão LArnrnMelhor qualidade disponívelrnrnGarantia de qualidadernrnDescriçãornPontos de fidelidadernResina viva de pressão THC-A descartável | 6grnO Pressure Live Resin THC-A descartável é o seu ingresso para uma experiência de vaporização de próximo nível. Com robustos 6 gramas por dispositivo, esta potência está equipada com um display LED, permitindo que você acompanhe sua sessão com facilidade. Embalado com óleo infundido de resina viva THC-A, cada baforada oferece um golpe potente e saboroso que certamente impressionará. Além disso, com controle de tensão e carregamento USB-C, você terá controle total sobre sua experiência de vaporização.rnrnObtenha mais retorno do seu investimento com Pressure Live Resin THC-A descartável. Cada dispositivo é carregado com generosos 6 gramas de produtos premium, garantindo prazer duradouro e potência máxima. Mantenha o controle da sua sessão com o display LED integrado. Monitore facilmente suas estatísticas e configurações de vaporização para uma experiência personalizada de acordo com suas preferências.rnrnMergulhe em um mundo de sabor e potência com Pressure Live Resin THC-A Descartável. Infundido com óleo Live Resin THC-A, cada dose oferece um efeito poderoso e saboroso que certamente satisfará até os mais exigentes entusiastas do cânhamo. Ajuste a voltagem de acordo com suas preferências e mantenha seu dispositivo ligado e pronto para uso com o conveniente carregamento USB-C.rnrnCepas descartáveis ​​de resina viva de pressão THC-ArnApple Zoap (Indica): Delicie-se com os sabores doces e frutados do Apple Zoap. Esta variedade indica oferece um efeito relaxante e sedativo, perfeito para relaxar após um longo dia.rnBlue Cookies (Indica): Mergulhe no abraço calmante dos Blue Cookies. Esta cepa indica é conhecida por seus efeitos tranquilizantes e perfil de sabor doce e terroso.rnJelly Donut (Indica): Mime-se com o Jelly Donut. Esta variedade indica oferece um efeito relaxante e eufórico, perfeito para relaxar no final do dia.rnTiramisu (Indica): Mime-se com os sabores ricos e decadentes do Tiramisu. Esta variedade indica oferece um efeito relaxante e sedativo, perfeito para relaxar e cuidar de si mesmo.rnInformações adicionais sobre o produtornDispositivo 6000 mgrnFunção de pré-aquecimentorn5 cliques ativados / 5 cliques desativadosrnCompatível com Farm Bill 2018 contendo menos de 0,3% de Delta-9rnrn___________________________rnrnINDICA rnrnPredominante Físico rnAlívio Sedativo rnRelaxante (Baixa Estresse Mental)rnRelaxante Muscular rnReduz dores Agudas rnReduz Náuseas rnAumenta Apetite rnAumenta Dopamina rnAlivia Enxaqueca",
+    "price": 300.0,
+    "stock": 100,
+    "status": 1,
+    "created_at": "2024-09-26 04:25:55",
+    "updated_at": "2024-10-06 00:01:36",
+    "categories": [
+      {
+        "id": 11,
+        "name": "Pressure",
+        "slug": "pressure"
+      },
+      {
+        "id": 17,
+        "name": "Indica",
+        "slug": "indica"
+      },
+      {
+        "id": 20,
+        "name": "Descartáveis",
+        "slug": "descartaveis"
+      }
+    ],
+    "images": [
+      "products/pressure-6ml-delta-9-thc-a-p-indica-1-1728168891.png",
+      "products/pressure-6ml-delta-9-thc-a-p-indica-2-1728168891.jpg",
+      "products/pressure-6ml-delta-9-thc-a-p-indica-3-1728168891.webp"
+    ],
+    "avaliations": [],
+    "favorites": [],
+    "comments": []
+  },
+  {
+    "id": 34,
+    "code": "p6s",
+    "name": "Pressure L.A 6ml Delta 9 Thc A / P - Sativa",
+    "slug": "pressure-6ml-delta-9-thc-a-p-sativa",
+    "description": "HomeProdutosPressure LA Live Resin THC-A Descartável | 6grnrn6 gramas por dispositivornVisor LEDrnControle de tensão e carregamento USB-CrnMistura Potente de Óleo Infundido de Resina Viva THC-ArnSaborrnrnEscolha uma opçãornMenos Quantidadern-rnPressão LA Live Resin THC-A descartável | Quantidade de 6grn1rnMais quantidadernrnMarca: Pressão LArnrnMelhor qualidade disponívelrnrnGarantia de qualidadernrnDescriçãornPontos de fidelidadernResina viva de pressão THC-A descartável | 6grnO Pressure Live Resin THC-A descartável é o seu ingresso para uma experiência de vaporização de próximo nível. Com robustos 6 gramas por dispositivo, esta potência está equipada com um display LED, permitindo que você acompanhe sua sessão com facilidade. Embalado com óleo infundido de resina viva THC-A, cada baforada oferece um golpe potente e saboroso que certamente impressionará. Além disso, com controle de tensão e carregamento USB-C, você terá controle total sobre sua experiência de vaporização.rnrnObtenha mais retorno do seu investimento com Pressure Live Resin THC-A descartável. Cada dispositivo é carregado com generosos 6 gramas de produtos premium, garantindo prazer duradouro e potência máxima. Mantenha o controle da sua sessão com o display LED integrado. Monitore facilmente suas estatísticas e configurações de vaporização para uma experiência personalizada de acordo com suas preferências.rnrnMergulhe em um mundo de sabor e potência com Pressure Live Resin THC-A Descartável. Infundido com óleo Live Resin THC-A, cada dose oferece um efeito poderoso e saboroso que certamente satisfará até os mais exigentes entusiastas do cânhamo. Ajuste a voltagem de acordo com suas preferências e mantenha seu dispositivo ligado e pronto para uso com o conveniente carregamento USB-C.rnrnCepas descartáveis ​​de resina viva de pressão THC-ArnrnLemon Bubble (Sativa): Energize-se com Lemon Bubble. Esta variedade sativa oferece um efeito edificante e revigorante, perfeito para se manter produtivo e concentrado.rnMessi OG (Sativa): Canalize seu campeão interior com Messi OG. Esta variedade sativa oferece um efeito motivacional perfeito para enfrentar qualquer desafio que surgir em seu caminho.rnOrange Diesel (Sativa): Alimente sua criatividade com Orange Diesel. Esta variedade sativa oferece um efeito cerebral perfeito para despertar a inspiração e fazer fluir a criatividade.rnMarshmallow de Morango (Sativa): Delicie-se com os sabores doces e frutados do Marshmallow de Morango. Oferece um efeito edificante e eufórico, perfeito para socializar e desfrutar de bons momentos com os amigos.rnrnInformações adicionais sobre o produtornDispositivo 6000 mgrnFunção de pré-aquecimentorn5 cliques ativados / 5 cliques desativadosrnCompatível com Farm Bill 2018 contendo menos de 0,3% de Delta-9rnrn___________________________rnrnSATIVArnrnPredominante Mental rnAntiansiedade rnAntidepressivo rnInstigante (Criatividade a Reflexões)rnFelicidade/Espiritualidade rnAumenta o FocornAumenta a Energia rnAumenta Criatividade rnAjuda o Sistema Imunológico",
+    "price": 300.0,
+    "stock": 100,
+    "status": 1,
+    "created_at": "2024-09-26 04:25:55",
+    "updated_at": "2024-10-06 00:06:26",
+    "categories": [
+      {
+        "id": 11,
+        "name": "Pressure",
+        "slug": "pressure"
+      },
+      {
+        "id": 16,
+        "name": "Sativa",
+        "slug": "sativa"
+      },
+      {
+        "id": 20,
+        "name": "Descartáveis",
+        "slug": "descartaveis"
+      }
+    ],
+    "images": [
+      "products/pressure-6ml-delta-9-thc-a-p-sativa-1-1728168659.jpg",
+      "products/pressure-6ml-delta-9-thc-a-p-sativa-2-1728168659.png",
+      "products/pressure-6ml-delta-9-thc-a-p-sativa-3-1728168659.webp",
+      "products/pressure-6ml-delta-9-thc-a-p-sativa-4-1728168659.jpg"
+    ],
+    "avaliations": [],
+    "favorites": [],
+    "comments": []
+  },
+  {
+    "id": 35,
+    "code": "th2h",
+    "name": "Tree House 2ml Delta 8 / 9 / 10 Thc A - Hibrida",
+    "slug": "tre-house-2ml-delta-8-9-10-thc-a-hibrida",
+    "description": "___________________________rnrnHIBRIDA rnrnÉ composta de 50% Sativa e 50% Indica.rnrn___________________________rnrnSATIVArnrnPredominante Mental rnAntiansiedade rnAntidepressivo rnInstigante (Criatividade a Reflexões)rnFelicidade/Espiritualidade rnAumenta o FocornAumenta a Energia rnAumenta Criatividade rnAjuda o Sistema Imunológicorn___________________________rnrnINDICA rnrnPredominante Físico rnAlívio Sedativo rnRelaxante (Baixa Estresse Mental)rnRelaxante Muscular rnReduz dores Agudas rnReduz Náuseas rnAumenta Apetite rnAumenta Dopamina rnAlivia Enxaqueca",
+    "price": 300.0,
+    "stock": 100,
+    "status": 1,
+    "created_at": "2024-09-26 04:25:55",
+    "updated_at": "2024-09-26 08:54:23",
+    "categories": [
+      {
+        "id": 27,
+        "name": "Tree House",
+        "slug": "tree-house"
+      },
+      {
+        "id": 18,
+        "name": "Hibrida",
+        "slug": "hibrida"
+      },
+      {
+        "id": 20,
+        "name": "Descartáveis",
+        "slug": "descartaveis"
+      }
+    ],
+    "images": [],
+    "avaliations": [],
+    "favorites": [],
+    "comments": []
+  },
+  {
+    "id": 36,
+    "code": "th2i",
+    "name": "Tree House 2ml Delta 8 / 9 / 10 Thc A - Indica",
+    "slug": "tre-house-2ml-delta-8-9-10-thc-a-indica",
+    "description": "___________________________rnrnINDICA rnrnPredominante Físico rnAlívio Sedativo rnRelaxante (Baixa Estresse Mental)rnRelaxante Muscular rnReduz dores Agudas rnReduz Náuseas rnAumenta Apetite rnAumenta Dopamina rnAlivia Enxaqueca",
+    "price": 300.0,
+    "stock": 100,
+    "status": 1,
+    "created_at": "2024-09-26 04:25:55",
+    "updated_at": "2024-09-26 08:55:14",
+    "categories": [
+      {
+        "id": 27,
+        "name": "Tree House",
+        "slug": "tree-house"
+      },
+      {
+        "id": 17,
+        "name": "Indica",
+        "slug": "indica"
+      },
+      {
+        "id": 20,
+        "name": "Descartáveis",
+        "slug": "descartaveis"
+      }
+    ],
+    "images": [],
+    "avaliations": [],
+    "favorites": [],
+    "comments": []
+  },
+  {
+    "id": 37,
+    "code": "th2s",
+    "name": "Tree House 2ml Delta 8 / 9 / 10 Thc A - Sativa",
+    "slug": "tre-house-2ml-delta-8-9-10-thc-a-sativa",
+    "description": "___________________________rnrnSATIVArnrnPredominante Mental rnAntiansiedade rnAntidepressivo rnInstigante (Criatividade a Reflexões)rnFelicidade/Espiritualidade rnAumenta o FocornAumenta a Energia rnAumenta Criatividade rnAjuda o Sistema Imunológico",
+    "price": 300.0,
+    "stock": 100,
+    "status": 1,
+    "created_at": "2024-09-26 04:25:55",
+    "updated_at": "2024-09-26 08:56:03",
+    "categories": [
+      {
+        "id": 27,
+        "name": "Tree House",
+        "slug": "tree-house"
+      },
+      {
+        "id": 16,
+        "name": "Sativa",
+        "slug": "sativa"
+      },
+      {
+        "id": 20,
+        "name": "Descartáveis",
+        "slug": "descartaveis"
+      }
+    ],
+    "images": [],
+    "avaliations": [],
+    "favorites": [],
+    "comments": []
+  },
+  {
+    "id": 38,
+    "code": "c2amc",
+    "name": "Cactus 2ml Amanita Muscaria Cogumelo",
+    "slug": "cactus-2ml-amanita-muscaria-cogumelo",
+    "description": "Descubra a experiência encantadora do Vape Descartável de Cogumelo Amanita Muscaria da Cactus Labs. Este dispositivo 2g oferece uma mistura única que combina a mística dos cogumelos Amanita Muscaria com a conveniência da vaporização. Cada unidade é meticulosamente trabalhada para garantir uma tração suave e consistente, proporcionando uma fuga tranquila a cada tragada.rnrnO Amanita Muscaria, conhecido pela sua aparência distinta e história em diversas práticas culturais, está agora disponível neste vape fácil de usar e sem necessidade de manutenção. Esta formulação utiliza apenas ingredientes da mais alta qualidade, preservando as propriedades naturais do cogumelo e garantindo uma experiência segura e agradável.rnrnPerfeito para quem aprecia as nuances sutis das misturas de ervas, o vaporizador Cactus Labs foi projetado para ser discreto e portátil. Seu tamanho compacto cabe confortavelmente no bolso ou na bolsa, tornando-o ideal para uso em trânsito. Quer esteja a relaxar após um longo dia ou à procura de um momento de calma, este vaporizador é o seu companheiro perfeito.rnrnCom sua construção robusta e design à prova de vazamentos, o Vape Descartável Cactus Labs é construído para durar, garantindo que cada sessão seja tão satisfatória quanto a primeira. Abrace uma experiência única que estabelece novos padrões na vaporização de ervas!rnEspecificações do produto:rnrn•Contém: Amanita Muscariarnrn•Tamanho: 2grnrn•Você recebe: 1x Vape descartável de cogumelo Amanita Muscaria da Cactus Labs - 2grnrnSabores:rnrnStrawberry banana icernWaterberryrnBluerazz IcernTropical Rainbow BlastrnWatermellow Bubble GunrnLimonade Ice",
+    "price": 300.0,
+    "stock": 100,
+    "status": 1,
+    "created_at": "2024-09-26 04:25:55",
+    "updated_at": "2024-10-10 18:18:55",
+    "categories": [
+      {
+        "id": 7,
+        "name": "Cactus",
+        "slug": "cactus"
+      },
+      {
+        "id": 20,
+        "name": "Descartáveis",
+        "slug": "descartaveis"
+      }
+    ],
+    "images": [
+      "products/cactus-2ml-amanita-muscaria-cogumelo-1-1728091965.webp",
+      "products/cactus-2ml-amanita-muscaria-cogumelo-2-1728091965.webp",
+      "products/cactus-2ml-amanita-muscaria-cogumelo-3-1728091965.jpg",
+      "products/cactus-2ml-amanita-muscaria-cogumelo-4-1728584335.jpg"
+    ],
+    "avaliations": [],
+    "favorites": [],
+    "comments": []
+  },
+  {
+    "id": 39,
+    "code": "c6sh",
+    "name": "Cactus 6ml SixShot Delta 9 Thc A - Hibrida",
+    "slug": "cactus-6ml-sixshot-delta-9-thc-a-hibrida",
+    "description": "Experimente o cartucho vape mais dinâmico com o Vape descartável Six Shooter THC-A da Cactus Labs. Este dispositivo inovador contém 6 gramas de THC-A, sendo 2 gramas de cada extrato -  Híbrida. Alterne facilmente entre variedades para uma experiência de vaporização personalizada. rnrnDivididos em Três compartimentos, 3X Coilrnrn___________________________rnrnHIBRIDA rnrnÉ composta de 50% Sativa e 50% Indica.rnrn___________________________rnrnSATIVArnrnPredominante Mental rnAntiansiedade rnAntidepressivo rnInstigante (Criatividade a Reflexões)rnFelicidade/Espiritualidade rnAumenta o FocornAumenta a Energia rnAumenta Criatividade rnAjuda o Sistema Imunológicorn___________________________rnrnINDICA rnrnPredominante Físico rnAlívio Sedativo rnRelaxante (Baixa Estresse Mental)rnRelaxante Muscular rnReduz dores Agudas rnReduz Náuseas rnAumenta Apetite rnAumenta Dopamina rnAlivia Enxaqueca",
+    "price": 300.0,
+    "stock": 100,
+    "status": 1,
+    "created_at": "2024-09-26 04:25:55",
+    "updated_at": "2024-10-09 18:42:28",
+    "categories": [
+      {
+        "id": 7,
+        "name": "Cactus",
+        "slug": "cactus"
+      },
+      {
+        "id": 18,
+        "name": "Hibrida",
+        "slug": "hibrida"
+      },
+      {
+        "id": 20,
+        "name": "Descartáveis",
+        "slug": "descartaveis"
+      }
+    ],
+    "images": [
+      "products/cactus-6ml-sixshot-delta-9-thc-a-hibrida-1-1728094446.jpg",
+      "products/cactus-6ml-sixshot-delta-9-thc-a-hibrida-2-1728094446.jpeg",
+      "products/cactus-6ml-sixshot-delta-9-thc-a-hibrida-3-1728094446.jpg",
+      "products/cactus-6ml-sixshot-delta-9-thc-a-hibrida-4-1728499348.jpg"
+    ],
+    "avaliations": [],
+    "favorites": [],
+    "comments": []
+  },
+  {
+    "id": 40,
+    "code": "c6si",
+    "name": "Cactus 6ml SixShot Delta 9 Thc A - Indica",
+    "slug": "cactus-6ml-sixshot-delta-9-thc-a-indica",
+    "description": "Experimente o cartucho vape mais dinâmico com o Vape descartável Six Shooter THC-A da Cactus Labs. Este dispositivo inovador contém 6 gramas de THC-A, sendo 2 gramas de cada extrato -  Sativa, Híbrida e Indica. Alterne facilmente entre variedades para uma experiência de vaporização personalizada. rnrnDivididos em Três compartimentos, 3X Coilrnrn___________________________rnrnINDICA rnrnPredominante Físico rnAlívio Sedativo rnRelaxante (Baixa Estresse Mental)rnRelaxante Muscular rnReduz dores Agudas rnReduz Náuseas rnAumenta Apetite rnAumenta Dopamina rnAlivia Enxaqueca",
+    "price": 300.0,
+    "stock": 100,
+    "status": 1,
+    "created_at": "2024-09-26 04:25:55",
+    "updated_at": "2024-10-19 19:09:07",
+    "categories": [
+      {
+        "id": 17,
+        "name": "Indica",
+        "slug": "indica"
+      },
+      {
+        "id": 20,
+        "name": "Descartáveis",
+        "slug": "descartaveis"
+      },
+      {
+        "id": 7,
+        "name": "Cactus",
+        "slug": "cactus"
+      }
+    ],
+    "images": [
+      "products/cactus-6ml-sixshot-delta-9-thc-a-indica-1-1728095263.jpg",
+      "products/cactus-6ml-sixshot-delta-9-thc-a-indica-2-1728095263.jpeg",
+      "products/cactus-6ml-sixshot-delta-9-thc-a-indica-3-1728095263.jpg"
+    ],
+    "avaliations": [],
+    "favorites": [
+      1
+    ],
+    "comments": []
+  },
+  {
+    "id": 41,
+    "code": "c6ss",
+    "name": "Cactus 6ml SixShot Delta 9 Thc A - Sativa",
+    "slug": "cactus-6ml-sixshot-delta-9-thc-a-sativa",
+    "description": "Experimente o cartucho vape mais dinâmico com o Vape descartável Six Shooter THC-A da Cactus Labs. Este dispositivo inovador contém 6 gramas de THC-A, sendo 2 gramas de cada extrato - Híbrida. Alterne facilmente entre variedades para uma experiência de vaporização personalizada.rnrnDivididos em Três compartimentos, 3X Coilrnrn___________________________rnrnSATIVArnrnPredominante Mental rnAntiansiedade rnAntidepressivo rnInstigante (Criatividade a Reflexões)rnFelicidade/Espiritualidade rnAumenta o FocornAumenta a Energia rnAumenta Criatividade rnAjuda o Sistema Imunológico",
+    "price": 300.0,
+    "stock": 100,
+    "status": 1,
+    "created_at": "2024-09-26 04:25:55",
+    "updated_at": "2024-10-05 03:32:28",
+    "categories": [
+      {
+        "id": 16,
+        "name": "Sativa",
+        "slug": "sativa"
+      },
+      {
+        "id": 20,
+        "name": "Descartáveis",
+        "slug": "descartaveis"
+      },
+      {
+        "id": 7,
+        "name": "Cactus",
+        "slug": "cactus"
+      }
+    ],
+    "images": [
+      "products/cactus-6ml-sixshot-delta-9-thc-a-sativa-1-1728095548.jpg",
+      "products/cactus-6ml-sixshot-delta-9-thc-a-sativa-2-1728095548.jpeg",
+      "products/cactus-6ml-sixshot-delta-9-thc-a-sativa-3-1728095548.jpg"
+    ],
+    "avaliations": [],
+    "favorites": [],
+    "comments": []
+  },
+  {
+    "id": 45,
+    "code": "p5ddh",
+    "name": "Pulse 5ml Digital Display Delta 9 Thc P Hhc P - Hibrida",
+    "slug": "pulse-5ml-digital-display-delta-9-thc-a-hibrida",
+    "description": "Pulse THC 5G Vape descartável - Pacote com 5: Liquid Diamonds THC-A + D9 + THC-P + HHC-PrnrnDescubra a melhor experiência de vaporização com o vaporizador descartável Pulse THC 5G, agora disponível em um prático pacote com 5 unidades. Cada vaporizador descartável é meticulosamente elaborado para proporcionar uma experiência potente e saborosa, combinando vários canabinoides para uma sensação única e equilibrada.rnrnCaracterísticas do produto:rnrnMistura avançada de canabinoides :rnrnTHC-A (ácido tetrahidrocanabinólico) : conhecido por seus potenciais efeitos anti-inflamatórios e neuroprotetores.rnD9-THC (Delta-9-Tetrahidrocanabinol) : Oferece a clássica euforia associada à cannabis.rnTHC-P (Tetrahidrocanabiforol) : Até 30 vezes mais potente que o THC comum, proporcionando uma experiência poderosa.rnHHC-P (Hexahydrocannabinol-Phorol) : Oferece um efeito suave, relaxante e terapêutico.rnTecnologia Liquid Diamonds : Utilizando um processo de extração de alta qualidade, este vape preserva todo o espectro de canabinoides e terpenos, garantindo uma experiência rica, saborosa e potente. O método Liquid Diamonds aprimora o efeito entourage, proporcionando uma alta completa e satisfatória.rnDesign descartável fácil de usar : Pré-preenchido e pronto para uso, o Pulse THC Disposable Vape possui uma tela de LED que exibe a duração da bateria e os níveis de líquido para maior conveniência e controle. Perfeito para uso em trânsito, não requer manutenção ou recarga.rnCapacidade generosa de 5g : Cada dispositivo contém 5 gramas de conteúdo líquido, oferecendo sessões de vaporização prolongadas antes de precisar ser substituído. Desfrute de uso duradouro com qualidade e desempenho consistentes.rnVariedade de cepa :rnrnOG Banana Squirt (Híbrido) : Um híbrido bem equilibrado que combina sabores frutados e terrosos para uma experiência de vaporização suave.rnGranny Apple Express X LSD 25 (Híbrido) : Um híbrido exclusivo que combina os sabores crocantes da maçã com os efeitos potentes do LSD 25.rnrn___________________________rnrnHIBRIDA rnrnÉ composta de 50% Sativa e 50% Indica.rnrn___________________________rnrnSATIVArnrnPredominante Mental rnAntiansiedade rnAntidepressivo rnInstigante (Criatividade a Reflexões)rnFelicidade/Espiritualidade rnAumenta o FocornAumenta a Energia rnAumenta Criatividade rnAjuda o Sistema Imunológicorn___________________________rnrnINDICA rnrnPredominante Físico rnAlívio Sedativo rnRelaxante (Baixa Estresse Mental)rnRelaxante Muscular rnReduz dores Agudas rnReduz Náuseas rnAumenta Apetite rnAumenta Dopamina rnAlivia Enxaqueca",
+    "price": 300.0,
+    "stock": 100,
+    "status": 1,
+    "created_at": "2024-09-26 04:25:55",
+    "updated_at": "2024-10-10 18:37:21",
+    "categories": [
+      {
+        "id": 14,
+        "name": "Pulse Thc",
+        "slug": "pulse-thc"
+      },
+      {
+        "id": 18,
+        "name": "Hibrida",
+        "slug": "hibrida"
+      },
+      {
+        "id": 20,
+        "name": "Descartáveis",
+        "slug": "descartaveis"
+      }
+    ],
+    "images": [
+      "products/pulse-5ml-digital-display-delta-9-thc-a-hibrida-1-1727411077.jpg",
+      "products/pulse-5ml-digital-display-delta-9-thc-a-hibrida-2-1728168217.webp",
+      "products/pulse-5ml-digital-display-delta-9-thc-a-hibrida-3-1728168217.jpg",
+      "products/pulse-5ml-digital-display-delta-9-thc-a-hibrida-4-1728585441.jpg"
+    ],
+    "avaliations": [],
+    "favorites": [],
+    "comments": []
+  },
+  {
+    "id": 46,
+    "code": "p5ddi",
+    "name": "Pulse 5ml Digital Display Delta 9 Thc P Hhc P - Indica",
+    "slug": "pulse-5ml-digital-display-delta-9-thc-a-indica",
+    "description": "Pulse THC 5G Vape descartável - Pacote com 5: Liquid Diamonds THC-A + D9 + THC-P + HHC-PrnrnDescubra a melhor experiência de vaporização com o vaporizador descartável Pulse THC 5G, agora disponível em um prático pacote com 5 unidades. Cada vaporizador descartável é meticulosamente elaborado para proporcionar uma experiência potente e saborosa, combinando vários canabinoides para uma sensação única e equilibrada.rnrnCaracterísticas do produto:rnrnMistura avançada de canabinoides :rnrnTHC-A (ácido tetrahidrocanabinólico) : conhecido por seus potenciais efeitos anti-inflamatórios e neuroprotetores.rnD9-THC (Delta-9-Tetrahidrocanabinol) : Oferece a clássica euforia associada à cannabis.rnTHC-P (Tetrahidrocanabiforol) : Até 30 vezes mais potente que o THC comum, proporcionando uma experiência poderosa.rnHHC-P (Hexahydrocannabinol-Phorol) : Oferece um efeito suave, relaxante e terapêutico.rnTecnologia Liquid Diamonds : Utilizando um processo de extração de alta qualidade, este vape preserva todo o espectro de canabinoides e terpenos, garantindo uma experiência rica, saborosa e potente. O método Liquid Diamonds aprimora o efeito entourage, proporcionando uma alta completa e satisfatória.rnDesign descartável fácil de usar : Pré-preenchido e pronto para uso, o Pulse THC Disposable Vape possui uma tela de LED que exibe a duração da bateria e os níveis de líquido para maior conveniência e controle. Perfeito para uso em trânsito, não requer manutenção ou recarga.rnCapacidade generosa de 5g : Cada dispositivo contém 5 gramas de conteúdo líquido, oferecendo sessões de vaporização prolongadas antes de precisar ser substituído. Desfrute de uso duradouro com qualidade e desempenho consistentes.rnVariedade de cepa :rnrnRazz Runtz #69 (Indica) : Uma variedade indica calmante com tons de frutas vermelhas, ideal para relaxamento e descontracção.rnBlue Bubba Dream (Índica) : Uma variedade indica calmante com sabores de mirtilo e terrosos, perfeita para uso noturno.rnrn___________________________rnrnINDICA rnrnPredominante Físico rnAlívio Sedativo rnRelaxante (Baixa Estresse Mental)rnRelaxante Muscular rnReduz dores Agudas rnReduz Náuseas rnAumenta Apetite rnAumenta Dopamina rnAlivia Enxaqueca",
+    "price": 300.0,
+    "stock": 100,
+    "status": 1,
+    "created_at": "2024-09-26 04:25:55",
+    "updated_at": "2024-10-10 18:43:08",
+    "categories": [
+      {
+        "id": 14,
+        "name": "Pulse Thc",
+        "slug": "pulse-thc"
+      },
+      {
+        "id": 17,
+        "name": "Indica",
+        "slug": "indica"
+      },
+      {
+        "id": 20,
+        "name": "Descartáveis",
+        "slug": "descartaveis"
+      }
+    ],
+    "images": [
+      "products/pulse-5ml-digital-display-delta-9-thc-a-indica-1-1727412084.jpg",
+      "products/pulse-5ml-digital-display-delta-9-thc-a-indica-2-1728168254.webp",
+      "products/pulse-5ml-digital-display-delta-9-thc-a-indica-3-1728168254.jpg",
+      "products/pulse-5ml-digital-display-delta-9-thc-a-indica-4-1728585788.jpg"
+    ],
+    "avaliations": [],
+    "favorites": [],
+    "comments": []
+  },
+  {
+    "id": 47,
+    "code": "p5dds",
+    "name": "Pulse 5ml Digital Display Delta 9 Thc P Hhc P - Sativa",
+    "slug": "pulse-5ml-digital-display-delta-9-thc-a-sativa",
+    "description": "Pulse THC 5G Vape descartável - Pacote com 5: Liquid Diamonds THC-A + D9 + THC-P + HHC-PrnrnDescubra a melhor experiência de vaporização com o vaporizador descartável Pulse THC 5G, agora disponível em um prático pacote com 5 unidades. Cada vaporizador descartável é meticulosamente elaborado para proporcionar uma experiência potente e saborosa, combinando vários canabinoides para uma sensação única e equilibrada.rnrnCaracterísticas do produto:rnrnMistura avançada de canabinoides :rnrnTHC-A (ácido tetrahidrocanabinólico) : conhecido por seus potenciais efeitos anti-inflamatórios e neuroprotetores.rnD9-THC (Delta-9-Tetrahidrocanabinol) : Oferece a clássica euforia associada à cannabis.rnTHC-P (Tetrahidrocanabiforol) : Até 30 vezes mais potente que o THC comum, proporcionando uma experiência poderosa.rnHHC-P (Hexahydrocannabinol-Phorol) : Oferece um efeito suave, relaxante e terapêutico.rnTecnologia Liquid Diamonds : Utilizando um processo de extração de alta qualidade, este vape preserva todo o espectro de canabinoides e terpenos, garantindo uma experiência rica, saborosa e potente. O método Liquid Diamonds aprimora o efeito entourage, proporcionando uma alta completa e satisfatória.rnDesign descartável fácil de usar : Pré-preenchido e pronto para uso, o Pulse THC Disposable Vape possui uma tela de LED que exibe a duração da bateria e os níveis de líquido para maior conveniência e controle. Perfeito para uso em trânsito, não requer manutenção ou recarga.rnCapacidade generosa de 5g : Cada dispositivo contém 5 gramas de conteúdo líquido, oferecendo sessões de vaporização prolongadas antes de precisar ser substituído. Desfrute de uso duradouro com qualidade e desempenho consistentes.rnVariedade de cepa :rnrnrnSweet Sugar Pop Gelato : Delicie-se com as notas doces e açucaradas do doce combinadas com os sabores cremosos e de sobremesa do Gelato. Esta variedade oferece uma experiência prazerosa e equilibrada com um efeito relaxante, mas estimulante.rnMango Martini Haze : Uma variedade sativa refrescante com notas tropicais de manga, perfeita para um efeito energético e estimulante.rnStrawberry Banana Whip Auto : Desfrute da combinação doce e frutada de morangos e bananas, proporcionando um potente efeito sativa.rnSour Cotton Candy Skittlez : Experimente os sabores picantes e doces do algodão doce e dos Skittles com esta variedade sativa revigorante.rnSuper Lemon Diesel : Uma variedade sativa cítrica e picante que proporciona uma sensação de euforia energética e lúcida.rnGrape Guava Gasoline : Aproveite a mistura exótica de sabores de uva e goiaba com uma variedade sativa que energiza e eleva.rnrn___________________________rnrnSATIVArnrnPredominante Mental rnAntiansiedade rnAntidepressivo rnInstigante (Criatividade a Reflexões)rnFelicidade/Espiritualidade rnAumenta o FocornAumenta a Energia rnAumenta Criatividade rnAjuda o Sistema Imunológico",
+    "price": 300.0,
+    "stock": 100,
+    "status": 1,
+    "created_at": "2024-09-26 04:25:55",
+    "updated_at": "2024-10-10 18:44:07",
+    "categories": [
+      {
+        "id": 14,
+        "name": "Pulse Thc",
+        "slug": "pulse-thc"
+      },
+      {
+        "id": 16,
+        "name": "Sativa",
+        "slug": "sativa"
+      },
+      {
+        "id": 20,
+        "name": "Descartáveis",
+        "slug": "descartaveis"
+      }
+    ],
+    "images": [
+      "products/pulse-5ml-digital-display-delta-9-thc-a-sativa-1-1727411490.png",
+      "products/pulse-5ml-digital-display-delta-9-thc-a-sativa-2-1728168332.webp",
+      "products/pulse-5ml-digital-display-delta-9-thc-a-sativa-3-1728168332.jpg",
+      "products/pulse-5ml-digital-display-delta-9-thc-a-sativa-4-1728585847.jpg"
+    ],
+    "avaliations": [],
+    "favorites": [],
+    "comments": []
+  },
+  {
+    "id": 50,
+    "code": "csd5s",
+    "name": "Chapo SuperMax Diamont 5ml Delta 9 Thc A / P - Sativa",
+    "slug": "chapo-supermax-diamont-5ml-delta-9-thc-a-p-sativa",
+    "description": "___________________________rnrnSATIVArnrnPredominante Mental rnAntiansiedade rnAntidepressivo rnInstigante (Criatividade a Reflexões)rnFelicidade/Espiritualidade rnAumenta o FocornAumenta a Energia rnAumenta Criatividade rnAjuda o Sistema Imunológico",
+    "price": 300.0,
+    "stock": 100,
+    "status": 1,
+    "created_at": "2024-09-26 04:25:55",
+    "updated_at": "2024-10-10 18:27:01",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Chapo",
+        "slug": "chapo"
+      },
+      {
+        "id": 16,
+        "name": "Sativa",
+        "slug": "sativa"
+      },
+      {
+        "id": 20,
+        "name": "Descartáveis",
+        "slug": "descartaveis"
+      }
+    ],
+    "images": [
+      "products/chapo-supermax-diamont-5ml-delta-9-thc-a-p-sativa-1-1727416284.jpg",
+      "products/chapo-supermax-diamont-5ml-delta-9-thc-a-p-sativa-2-1727416284.jpg",
+      "products/chapo-supermax-diamont-5ml-delta-9-thc-a-p-sativa-3-1728584821.jpg"
+    ],
+    "avaliations": [],
+    "favorites": [],
+    "comments": []
+  },
+  {
+    "id": 51,
+    "code": "e2h",
+    "name": "EigthSix 2ml Delta 8 / 9 - Hibrida",
+    "slug": "sigthsix-2ml-delta-9-hibrida",
+    "description": "EigthSix contendo 2ml Thc / Thc - A Delta 8 e/ou Delta 9 de extrato Hibridarnrn___________________________rnrnHIBRIDA rnrnÉ composta de 50% Sativa e 50% Indica.rnrn___________________________rnrnSATIVArnrnPredominante Mental rnAntiansiedade rnAntidepressivo rnInstigante (Criatividade a Reflexões)rnFelicidade/Espiritualidade rnAumenta o FocornAumenta a Energia rnAumenta Criatividade rnAjuda o Sistema Imunológicorn___________________________rnrnINDICA rnrnPredominante Físico rnAlívio Sedativo rnRelaxante (Baixa Estresse Mental)rnRelaxante Muscular rnReduz dores Agudas rnReduz Náuseas rnAumenta Apetite rnAumenta Dopamina rnAlivia Enxaqueca",
+    "price": 300.0,
+    "stock": 100,
+    "status": 1,
+    "created_at": "2024-09-26 04:25:55",
+    "updated_at": "2024-10-05 04:17:59",
+    "categories": [
+      {
+        "id": 10,
+        "name": "Eight Six",
+        "slug": "eight-six"
+      },
+      {
+        "id": 18,
+        "name": "Hibrida",
+        "slug": "hibrida"
+      },
+      {
+        "id": 20,
+        "name": "Descartáveis",
+        "slug": "descartaveis"
+      }
+    ],
+    "images": [
+      "products/sigthsix-2ml-delta-9-hibrida-1-1728098279.png",
+      "products/sigthsix-2ml-delta-9-hibrida-2-1728098279.jpg",
+      "products/sigthsix-2ml-delta-9-hibrida-3-1728098279.jpg"
+    ],
+    "avaliations": [],
+    "favorites": [],
+    "comments": []
+  },
+  {
+    "id": 52,
+    "code": "e2i",
+    "name": "EigthSix 2ml Delta 8 / 9 - Indica",
+    "slug": "sigthsix-2ml-delta-9-indica",
+    "description": "EigthSix contendo 2ml Thc / Thc - A Delta 8 e/ou Delta 9 de extrato Indicarnrn___________________________rnrnINDICA rnrnPredominante Físico rnAlívio Sedativo rnRelaxante (Baixa Estresse Mental)rnRelaxante Muscular rnReduz dores Agudas rnReduz Náuseas rnAumenta Apetite rnAumenta Dopamina rnAlivia Enxaqueca",
+    "price": 300.0,
+    "stock": 100,
+    "status": 1,
+    "created_at": "2024-09-26 04:25:55",
+    "updated_at": "2024-10-05 04:15:08",
+    "categories": [
+      {
+        "id": 10,
+        "name": "Eight Six",
+        "slug": "eight-six"
+      },
+      {
+        "id": 17,
+        "name": "Indica",
+        "slug": "indica"
+      },
+      {
+        "id": 20,
+        "name": "Descartáveis",
+        "slug": "descartaveis"
+      }
+    ],
+    "images": [
+      "products/sigthsix-2ml-delta-9-indica-1-1728098108.png",
+      "products/sigthsix-2ml-delta-9-indica-2-1728098108.jpg",
+      "products/sigthsix-2ml-delta-9-indica-3-1728098108.jpg"
+    ],
+    "avaliations": [],
+    "favorites": [],
+    "comments": []
+  },
+  {
+    "id": 53,
+    "code": "e2s",
+    "name": "EigthSix 2ml Delta 8 / 9 - Sativa",
+    "slug": "sigthsix-2ml-delta-8-9-sativa",
+    "description": "EigthSix contendo 2ml Thc / Thc - A Delta 8 e/ou Delta 9 de extrato Sativarnrn___________________________rnrnSATIVArnrnPredominante Mental rnAntiansiedade rnAntidepressivo rnInstigante (Criatividade a Reflexões)rnFelicidade/Espiritualidade rnAumenta o FocornAumenta a Energia rnAumenta Criatividade rnAjuda o Sistema Imunológico",
+    "price": 300.0,
+    "stock": 100,
+    "status": 1,
+    "created_at": "2024-09-26 04:25:55",
+    "updated_at": "2024-10-05 04:07:58",
+    "categories": [
+      {
+        "id": 10,
+        "name": "Eight Six",
+        "slug": "eight-six"
+      },
+      {
+        "id": 16,
+        "name": "Sativa",
+        "slug": "sativa"
+      },
+      {
+        "id": 20,
+        "name": "Descartáveis",
+        "slug": "descartaveis"
+      }
+    ],
+    "images": [
+      "products/sigthsix-2ml-delta-8-9-sativa-1-1728097165.jpg",
+      "products/sigthsix-2ml-delta-8-9-sativa-2-1728097165.jpg",
+      "products/sigthsix-2ml-delta-8-9-sativa-3-1728097165.png"
+    ],
+    "avaliations": [
+      {
+        "user_id": 1,
+        "rating": 3,
+        "created_at": "2024-10-19 04:42:07"
+      }
+    ],
+    "favorites": [
+      1
+    ],
+    "comments": []
+  },
+  {
+    "id": 54,
+    "code": "d8h",
+    "name": "Delta 8ml Diamont Delta 9 / 10 / 11 Thc A / P / X - Hibrida",
+    "slug": "delta-8ml-diamont-delta-9-10-11-thc-a-p-x-hibrida",
+    "description": "Eleve a sua experiência de vaporização com o Vape Descartável Savage THC-A, habilmente pré-preenchido com 8gr do mais puro óleo Liquid Diamonds THCA. Extrato de cannabis feito de colofónia viva Delta 8, Delta 10, HHC e HHCP.rnrnEste produto excepcional combina os efeitos revigorantes do Delta 8 THC e Delta 10 THC e do potente extrato de cânhamo HHC e HHCP, oferecendo uma jornada de vaporização holística e dinâmica.rnrnSabores à base de cepa Savage THC-A:rnHÍBRIDO: Blueberry OG, White Widow, Gushers Runtzrnrn___________________________rnrnHIBRIDA rnrnÉ composta de 50% Sativa e 50% Indica.rnrn___________________________rnrnSATIVArnrnPredominante Mental rnAntiansiedade rnAntidepressivo rnInstigante (Criatividade a Reflexões)rnFelicidade/Espiritualidade rnAumenta o FocornAumenta a Energia rnAumenta Criatividade rnAjuda o Sistema Imunológicorn___________________________rnrnINDICA rnrnPredominante Físico rnAlívio Sedativo rnRelaxante (Baixa Estresse Mental)rnRelaxante Muscular rnReduz dores Agudas rnReduz Náuseas rnAumenta Apetite rnAumenta Dopamina rnAlivia Enxaqueca",
+    "price": 300.0,
+    "stock": 100,
+    "status": 1,
+    "created_at": "2024-09-26 04:25:55",
+    "updated_at": "2024-10-19 18:46:01",
+    "categories": [
+      {
+        "id": 28,
+        "name": "Delta King",
+        "slug": "delta"
+      },
+      {
+        "id": 18,
+        "name": "Hibrida",
+        "slug": "hibrida"
+      },
+      {
+        "id": 20,
+        "name": "Descartáveis",
+        "slug": "descartaveis"
+      }
+    ],
+    "images": [
+      "products/delta-8ml-diamont-delta-9-10-11-thc-a-p-x-hibrida-1-1728096891.webp",
+      "products/delta-8ml-diamont-delta-9-10-11-thc-a-p-x-hibrida-2-1728096891.webp"
+    ],
+    "avaliations": [],
+    "favorites": [],
+    "comments": []
+  },
+  {
+    "id": 55,
+    "code": "d8i",
+    "name": "Delta 8ml Diamont Delta 9 / 10 / 11 Tch A / P / X - Indica",
+    "slug": "delta-8ml-diamont-delta-9-10-11-tch-a-p-x-indica",
+    "description": "Delta contendo 8ml Diamont Delta 9, 10 e 11 composto por Tch A, P e X na extrato IndicarnrnEleve a sua experiência de vaporização com o Vape Descartável Savage THC-A, habilmente pré-preenchido com 8gr do mais puro óleo Liquid Diamonds THCA. Extrato de cannabis feito de colofónia viva Delta 8, Delta 10, HHC e HHCP.rnrnEste produto excepcional combina os efeitos revigorantes do Delta 8 THC e Delta 10 THC e do potente extrato de cânhamo HHC e HHCP, oferecendo uma jornada de vaporização holística e dinâmica.rnrnSabores à base de cepa Savage THC-A:rnINDICA: OG Kush, Grand Daddy Purple, Strawberry Runtz, ZKittlesrnrn___________________________rnrnINDICA rnrnPredominante Físico rnAlívio Sedativo rnRelaxante (Baixa Estresse Mental)rnRelaxante Muscular rnReduz dores Agudas rnReduz Náuseas rnAumenta Apetite rnAumenta Dopamina rnAlivia Enxaqueca",
+    "price": 300.0,
+    "stock": 100,
+    "status": 1,
+    "created_at": "2024-09-26 04:25:55",
+    "updated_at": "2024-10-05 03:46:46",
+    "categories": [
+      {
+        "id": 28,
+        "name": "Delta King",
+        "slug": "delta"
+      },
+      {
+        "id": 17,
+        "name": "Indica",
+        "slug": "indica"
+      },
+      {
+        "id": 20,
+        "name": "Descartáveis",
+        "slug": "descartaveis"
+      }
+    ],
+    "images": [
+      "products/delta-8ml-diamont-delta-9-10-11-tch-a-p-x-indica-1-1728096406.webp",
+      "products/delta-8ml-diamont-delta-9-10-11-tch-a-p-x-indica-2-1728096406.webp"
+    ],
+    "avaliations": [],
+    "favorites": [],
+    "comments": []
+  },
+  {
+    "id": 56,
+    "code": "d8s",
+    "name": "Delta 8ml Diamont Delta 9 / 10 / 11 Tch A / P / X - Sativa",
+    "slug": "delta-8ml-diamont-delta-9-10-11-thc-a-p-x-sativa",
+    "description": "Delta contendo 8ml Diamont Delta 9, 10 e 11 composto por Tch A, P e X na extrato IndicarnrnEleve a sua experiência de vaporização com o Vape Descartável Savage THC-A, habilmente pré-preenchido com 8gr do mais puro óleo Liquid Diamonds THCA. Extrato de cannabis feito de colofónia viva Delta 8, Delta 10, HHC e HHCP.rnrnEste produto excepcional combina os efeitos revigorantes do Delta 8 THC e Delta 10 THC e do potente extrato de cânhamo HHC e HHCP, oferecendo uma jornada de vaporização holística e dinâmica.rnrnSabores à base de cepa Savage THC-A:rnSATIVA: Blue Dream, Pineapple Express, Sour Dieselrn___________________________rnrnSATIVArnrnPredominante Mental rnAntiansiedade rnAntidepressivo rnInstigante (Criatividade a Reflexões)rnFelicidade/Espiritualidade rnAumenta o FocornAumenta a Energia rnAumenta Criatividade rnAjuda o Sistema Imunológico",
+    "price": 300.0,
+    "stock": 100,
+    "status": 1,
+    "created_at": "2024-09-26 04:25:55",
+    "updated_at": "2024-10-05 03:49:31",
+    "categories": [
+      {
+        "id": 28,
+        "name": "Delta King",
+        "slug": "delta"
+      },
+      {
+        "id": 16,
+        "name": "Sativa",
+        "slug": "sativa"
+      },
+      {
+        "id": 20,
+        "name": "Descartáveis",
+        "slug": "descartaveis"
+      }
+    ],
+    "images": [
+      "products/delta-8ml-diamont-delta-9-10-11-thc-a-p-x-sativa-1-1728096571.webp",
+      "products/delta-8ml-diamont-delta-9-10-11-thc-a-p-x-sativa-2-1728096571.webp"
+    ],
+    "avaliations": [],
+    "favorites": [],
+    "comments": []
+  },
+  {
+    "id": 57,
+    "code": "gmt25",
+    "name": "Goma Mike Tysson 25mg x1 Gummy Pack 20un Delta 9 Thc",
+    "slug": "mike-tysson-25mg-x1-gummy-pack-20un-delta-9-thc",
+    "description": "O Mike Bites Gomes 2.0 da Tyson embala 20un por ponche com 25MG cada, infundido com Delta △ THC e dividido em três opções saborosas.rnrnFeito com precisão, o Tyson 2.0 Mike Bites exemplifica a arte americana requintada e apresenta ingredientes premium para uma experiência de fumar consistentemente deliciosa.rnrnO selo orgânico do USDA adorna orgulhosamente o Tyson 2.0 Mike Bites, certificando-o como um produto orgânico com impressionantes 95% ou mais de conteúdo orgânico.rnrnTodos os Tyson 2.0 Mike Bites passam por rigorosos testes de laboratório, garantindo os mais altos padrões de qualidade e segurança para nossos clientes.rnrnA bolsa Tyson 2.0 Mike Bites vem com 20 gomas, cada uma oferecendo uma dosagem de 25 mg de THC e uma mistura balanceada de 10 mg de Delta △ e 10 mg de CBD por goma.rnrn___________________________rnrnHIBRIDArnrnÉ composta de 50% Sativa e 50% Indica.rnrn___________________________rnrnSATIVArnrnPredominante MentalrnAntiansiedadernAntidepressivornInstigante (Criatividade a Reflexões)rnFelicidade/EspiritualidadernAumenta o FocornAumenta a EnergiarnAumenta CriatividadernAjuda o Sistema Imunológicorn___________________________rnrnINDICArnrnPredominante FísicornAlívio SedativornRelaxante (Baixa Estresse Mental)rnRelaxante MuscularrnReduz dores AgudasrnReduz NáuseasrnAumenta ApetiternAumenta DopaminarnAlivia Enxaqueca",
+    "price": 300.0,
+    "stock": 100,
+    "status": 1,
+    "created_at": "2024-09-26 06:57:28",
+    "updated_at": "2024-10-09 19:34:14",
+    "categories": [
+      {
+        "id": 26,
+        "name": "Gummy",
+        "slug": "gummy"
+      },
+      {
+        "id": 29,
+        "name": "Tysson Gummy",
+        "slug": "tysson-gummy"
+      },
+      {
+        "id": 16,
+        "name": "Sativa",
+        "slug": "sativa"
+      },
+      {
+        "id": 17,
+        "name": "Indica",
+        "slug": "indica"
+      },
+      {
+        "id": 18,
+        "name": "Hibrida",
+        "slug": "hibrida"
+      }
+    ],
+    "images": [
+      "products/mike-tysson-25mg-x1-gummy-pack-20un-delta-9-thc-1-1728502454.jpg"
+    ],
+    "avaliations": [],
+    "favorites": [],
+    "comments": []
+  },
+  {
+    "id": 58,
+    "code": "c6shsi",
+    "name": "Cactus 6ml SixShot Delta 9 Thc A - ( 2ml Hibrida, 2ml Sativo e 2ml Indica )",
+    "slug": "cactus-6ml-sixshot-delta-9-thc-a-h",
+    "description": "Experimente o cartucho vape mais dinâmico com o Vape descartável Six Shooter THC-A da Cactus Labs. Este dispositivo inovador contém 6 gramas de THC-A, sendo 2 gramas de cada extrato -  Sativa, Híbrida e Indica. Alterne facilmente entre variedades para uma experiência de vaporização personalizada. rnrnDivididos em Três compartimentos, 3X Coilrnrn___________________________rnrnHIBRIDA rnrnÉ composta de 50% Sativa e 50% Indica.rnrn___________________________rnrnSATIVArnrnPredominante Mental rnAntiansiedade rnAntidepressivo rnInstigante (Criatividade a Reflexões)rnFelicidade/Espiritualidade rnAumenta o FocornAumenta a Energia rnAumenta Criatividade rnAjuda o Sistema Imunológicorn___________________________rnrnINDICA rnrnPredominante Físico rnAlívio Sedativo rnRelaxante (Baixa Estresse Mental)rnRelaxante Muscular rnReduz dores Agudas rnReduz Náuseas rnAumenta Apetite rnAumenta Dopamina rnAlivia Enxaqueca",
+    "price": 300.0,
+    "stock": 100,
+    "status": 1,
+    "created_at": "2024-09-26 04:25:55",
+    "updated_at": "2024-10-05 03:16:09",
+    "categories": [
+      {
+        "id": 7,
+        "name": "Cactus",
+        "slug": "cactus"
+      },
+      {
+        "id": 16,
+        "name": "Sativa",
+        "slug": "sativa"
+      },
+      {
+        "id": 17,
+        "name": "Indica",
+        "slug": "indica"
+      },
+      {
+        "id": 18,
+        "name": "Hibrida",
+        "slug": "hibrida"
+      },
+      {
+        "id": 20,
+        "name": "Descartáveis",
+        "slug": "descartaveis"
+      }
+    ],
+    "images": [
+      "products/cactus-6ml-sixshot-delta-9-thc-a-h-1-1728094548.jpg",
+      "products/cactus-6ml-sixshot-delta-9-thc-a-h-2-1728094548.jpeg",
+      "products/cactus-6ml-sixshot-delta-9-thc-a-h-3-1728094548.jpg"
+    ],
+    "avaliations": [],
+    "favorites": [],
+    "comments": []
+  }
+]
