@@ -1,12 +1,11 @@
 import type { NextConfig } from "next";
 
-// const isProd = process.env.NODE_ENV === 'production'
+const assetPrefix = process.env.AssetPrefix ?? "";
 
 const nextConfig: NextConfig = {
   output: 'export',
   trailingSlash: true,
-  basePath: '/american-cannabis-site',
-  assetPrefix: '/american-cannabis-site/',
+  assetPrefix: assetPrefix,
   images: { unoptimized: true },
   compiler: {
     emotion: true,
