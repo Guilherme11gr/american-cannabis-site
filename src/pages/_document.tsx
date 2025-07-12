@@ -5,7 +5,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="pt-BR">
         <Head>
-          <base href="https://guilherme11gr.github.io/american-cannabis-site/" />
+          {/* <base href="https://guilherme11gr.github.io/american-cannabis-site/" /> */}
         </Head>
         <body>
           <Main />
