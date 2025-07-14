@@ -77,7 +77,7 @@ collections:
     extension: "json"
 
     # upload vai para public/imgs/products
-    media_folder: "public/imgs/products"
+    media_folder: "/public/imgs/products"
     # referência no JSON começa com /imgs/products
     public_folder: "/imgs/products"
 
