@@ -99,7 +99,7 @@ export const ProductsPage: React.FC<ProductsPageProps> = ({ categoryGroups, prod
   const isMobile = useMediaQuery('(max-width: 767px)')
 
   console.log('================================================')
-  console.log('Products:', JSON.stringify(products))
+  console.log('Products:', JSON.stringify(categoryGroups))
   console.log('================================================')
 
   useEffect(() => {
