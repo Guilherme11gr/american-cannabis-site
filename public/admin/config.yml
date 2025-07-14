@@ -10,11 +10,15 @@ backend:
   base_url: https://decap-proxy2.guilherme11-gr.workers.dev
   debug: true
 
+# pasta onde o CMS grava as imagens
 media_folder: "public/imgs"
 public_folder: "/imgs"
 
 collections:
 
+  # ============================
+  # CATEGORIES (sem alteração)
+  # ============================
   - name: "categories"
     label: "Categorias"
     files:
@@ -25,28 +29,26 @@ collections:
           - label: "Categorias"
             name: "categories"
             widget: list
-            summary: "{{slug}}"
+            summary: "{{name}}"
             collapsed: true
             fields:
-              - { label: "ID",    name: "id",       widget: "number" }
-              - { label: "Nome",  name: "name",     widget: "string" }
-              - { label: "Slug",  name: "slug",     widget: "string" }
-              - { label: "Count", name: "count",    widget: "number" }
-              - { label: "Queue", name: "queue",    widget: "string" }
+              - { label: "ID",    name: "id",    widget: "number" }
+              - { label: "Nome",  name: "name",  widget: "string" }
+              - { label: "Slug",  name: "slug",  widget: "string" }
               - { label: "Carousel", name: "carousel", widget: "boolean" }
               - label: "Subcategorias"
                 name: "categories"
                 widget: list
-                summary: "{{slug}}"
+                summary: "{{name}}"
                 collapsed: true
                 fields:
-                  - { label: "ID",    name: "id",    widget: "number" }
-                  - { label: "Nome",  name: "name",  widget: "string" }
-                  - { label: "Slug",  name: "slug",  widget: "string" }
-                  - { label: "Count", name: "count", widget: "number" }
-                  - { label: "Queue", name: "queue", widget: "string" }
-                  - { label: "Carousel", name: "carousel", widget: "boolean" }
+                  - { label: "ID",   name: "id",   widget: "number" }
+                  - { label: "Nome", name: "name", widget: "string" }
+                  - { label: "Slug", name: "slug", widget: "string" }
 
+  # ============================
+  # IMAGENS (sem alteração)
+  # ============================
   - name: "images"
     label: "Imagens"
     files:
@@ -60,67 +62,58 @@ collections:
             summary: "{{id}} – {{image}}"
             collapsed: true
             fields:
-              - { label: "ID",         name: "id",          widget: "number" }
-              - { label: "Caminho",    name: "image",       widget: "image" }
-              - { label: "Product ID", name: "product_id",  widget: "number" }
+              - { label: "ID",        name: "id",         widget: "number" }
+              - { label: "Imagem",    name: "image",      widget: "image" }
+              - { label: "Product ID",name: "product_id", widget: "number" }
 
+  # ============================
+  # PRODUTOS (folder collection)
+  # ============================
   - name: "products"
     label: "Produtos"
-    files:
-      - file: "src/data/products.json"
-        label: "Lista de Produtos"
-        name: "products"
+    folder: "src/data/products"      # cada produto em um arquivo
+    create: true
+    slug: "{{slug}}"                 # nome do arquivo = slug.json
+    extension: "json"
+    media_folder: "public/imgs/products"
+    public_folder: "/imgs/products"
+    view_filters:
+      - label: "Nome"
+        field: "name"
+        pattern: ".*"
+      - label: "Slug"
+        field: "slug"
+        pattern: ".*"
+      - label: "Categoria"
+        field: "categorySlugs"
+        pattern: ".*"
+    fields:
+      - { label: "ID",        name: "id",       widget: "number", required: true }
+      - { label: "Código",    name: "code",     widget: "string", required: true }
+      - { label: "Nome",      name: "name",     widget: "string", required: true }
+      - { label: "Slug",      name: "slug",     widget: "string", required: true }
+      - { label: "Preço",     name: "price",    widget: "number", required: true }
+      - { label: "Destaque?", name: "featured", widget: "boolean" }
+      - { label: "Descrição", name: "description", widget: "text" }
 
-        view_filters:
-          - label: "ID"
-            field: "id"
-            pattern: ".*"
-          - label: "Nome"
-            field: "name"
-            pattern: ".*"
-          - label: "Slug"
-            field: "slug"
-            pattern: ".*"
+      - label: "Categorias"
+        name: "categorySlugs"
+        widget: "list"
+        field:
+          label: "Slug de Categoria"
+          name: "slug"
+          widget: "relation"
+          collection: "categories"
+          value_field: "slug"
+          display_fields: ["name"]
+          search_fields: ["name"]
 
+      - label: "Imagens"
+        name: "images"
+        widget: "list"
+        summary: "{{image}}"
         fields:
-          - label: "Produtos"
-            name: "products"
-            widget: "list"
-            summary: "{{slug}}"
-            collapsed: true
-            fields:
-              - { label: "ID",       name: "id",       widget: "number" }
-              - { label: "Código",   name: "code",     widget: "string" }
-              - { label: "Nome",     name: "name",     widget: "string" }
-              - { label: "Slug",     name: "slug",     widget: "string" }
-              - { label: "Preço",    name: "price",    widget: "number" }
-              - { label: "Estoque",  name: "stoke",    widget: "number" }
-              - { label: "Destaque?",name: "featured", widget: "boolean" }
+          - { label: "Imagem", name: "image", widget: "image" }
 
-              - label: "Categorias"
-                name: "category_slugs"
-                widget: "list"
-                field:
-                  label: "Categoria"
-                  name: "category"
-                  widget: "relation"
-                  collection: "categories"
-                  value_field: "slug"
-                  display_fields: ["name"]
-                  search_fields: ["name"]
-                  filter:
-                    field: "carousel"
-                    value: true
-
-              - label: "Fotos (IDs)"
-                name: "photo_ids"
-                widget: "list"
-                field:
-                  { label: "Photo ID", name: "photo_id", widget: "number" }
-
-              - { label: "Descrição", name: "description", widget: "text" }
-              - label: "Categorias (IDs)"
-                name: "category_ids"
-                widget: "list"
-                field:
-                  { label: "Category ID", name: "category_id", widget: "number" }
+    # muda a label de cada produto na lista para “Nome — R$Preço”
+    summary: "{{name}} — R$ {{price}}"
