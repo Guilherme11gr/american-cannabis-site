@@ -14,6 +14,8 @@ interface ProductsProps {
 export const getStaticProps: GetStaticProps<ProductsProps> = async () => {
   const dm = new DataManager(productsData, categoriesData as unknown as Categories, imagesData)
   const categoryGroups = dm.getCategoryGroups() ?? []
+  console.log('Category Groups:', JSON.stringify(categoryGroups))
+  console.log('Products:', JSON.stringify(dm.getAllProductsSummaries()))
   return {
     props: { categoryGroups, products: dm.getAllProductsSummaries() },
   }

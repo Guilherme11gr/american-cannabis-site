@@ -63,6 +63,7 @@ export interface ProductSummary {
   description: string
   mainPhoto: Image | null
   categorySlugs: string[]
+  images: Image[] | null
 }
 
 export class DataManager {
@@ -132,6 +133,7 @@ export class DataManager {
       featured: p.featured ?? false,
       description: p.description,
       mainPhoto: this.getPhotosByProductId(p.id)[0] || null,
+      images: this.getPhotosByProductId(p.id),
       categorySlugs: this.getCategoriesByIds(p.category_ids ?? []).map(c => c.slug),
     }))
   }
