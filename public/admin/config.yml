@@ -21,6 +21,7 @@ collections:
   # ============================
   - name: "categories"
     label: "Categorias"
+    search: false
     files:
       - file: "src/data/categories.json"
         label: "Lista de Categorias"
@@ -80,6 +81,7 @@ collections:
     media_folder: "/public/imgs/products"
     public_folder: "/imgs/products"
     search: true
+    preview_path: "produtos/{{slug}}"
 
     view_filters:
       - label: "Nome"
