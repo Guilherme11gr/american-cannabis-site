@@ -7,10 +7,13 @@
   "featured": false,
   "images": [
     {
-      "image": "products/trehouse-sourdiesel-pen-636x636-1.jpg"
+      "image": "/imgs/products/trehouse-sourdiesel-pen-636x636-1.jpg"
     },
     {
-      "image": "products/banana-og-torch.png"
+      "image": "/imgs/products/trehouse-kit.jpg"
+    },
+    {
+      "image": "/imgs/products/banana-og-torch.png"
     }
   ],
   "mainPhoto": {
