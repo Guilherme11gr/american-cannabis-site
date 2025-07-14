@@ -78,7 +78,7 @@ export const ProductItemCard: React.FC<{ product: ProductSummary }> = ({ product
     <ProductItemContainer>
       <Link href={`/products/${product.slug}`}>
         <Image
-          src={`${product.mainPhoto?.image.slice(1) ?? '/sys/not-found.jpg'}`}
+          src={`${product.mainPhoto?.image.slice(1) ?? 'imgs/sys/not-found.jpg'}`}
           alt={product.name}
           width={isMobile ? 160 : 224}
           height={isMobile ? 160 : 224}

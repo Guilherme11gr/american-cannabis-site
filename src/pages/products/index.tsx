@@ -5,7 +5,6 @@ import fs from 'fs'
 import { GetStaticProps } from 'next'
 import path from 'path'
 import categoriesData from '../../data/categories.json'
-import imagesData from '../../data/images.json'
 
 interface ProductsProps {
   categoryGroups: CategoryGroup[]
@@ -31,7 +30,6 @@ export const getStaticProps: GetStaticProps<ProductsProps> = async () => {
   const dm = new DataManager(
     productsData,
     categoriesData as unknown as Categories,
-    imagesData
   )
 
   const categoryGroups = dm.getCategoryGroups() ?? []
