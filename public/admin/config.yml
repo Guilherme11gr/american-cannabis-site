@@ -1,5 +1,5 @@
 site_url: https://guilherme11gr.github.io/american-cannabis-site/
-search: false
+search: true
 
 backend:
   name: github
@@ -71,11 +71,12 @@ collections:
   # ============================
   - name: "products"
     label: "Produtos"
+    identifier_field: "slug"
     folder: "src/data/products"
     create: true
     slug: "{{slug}}"
     extension: "json"
-
+    search: true
     # upload vai para public/imgs/products
     media_folder: "/public/imgs/products"
     # referência no JSON começa com /imgs/products
