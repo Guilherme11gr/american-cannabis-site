@@ -8,23 +8,23 @@
   "description": "EigthSix contendo 2ml Thc / Thc - A Delta 8 e/ou Delta 9 de extrato Indica\\r\\n\\r\\n___________________________\\r\\n\\r\\nINDICA \\r\\n\\r\\nPredominante Físico \\r\\nAlívio Sedativo \\r\\nRelaxante (Baixa Estresse Mental)\\r\\nRelaxante Muscular \\r\\nReduz dores Agudas \\r\\nReduz Náuseas \\r\\nAumenta Apetite \\r\\nAumenta Dopamina \\r\\nAlivia Enxaqueca",
   "mainPhoto": {
     "id": 94,
-    "image": "products/sigthsix-2ml-delta-9-indica-1-1728098108.png",
+    "image": "/imgs/products/sigthsix-2ml-delta-9-indica-1-1728098108.png",
     "product_id": 52
   },
   "images": [
     {
       "id": 94,
-      "image": "products/sigthsix-2ml-delta-9-indica-1-1728098108.png",
+      "image": "/imgs/products/sigthsix-2ml-delta-9-indica-1-1728098108.png",
       "product_id": 52
     },
     {
       "id": 95,
-      "image": "products/sigthsix-2ml-delta-9-indica-2-1728098108.jpg",
+      "image": "/imgs/products/sigthsix-2ml-delta-9-indica-2-1728098108.jpg",
       "product_id": 52
     },
     {
       "id": 96,
-      "image": "products/sigthsix-2ml-delta-9-indica-3-1728098108.jpg",
+      "image": "/imgs/products/sigthsix-2ml-delta-9-indica-3-1728098108.jpg",
       "product_id": 52
     }
   ],

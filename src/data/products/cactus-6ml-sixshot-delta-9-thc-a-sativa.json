@@ -8,23 +8,23 @@
   "description": "Experimente o cartucho vape mais dinâmico com o Vape descartável Six Shooter THC-A da Cactus Labs. Este dispositivo inovador contém 6 gramas de THC-A, sendo 2 gramas de cada extrato - Híbrida. Alterne facilmente entre variedades para uma experiência de vaporização personalizada.\\r\\n\\r\\nDivididos em Três compartimentos, 3X Coil\\r\\n\\r\\n___________________________\\r\\n\\r\\nSATIVA\\r\\n\\r\\nPredominante Mental \\r\\nAntiansiedade \\r\\nAntidepressivo \\r\\nInstigante (Criatividade a Reflexões)\\r\\nFelicidade/Espiritualidade \\r\\nAumenta o Foco\\r\\nAumenta a Energia \\r\\nAumenta Criatividade \\r\\nAjuda o Sistema Imunológico",
   "mainPhoto": {
     "id": 82,
-    "image": "products/cactus-6ml-sixshot-delta-9-thc-a-sativa-1-1728095548.jpg",
+    "image": "/imgs/products/cactus-6ml-sixshot-delta-9-thc-a-sativa-1-1728095548.jpg",
     "product_id": 41
   },
   "images": [
     {
       "id": 82,
-      "image": "products/cactus-6ml-sixshot-delta-9-thc-a-sativa-1-1728095548.jpg",
+      "image": "/imgs/products/cactus-6ml-sixshot-delta-9-thc-a-sativa-1-1728095548.jpg",
       "product_id": 41
     },
     {
       "id": 83,
-      "image": "products/cactus-6ml-sixshot-delta-9-thc-a-sativa-2-1728095548.jpeg",
+      "image": "/imgs/products/cactus-6ml-sixshot-delta-9-thc-a-sativa-2-1728095548.jpeg",
       "product_id": 41
     },
     {
       "id": 84,
-      "image": "products/cactus-6ml-sixshot-delta-9-thc-a-sativa-3-1728095548.jpg",
+      "image": "/imgs/products/cactus-6ml-sixshot-delta-9-thc-a-sativa-3-1728095548.jpg",
       "product_id": 41
     }
   ],

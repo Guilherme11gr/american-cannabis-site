@@ -1,36 +1,73 @@
-/* eslint-disable @typescript-eslint/no-require-imports */
-// split-by-slug.js
+// update-image-paths.js
+// Executar na raiz do projeto: `node update-image-paths.js`
 
-const fs   = require('fs')
-const path = require('path')
+const fs = require('fs');
+const path = require('path');
 
-// 1) Caminho para o JSON “mestre” que contém todos os produtos
-const INPUT_JSON = path.join(__dirname, './src/data/products.json')
+// 1) Pasta onde estão os JSONs de produto
+const productsDir = path.join(__dirname, 'src/data/products');
 
-// 2) Pasta de saída (vai criar caso não exista)
-const OUT_DIR = path.join(__dirname, './src/data/products')
-if (!fs.existsSync(OUT_DIR)) {
-  fs.mkdirSync(OUT_DIR, { recursive: true })
-}
-
-// 3) Carrega o JSON “mestre”
-const data = JSON.parse(fs.readFileSync(INPUT_JSON, 'utf-8'))
-if (!Array.isArray(data.products)) {
-  console.error('Formato inválido: precisa ter um array products[]')
-  process.exit(1)
-}
-
-// 4) Para cada produto, grava um arquivo separado
-data.products.forEach(prod => {
-  if (!prod.slug) {
-    console.warn(`Produto ID=${prod.id} não tem slug definido, usando id como nome de arquivo`)
+// 2) Função para prefixar "/imgs/" caso não exista
+function prefixImg(rawPath) {
+  if (typeof rawPath !== 'string') return rawPath;
+  // remove qualquer barra inicial
+  const sanitized = rawPath.replace(/^\/+/, '');
+  // se já começa com "imgs/", considera ok
+  if (sanitized.startsWith('imgs/')) {
+    return '/' + sanitized;
   }
-  const filename = `${prod.slug || prod.id}.json`
-  const filePath = path.join(OUT_DIR, filename)
+  // caso contrário, prefixa
+  return '/imgs/' + sanitized;
+}
 
-  // Escreve o JSON formatado com 2 espaços de indentação
-  fs.writeFileSync(filePath, JSON.stringify(prod, null, 2), 'utf-8')
-  console.log(`→ Gerado: ${path.relative(process.cwd(), filePath)}`)
-})
+// 3) Lê todos os arquivos .json na pasta
+const files = fs
+  .readdirSync(productsDir)
+  .filter((f) => f.endsWith('.json'));
 
-console.log(`\n✅ Foram gerados ${data.products.length} arquivos em ${OUT_DIR}`)
+files.forEach((filename) => {
+  const filePath = path.join(productsDir, filename);
+  const raw = fs.readFileSync(filePath, 'utf8');
+  let data;
+  try {
+    data = JSON.parse(raw);
+  } catch (err) {
+    console.error(`✖ Erro ao parsear ${filename}:`, err);
+    return;
+  }
+
+  let changed = false;
+
+  // 4) Atualiza mainPhoto.image
+  if (data.mainPhoto && typeof data.mainPhoto.image === 'string') {
+    const newPath = prefixImg(data.mainPhoto.image);
+    if (newPath !== data.mainPhoto.image) {
+      data.mainPhoto.image = newPath;
+      changed = true;
+    }
+  }
+
+  // 5) Atualiza cada images[].image
+  if (Array.isArray(data.images)) {
+    data.images = data.images.map((img) => {
+      if (img && typeof img.image === 'string') {
+        const newPath = prefixImg(img.image);
+        if (newPath !== img.image) {
+          changed = true;
+          return { ...img, image: newPath };
+        }
+      }
+      return img;
+    });
+  }
+
+  // 6) Se algo mudou, reescreve o arquivo
+  if (changed) {
+    fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
+    console.log(`✔ Atualizado: ${filename}`);
+  } else {
+    console.log(`→ Sem mudança: ${filename}`);
+  }
+});
+
+console.log(`\n✅ Processados ${files.length} arquivos em ${productsDir}`);

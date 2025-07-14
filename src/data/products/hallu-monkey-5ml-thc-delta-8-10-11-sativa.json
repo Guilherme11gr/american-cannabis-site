@@ -8,23 +8,23 @@
   "description": "Hallu Monkey conendo 5ml Thc mais Thc - P Delta 8, Delta 10 e Delta 11 Extrato Sativa\\r\\n\\r\\nPuxou chapou!\\r\\n\\r\\n___________________________\\r\\n\\r\\nSATIVA\\r\\n\\r\\nPredominante Mental \\r\\nAntiansiedade \\r\\nAntidepressivo \\r\\nInstigante (Criatividade a Reflexões)\\r\\nFelicidade/Espiritualidade \\r\\nAumenta o Foco\\r\\nAumenta a Energia \\r\\nAumenta Criatividade \\r\\nAjuda o Sistema Imunológico",
   "mainPhoto": {
     "id": 134,
-    "image": "products/hallu-monkey-5ml-thc-delta-8-10-11-sativa-1-1728164488.jpg",
+    "image": "/imgs/products/hallu-monkey-5ml-thc-delta-8-10-11-sativa-1-1728164488.jpg",
     "product_id": 15
   },
   "images": [
     {
       "id": 134,
-      "image": "products/hallu-monkey-5ml-thc-delta-8-10-11-sativa-1-1728164488.jpg",
+      "image": "/imgs/products/hallu-monkey-5ml-thc-delta-8-10-11-sativa-1-1728164488.jpg",
       "product_id": 15
     },
     {
       "id": 135,
-      "image": "products/hallu-monkey-5ml-thc-delta-8-10-11-sativa-2-1728164488.png",
+      "image": "/imgs/products/hallu-monkey-5ml-thc-delta-8-10-11-sativa-2-1728164488.png",
       "product_id": 15
     },
     {
       "id": 136,
-      "image": "products/hallu-monkey-5ml-thc-delta-8-10-11-sativa-3-1728164488.jpg",
+      "image": "/imgs/products/hallu-monkey-5ml-thc-delta-8-10-11-sativa-3-1728164488.jpg",
       "product_id": 15
     }
   ],
