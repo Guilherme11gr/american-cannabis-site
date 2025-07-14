@@ -32,10 +32,10 @@ collections:
             summary: "{{name}}"
             collapsed: true
             fields:
-              - { label: "ID",    name: "id",    widget: "number" }
-              - { label: "Nome",  name: "name",  widget: "string" }
-              - { label: "Slug",  name: "slug",  widget: "string" }
-              - { label: "Carousel", name: "carousel", widget: "boolean" }
+              - { label: "ID",       name: "id",        widget: "number" }
+              - { label: "Nome",     name: "name",      widget: "string" }
+              - { label: "Slug",     name: "slug",      widget: "string" }
+              - { label: "Carousel", name: "carousel",  widget: "boolean" }
               - label: "Subcategorias"
                 name: "categories"
                 widget: list
@@ -63,7 +63,7 @@ collections:
             collapsed: true
             fields:
               - { label: "ID",        name: "id",         widget: "number" }
-              - { label: "Imagem",    name: "image",      widget: "image" }
+              - { label: "Imagem",    name: "image",      widget: "image"  }
               - { label: "Product ID",name: "product_id", widget: "number" }
 
   # ============================
@@ -72,14 +72,13 @@ collections:
   - name: "products"
     label: "Produtos"
     identifier_field: "slug"
+    thumbnail: "mainPhoto"
     folder: "src/data/products"
     create: true
     slug: "{{slug}}"
     extension: "json"
-    search: true
-    # upload vai para public/imgs/products
+
     media_folder: "/public/imgs/products"
-    # referência no JSON começa com /imgs/products
     public_folder: "/imgs/products"
 
     view_filters:
@@ -94,24 +93,25 @@ collections:
         pattern: ".*"
 
     fields:
-      - { label: "ID",        name: "id",       widget: "number", required: true }
-      - { label: "Código",    name: "code",     widget: "string", required: true }
-      - { label: "Nome",      name: "name",     widget: "string", required: true }
-      - { label: "Slug",      name: "slug",     widget: "string", required: true }
-      - { label: "Preço",     name: "price",    widget: "number", required: true }
-      - { label: "Destaque?", name: "featured", widget: "boolean" }
+      - { label: "ID",        name: "id",          widget: "number", required: true }
+      - { label: "Código",    name: "code",        widget: "string", required: true }
+      - { label: "Nome",      name: "name",        widget: "string", required: true }
+      - { label: "Slug",      name: "slug",        widget: "string", required: true }
+      - { label: "Preço",     name: "price",       widget: "number", required: true }
+      - { label: "Destaque?", name: "featured",    widget: "boolean" }
       - { label: "Descrição", name: "description", widget: "text" }
-      
+
       - label: "Foto Principal"
         name: "mainPhoto"
-        widget: "image"
-        required: false
+        widget: object
         fields:
-          - { label: "Imagem", name: "image", widget: "image" }
+          - { label: "ID",         name: "id",          widget: "number" }
+          - { label: "Product ID", name: "product_id",  widget: "number" }
+          - { label: "Imagem",     name: "image",       widget: "image" }
 
       - label: "Categorias"
         name: "categorySlugs"
-        widget: "list"
+        widget: list
         field:
           label: "Slug de Categoria"
           name: "slug"
@@ -120,12 +120,3 @@ collections:
           value_field: "slug"
           display_fields: ["name"]
           search_fields: ["name"]
-
-      - label: "Imagens"
-        name: "images"
-        widget: "list"
-        summary: "{{image}}"
-        fields:
-          - { label: "Imagem", name: "image", widget: "image" }
-
-    summary: "{{name}} — R$ {{price}}"
