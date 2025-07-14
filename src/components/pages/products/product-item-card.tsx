@@ -74,11 +74,12 @@ const ProductItemContainer = styled.div`
 
 export const ProductItemCard: React.FC<{ product: ProductSummary }> = ({ product }) => {
   const isMobile = useMediaQuery('(max-width: 767px)')
+  const imageSrc = product?.images?.[0]?.image?.slice(1) ?? 'imgs/sys/not-found.jpg'
   return (
     <ProductItemContainer>
       <Link href={`/products/${product.slug}`}>
         <Image
-          src={`${product?.mainPhoto?.image?.slice(1) ?? 'imgs/sys/not-found.jpg'}`}
+          src={imageSrc}
           alt={product.name}
           width={isMobile ? 160 : 224}
           height={isMobile ? 160 : 224}
