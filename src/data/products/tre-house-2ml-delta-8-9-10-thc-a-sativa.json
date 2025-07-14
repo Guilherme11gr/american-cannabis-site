@@ -1,26 +1,22 @@
 {
-  "id": 37,
+  "price": 300,
+  "categorySlugs": [],
   "name": "Tree House 2ml Delta 8 / 9 / 10 Thc A - Sativa",
   "slug": "tre-house-2ml-delta-8-9-10-thc-a-sativa",
-  "price": 300,
   "code": "th2s",
   "featured": false,
-  "description": "___________________________\\r\\n\\r\\nSATIVA\\r\\n\\r\\nPredominante Mental \\r\\nAntiansiedade \\r\\nAntidepressivo \\r\\nInstigante (Criatividade a Reflexões)\\r\\nFelicidade/Espiritualidade \\r\\nAumenta o Foco\\r\\nAumenta a Energia \\r\\nAumenta Criatividade \\r\\nAjuda o Sistema Imunológico",
+  "images": [
+    {
+      "id": 188,
+      "product_id": 37,
+      "image": "/imgs/products/trehouse-sourdiesel-pen-636x636-1.jpg"
+    }
+  ],
   "mainPhoto": {
     "id": 188,
     "product_id": 37,
     "image": "/imgs/trehouse-sourdiesel-pen-636x636-1.jpg"
   },
-  "images": [
-    {
-      "id": 188,
-      "product_id": 37,
-      "image": "/imgs/trehouse-sourdiesel-pen-636x636-1.jpg"
-    }
-  ],
-  "categorySlugs": [
-    "tree-house",
-    "sativa",
-    "descartaveis"
-  ]
+  "id": 37,
+  "description": "___________________________\\r\\n\\r\\nSATIVA\\r\\n\\r\\nPredominante Mental \\r\\nAntiansiedade \\r\\nAntidepressivo \\r\\nInstigante (Criatividade a Reflexões)\\r\\nFelicidade/Espiritualidade \\r\\nAumenta o Foco\\r\\nAumenta a Energia \\r\\nAumenta Criatividade \\r\\nAjuda o Sistema Imunológico"
 }
