@@ -1,6 +1,16 @@
 {
   "price": 300,
-  "categorySlugs": [],
+  "categorySlugs": [
+    {
+      "slug": "sativa"
+    },
+    {
+      "slug": "descartaveis"
+    },
+    {
+      "slug": "tree-house"
+    }
+  ],
   "name": "Tree House 2ml Delta 8 / 9 / 10 Thc A - Sativa",
   "slug": "tre-house-2ml-delta-8-9-10-thc-a-sativa",
   "code": "th2s",
