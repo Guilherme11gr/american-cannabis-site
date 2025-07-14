@@ -100,7 +100,6 @@ collections:
       - { label: "Preço",     name: "price",    widget: "number", required: true }
       - { label: "Destaque?", name: "featured", widget: "boolean" }
       - { label: "Descrição", name: "description", widget: "text" }
-      - { label: "Thumbnail", name: "mainPhoto", widget: "image" }
 
       - label: "Categorias"
         name: "categorySlugs"
