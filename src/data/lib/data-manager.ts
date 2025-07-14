@@ -7,6 +7,18 @@ export interface Category {
   carousel: boolean
 }
 
+export interface ImagesData {
+  images: Image[]
+}
+
+export interface ProductsData {
+  products: Product[]
+}
+
+export interface Categories {
+  categories: CategoryGroup[]
+}
+
 export interface CategoryGroup {
   id: number
   name: string
@@ -57,21 +69,21 @@ export class DataManager {
   private flatCategories: Category[] | null = null
 
   constructor(
-    private products: Product[],
-    private categoryGroups: CategoryGroup[] | null,
-    private images: Image[]
+    private products: ProductsData,
+    private categoryGroups: Categories | null,
+    private images: ImagesData
   ) {
     if (categoryGroups) {
-      this.flatCategories = categoryGroups.flatMap(g => g.categories)
+      this.flatCategories = categoryGroups.categories.flatMap(g => g.categories)
     }
   }
 
   getCategoryGroups(): CategoryGroup[] | null {
-    return this.categoryGroups
+    return this.categoryGroups?.categories ?? null
   }
 
   getSubcategoriesByGroupId(groupId: number): Category[] {
-    const grp = this.categoryGroups?.find(g => g.id === groupId)
+    const grp = this.categoryGroups?.categories.find(g => g.id === groupId)
     return grp ? grp.categories : []
   }
 
@@ -84,15 +96,15 @@ export class DataManager {
   }
 
   getProductById(id: number): Product | undefined {
-    return this.products.find(p => p.id === id)
+    return this.products.products.find(p => p.id === id)
   }
 
   getProductBySlug(slug: string): Product | undefined {
-    return this.products.find(p => p.slug === slug)
+    return this.products.products.find(p => p.slug === slug)
   }
 
   getPhotosByProductId(productId: number): Image[] {
-    return this.images.filter(img => img.product_id === productId)
+    return this.images.images.filter(img => img.product_id === productId)
   }
 
   getProductWithRelationsById(id: number): ProductWithRelations | null {
@@ -111,7 +123,7 @@ export class DataManager {
   }
 
   getAllProductsSummaries(): ProductSummary[] {
-    return this.products.map(p => ({
+    return this.products.products.map(p => ({
       id: p.id,
       name: p.name,
       slug: p.slug,
