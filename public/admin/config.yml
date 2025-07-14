@@ -89,15 +89,3 @@ collections:
         summary: "{{image}}"
         fields:
           - { label: "Imagem", name: "image", widget: "image" }
-
-      - label: "Categorias"
-        name: "categorySlugs"
-        widget: list
-        field:
-          label: "Slug de Categoria"
-          name: "slug"
-          widget: "relation"
-          collection: "categories"
-          value_field: "slug"
-          display_fields: ["slug"]
-          search_fields: ["slug"]
