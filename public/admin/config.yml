@@ -62,9 +62,15 @@ collections:
       - file: "src/data/products.json"
         label: "Lista de Produtos"
         name: "products"
+        view_filters:
+          - label: "Slug"
+            field: "slug"
+          - label: "Nome"
+            field: "name"
         fields:
           - label: "Produtos"
             name: "products"
+            summary: "{{slug}}" 
             widget: list
             fields:
               - { label: "ID",         name: "id",            widget: "number" }
