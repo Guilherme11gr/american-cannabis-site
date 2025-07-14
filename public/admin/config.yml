@@ -76,9 +76,10 @@ collections:
     create: true
     slug: "{{slug}}"
     extension: "json"
-
+    thumbnail: "images.0.image"
     media_folder: "/public/imgs/products"
     public_folder: "/imgs/products"
+    search: true
 
     view_filters:
       - label: "Nome"
