@@ -180,6 +180,8 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({ images, pr
 
   const isMobile = useMediaQuery('(max-width: 768px)')
 
+
+
   return (
     <ProductDetailContainer>
       <ProductDataInfo>
@@ -187,7 +189,7 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({ images, pr
           {images.map((img) => (
             <li key={img.id} className="keen-slider__slide">
               <NextImage
-                src={`${img.image ?? '/sys/not-found.jpg'}`}
+                src={img.image ? img.image.slice(1) : '/sys/not-found.jpg'}
                 alt={img.image}
                 width={480}
                 height={480}
