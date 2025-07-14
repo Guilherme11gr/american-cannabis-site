@@ -109,12 +109,12 @@ collections:
 
       - label: "Categorias"
         name: "categorySlugs"
-        widget: list
-        field:
-          label: "Slug de Categoria"
-          name: "slug"
-          widget: "relation"
-          collection: "categories"
-          value_field: "slug"
-          display_fields: ["name"]
-          search_fields: ["name"]
+        widget: "list"
+        fields:
+          - label: "Categoria"
+            name: "slug"
+            widget: "relation"
+            collection: "categories"
+            value_field: "slug"
+            display_fields: ["name"]
+            search_fields: ["name"]
