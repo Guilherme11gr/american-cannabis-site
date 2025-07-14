@@ -5,14 +5,7 @@
   "slug": "tre-house-2ml-delta-8-9-10-thc-a-sativa",
   "code": "th2s",
   "featured": false,
-  "images": [
-    {
-      "image": "/imgs/products/trehouse-sourdiesel-pen-636x636-1.jpg"
-    },
-    {
-      "image": "products/trehouse-kit.jpg"
-    }
-  ],
+  "images": [],
   "mainPhoto": {
     "id": 188,
     "product_id": 37,
