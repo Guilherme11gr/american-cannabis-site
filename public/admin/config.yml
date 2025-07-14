@@ -78,8 +78,8 @@ collections:
 
     # upload vai para public/imgs/products
     media_folder: "public/imgs/products"
-    # grava no JSON como "products/arquivo.ext"
-    public_folder: "imgs/products"
+    # referência no JSON começa com /imgs/products
+    public_folder: "/imgs/products"
 
     view_filters:
       - label: "Nome"
