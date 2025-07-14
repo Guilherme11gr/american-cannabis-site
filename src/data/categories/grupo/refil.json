@@ -1,0 +1,9 @@
+{
+  "id": 21,
+  "parent_id": 19,
+  "name": "Refil",
+  "slug": "refil",
+  "count": 3,
+  "queue": "2",
+  "carousel": true
+}

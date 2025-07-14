@@ -71,7 +71,7 @@ export class DataManager {
 
   constructor(
     private products: ProductSummary[],
-    private categoryGroups: Categories | null,
+    private categoryGroups?: Categories | null,
     private images?: ImagesData
   ) {
     if (categoryGroups) {

@@ -1,0 +1,9 @@
+{
+  "id": 22,
+  "parent_id": 19,
+  "name": "Baterias",
+  "slug": "bateria",
+  "count": 0,
+  "queue": "4",
+  "carousel": true
+}

@@ -1,9 +1,8 @@
 import { HomePageComponent } from "@/components/pages/home/home";
-import { Categories, DataManager, ProductSummary } from "@/data/lib/data-manager";
+import { DataManager, ProductSummary } from "@/data/lib/data-manager";
 import fs from 'fs';
 import { GetStaticProps } from "next";
 import path from "path";
-import categoriesData from '../data/categories.json';
 
 interface HomeProps {
   featured: ProductSummary[]
@@ -22,10 +21,7 @@ export const getStaticProps: GetStaticProps<HomeProps> = async () => {
     return JSON.parse(raw) as ProductSummary
   })
 
-  const dm = new DataManager(
-    products,
-    categoriesData as unknown as Categories,
-  )
+  const dm = new DataManager(products)
 
   const featured = dm.getFeaturedProducts().sort((a, b) => a.name.localeCompare(b.name))
 
