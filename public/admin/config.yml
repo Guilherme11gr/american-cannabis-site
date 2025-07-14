@@ -16,36 +16,20 @@ public_folder: "/imgs"
 
 collections:
 
-  # ============================
-  # CATEGORIES (sem alteração)
-  # ============================
   - name: "categories"
     label: "Categorias"
-    files:
-      - file: "src/data/categories.json"
-        label: "Lista de Categorias"
-        name: "categories"
-        fields:
-          - label: "Categorias"
-            name: "categories"
-            widget: list
-            summary: "{{name}}"
-            collapsed: true
-            fields:
-              - { label: "ID",       name: "id",        widget: "number" }
-              - { label: "Nome",     name: "name",      widget: "string" }
-              - { label: "Slug",     name: "slug",      widget: "string" }
-              - { label: "Carousel", name: "carousel",  widget: "boolean" }
-              - label: "Subcategorias"
-                name: "categories"
-                widget: list
-                summary: "{{name}}"
-                collapsed: true
-                fields:
-                  - { label: "ID",   name: "id",   widget: "number" }
-                  - { label: "Nome", name: "name", widget: "string" }
-                  - { label: "Slug", name: "slug", widget: "string" }
-
+    folder: "src/data/categories"
+    create: true
+    slug: "{{slug}}"
+    extension: "json"
+    fields:
+      - { label: "ID",        name: "id",        widget: "number" }
+      - { label: "Parent ID", name: "parent_id", widget: "number", required: false }
+      - { label: "Nome",      name: "name",      widget: "string" }
+      - { label: "Slug",      name: "slug",      widget: "string" }
+      - { label: "Count",     name: "count",     widget: "number", required: false }
+      - { label: "Queue",     name: "queue",     widget: "string", required: false }
+      - { label: "Carousel",  name: "carousel",  widget: "boolean", required: false }
 
   # ============================
   # PRODUTOS (folder collection)
@@ -57,7 +41,7 @@ collections:
     create: true
     slug: "{{slug}}"
     extension: "json"
-    thumbnail: "images.0.image"
+    thumbnail: "mainPhoto.image"
     media_folder: "/public/imgs/products"
     public_folder: "/imgs/products"
     search: true
@@ -89,3 +73,15 @@ collections:
         summary: "{{image}}"
         fields:
           - { label: "Imagem", name: "image", widget: "image" }
+
+      - label: "Categorias"
+        name: "categorySlugs"
+        widget: "list"
+        fields:
+          - label: "Categoria"
+            name: "slug"
+            widget: "relation"
+            collection: "categories"
+            value_field: "slug"
+            display_fields: ["name"]
+            search_fields: ["name"]
