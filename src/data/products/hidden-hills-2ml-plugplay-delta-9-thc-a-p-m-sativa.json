@@ -1,16 +1,20 @@
 {
-  "id": 25,
-  "name": "Hidden Hills 2ml PlugPlay Delta 9 Thc A / P / M - Sativa",
-  "slug": "hidden-hills-2ml-plugplay-delta-9-thc-a-p-m-sativa",
   "price": 300,
-  "code": "hhp2s",
-  "featured": false,
-  "description": "___________________________\\r\\n\\r\\nSATIVA\\r\\n\\r\\nPredominante Mental \\r\\nAntiansiedade \\r\\nAntidepressivo \\r\\nInstigante (Criatividade a Reflexões)\\r\\nFelicidade/Espiritualidade \\r\\nAumenta o Foco\\r\\nAumenta a Energia \\r\\nAumenta Criatividade \\r\\nAjuda o Sistema Imunológico",
-  "mainPhoto": null,
-  "images": [],
   "categorySlugs": [
     "hidden-hills",
     "sativa",
     "descartaveis"
-  ]
+  ],
+  "name": "Hidden Hills 2ml PlugPlay Delta 9 Thc A / P / M - Sativa",
+  "slug": "hidden-hills-2ml-plugplay-delta-9-thc-a-p-m-sativa",
+  "code": "hhp2s",
+  "featured": false,
+  "images": [
+    {
+      "image": "/imgs/products/hidden-hills-vape-bussin-blend-grape-pie-face.webp"
+    }
+  ],
+  "mainPhoto": null,
+  "id": 25,
+  "description": "___________________________\\r\\n\\r\\nSATIVA\\r\\n\\r\\nPredominante Mental \\r\\nAntiansiedade \\r\\nAntidepressivo \\r\\nInstigante (Criatividade a Reflexões)\\r\\nFelicidade/Espiritualidade \\r\\nAumenta o Foco\\r\\nAumenta a Energia \\r\\nAumenta Criatividade \\r\\nAjuda o Sistema Imunológico"
 }
