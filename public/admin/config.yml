@@ -10,7 +10,7 @@ backend:
   base_url: https://decap-proxy2.guilherme11-gr.workers.dev
   debug: true
 
-# pasta onde o CMS grava as imagens
+# pasta onde o CMS grava as imagens padrão
 media_folder: "public/imgs"
 public_folder: "/imgs"
 
@@ -71,12 +71,16 @@ collections:
   # ============================
   - name: "products"
     label: "Produtos"
-    folder: "src/data/products"      # cada produto em um arquivo
+    folder: "src/data/products"
     create: true
-    slug: "{{slug}}"                 # nome do arquivo = slug.json
+    slug: "{{slug}}"
     extension: "json"
+
+    # upload vai para public/imgs/products
     media_folder: "public/imgs/products"
-    public_folder: "/products"
+    # grava no JSON como "products/arquivo.ext"
+    public_folder: "products"
+
     view_filters:
       - label: "Nome"
         field: "name"
@@ -87,6 +91,7 @@ collections:
       - label: "Categoria"
         field: "categorySlugs"
         pattern: ".*"
+
     fields:
       - { label: "ID",        name: "id",       widget: "number", required: true }
       - { label: "Código",    name: "code",     widget: "string", required: true }
@@ -116,5 +121,4 @@ collections:
         fields:
           - { label: "Imagem", name: "image", widget: "image" }
 
-    # muda a label de cada produto na lista para “Nome — R$Preço”
     summary: "{{name}} — R$ {{price}}"
