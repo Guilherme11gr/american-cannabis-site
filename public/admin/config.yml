@@ -21,7 +21,6 @@ collections:
   # ============================
   - name: "categories"
     label: "Categorias"
-    search: false
     files:
       - file: "src/data/categories.json"
         label: "Lista de Categorias"
@@ -47,25 +46,6 @@ collections:
                   - { label: "Nome", name: "name", widget: "string" }
                   - { label: "Slug", name: "slug", widget: "string" }
 
-  # ============================
-  # IMAGENS (sem alteração)
-  # ============================
-  - name: "images"
-    label: "Imagens"
-    files:
-      - file: "src/data/images.json"
-        label: "Lista de Imagens"
-        name: "images"
-        fields:
-          - label: "Imagens"
-            name: "images"
-            widget: list
-            summary: "{{id}} – {{image}}"
-            collapsed: true
-            fields:
-              - { label: "ID",        name: "id",         widget: "number" }
-              - { label: "Imagem",    name: "image",      widget: "image"  }
-              - { label: "Product ID",name: "product_id", widget: "number" }
 
   # ============================
   # PRODUTOS (folder collection)
@@ -112,12 +92,12 @@ collections:
 
       - label: "Categorias"
         name: "categorySlugs"
-        widget: "list"
-        fields:
-          - label: "Categoria"
-            name: "slug"
-            widget: "relation"
-            collection: "categories"
-            value_field: "slug"
-            display_fields: ["name"]
-            search_fields: ["name"]
+        widget: list
+        field:
+          label: "Slug de Categoria"
+          name: "slug"
+          widget: "relation"
+          collection: "categories"
+          value_field: "slug"
+          display_fields: ["slug"]
+          search_fields: ["slug"]
