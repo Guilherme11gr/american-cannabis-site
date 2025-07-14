@@ -98,6 +98,10 @@ export const ProductsPage: React.FC<ProductsPageProps> = ({ categoryGroups, prod
   const prevQueryRef = useRef<Record<string, string[]>>({})
   const isMobile = useMediaQuery('(max-width: 767px)')
 
+  console.log('================================================')
+  console.log('Products:', JSON.stringify(products))
+  console.log('================================================')
+
   useEffect(() => {
     if (!router.isReady) return
     const qs = router.query

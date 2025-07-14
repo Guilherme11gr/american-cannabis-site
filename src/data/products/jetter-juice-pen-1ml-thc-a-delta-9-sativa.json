@@ -1,0 +1,46 @@
+{
+  "id": 2,
+  "name": "Jetter Juice Pen 1ml Thc-A Delta 9 Sativa",
+  "slug": "jetter-juice-pen-1ml-thc-a-delta-9-sativa",
+  "price": 300,
+  "code": "jjp1s",
+  "featured": true,
+  "description": "COMO O LIVE RESIN VAPE GANHA SEU SABOR?\\r\\n\\r\\nA Live Resin obtém seu sabor diretamente da planta original. A planta passa por um processo de congelamento rápido que evita a degradação dos terpenos da flor e os mantém tão frescos quanto no momento da colheita das plantas. Quando a planta é extraída, o perfil do terpeno é incrivelmente potente e diversificado, e pode ser transferido para o óleo final. A frase “fire in, fire out” é especialmente importante na extração de resina viva.\\r\\n\\r\\nSabores:\\r\\n\\r\\nPeach Cobbler;\\r\\nDurban Poison;\\r\\nHurricane;\\r\\nSour Tangie;\\r\\nWhite Buffalo;\\r\\nLavender Jones;\\r\\nJack The Ripper;\\r\\nSunshine;\\r\\nSuper Silver Haze;\\r\\nStrawberry Jack;\\r\\nPurple Pesos;\\r\\n\\r\\nSATIVA\\r\\n\\r\\nPredominante Mental \\r\\nAntiansiedade \\r\\nAntidepressivo \\r\\nInstigante (Criatividade a Reflexões)\\r\\nFelicidade/Espiritualidade \\r\\nAumenta o Foco\\r\\nAumenta a Energia \\r\\nAumenta Criatividade \\r\\nAjuda o Sistema Imunológico",
+  "mainPhoto": {
+    "id": 4,
+    "image": "products/jetter-juice-pen-1ml-thc-a-delta-9-sativa-1-1726872996.jpg",
+    "product_id": 2
+  },
+  "images": [
+    {
+      "id": 4,
+      "image": "products/jetter-juice-pen-1ml-thc-a-delta-9-sativa-1-1726872996.jpg",
+      "product_id": 2
+    },
+    {
+      "id": 5,
+      "image": "products/jetter-juice-pen-1ml-thc-a-delta-9-sativa-2-1726874906.jpg",
+      "product_id": 2
+    },
+    {
+      "id": 6,
+      "image": "products/jetter-juice-pen-1ml-thc-a-delta-9-sativa-3-1726874906.jpg",
+      "product_id": 2
+    },
+    {
+      "id": 14,
+      "image": "products/jetter-juice-pen-1ml-thc-a-delta-9-sativa-4-1726969702.webp",
+      "product_id": 2
+    },
+    {
+      "id": 15,
+      "image": "products/jetter-juice-pen-1ml-thc-a-delta-9-sativa-5-1726969702.webp",
+      "product_id": 2
+    }
+  ],
+  "categorySlugs": [
+    "jetter-juice",
+    "sativa",
+    "descartaveis"
+  ]
+}

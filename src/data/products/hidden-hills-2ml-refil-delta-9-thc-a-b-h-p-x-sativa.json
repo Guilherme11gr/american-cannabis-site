@@ -1,0 +1,36 @@
+{
+  "id": 28,
+  "name": "Hidden Hills 2ml Refil Delta 9 Thc A / B / H /P / X - Sativa",
+  "slug": "hidden-hills-2ml-refil-delta-9-thc-a-b-h-p-x-sativa",
+  "price": 300,
+  "code": "hhr2s",
+  "featured": false,
+  "description": "___________________________\\r\\n\\r\\nSATIVA\\r\\n\\r\\nPredominante Mental \\r\\nAntiansiedade \\r\\nAntidepressivo \\r\\nInstigante (Criatividade a Reflexões)\\r\\nFelicidade/Espiritualidade \\r\\nAumenta o Foco\\r\\nAumenta a Energia \\r\\nAumenta Criatividade \\r\\nAjuda o Sistema Imunológico",
+  "mainPhoto": {
+    "id": 112,
+    "image": "products/hidden-hills-2ml-refil-delta-9-thc-a-b-h-p-x-sativa-1-1728101414.png",
+    "product_id": 28
+  },
+  "images": [
+    {
+      "id": 112,
+      "image": "products/hidden-hills-2ml-refil-delta-9-thc-a-b-h-p-x-sativa-1-1728101414.png",
+      "product_id": 28
+    },
+    {
+      "id": 113,
+      "image": "products/hidden-hills-2ml-refil-delta-9-thc-a-b-h-p-x-sativa-2-1728101414.png",
+      "product_id": 28
+    },
+    {
+      "id": 183,
+      "image": "products/hidden-hills-2ml-refil-delta-9-thc-a-b-h-p-x-sativa-3-1728585141.jpg",
+      "product_id": 28
+    }
+  ],
+  "categorySlugs": [
+    "hidden-hills",
+    "sativa",
+    "refil"
+  ]
+}

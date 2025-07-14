@@ -1,0 +1,41 @@
+{
+  "id": 45,
+  "name": "Pulse 5ml Digital Display Delta 9 Thc P Hhc P - Hibrida",
+  "slug": "pulse-5ml-digital-display-delta-9-thc-a-hibrida",
+  "price": 300,
+  "code": "p5ddh",
+  "featured": false,
+  "description": "Pulse THC 5G Vape descartável - Pacote com 5: Liquid Diamonds THC-A + D9 + THC-P + HHC-P\\r\\n\\r\\nDescubra a melhor experiência de vaporização com o vaporizador descartável Pulse THC 5G, agora disponível em um prático pacote com 5 unidades. Cada vaporizador descartável é meticulosamente elaborado para proporcionar uma experiência potente e saborosa, combinando vários canabinoides para uma sensação única e equilibrada.\\r\\n\\r\\nCaracterísticas do produto:\\r\\n\\r\\nMistura avançada de canabinoides :\\r\\n\\r\\nTHC-A (ácido tetrahidrocanabinólico) : conhecido por seus potenciais efeitos anti-inflamatórios e neuroprotetores.\\r\\nD9-THC (Delta-9-Tetrahidrocanabinol) : Oferece a clássica euforia associada à cannabis.\\r\\nTHC-P (Tetrahidrocanabiforol) : Até 30 vezes mais potente que o THC comum, proporcionando uma experiência poderosa.\\r\\nHHC-P (Hexahydrocannabinol-Phorol) : Oferece um efeito suave, relaxante e terapêutico.\\r\\nTecnologia Liquid Diamonds : Utilizando um processo de extração de alta qualidade, este vape preserva todo o espectro de canabinoides e terpenos, garantindo uma experiência rica, saborosa e potente. O método Liquid Diamonds aprimora o efeito entourage, proporcionando uma alta completa e satisfatória.\\r\\nDesign descartável fácil de usar : Pré-preenchido e pronto para uso, o Pulse THC Disposable Vape possui uma tela de LED que exibe a duração da bateria e os níveis de líquido para maior conveniência e controle. Perfeito para uso em trânsito, não requer manutenção ou recarga.\\r\\nCapacidade generosa de 5g : Cada dispositivo contém 5 gramas de conteúdo líquido, oferecendo sessões de vaporização prolongadas antes de precisar ser substituído. Desfrute de uso duradouro com qualidade e desempenho consistentes.\\r\\nVariedade de cepa :\\r\\n\\r\\nOG Banana Squirt (Híbrido) : Um híbrido bem equilibrado que combina sabores frutados e terrosos para uma experiência de vaporização suave.\\r\\nGranny Apple Express X LSD 25 (Híbrido) : Um híbrido exclusivo que combina os sabores crocantes da maçã com os efeitos potentes do LSD 25.\\r\\n\\r\\n___________________________\\r\\n\\r\\nHIBRIDA \\r\\n\\r\\nÉ composta de 50% Sativa e 50% Indica.\\r\\n\\r\\n___________________________\\r\\n\\r\\nSATIVA\\r\\n\\r\\nPredominante Mental \\r\\nAntiansiedade \\r\\nAntidepressivo \\r\\nInstigante (Criatividade a Reflexões)\\r\\nFelicidade/Espiritualidade \\r\\nAumenta o Foco\\r\\nAumenta a Energia \\r\\nAumenta Criatividade \\r\\nAjuda o Sistema Imunológico\\r\\n___________________________\\r\\n\\r\\nINDICA \\r\\n\\r\\nPredominante Físico \\r\\nAlívio Sedativo \\r\\nRelaxante (Baixa Estresse Mental)\\r\\nRelaxante Muscular \\r\\nReduz dores Agudas \\r\\nReduz Náuseas \\r\\nAumenta Apetite \\r\\nAumenta Dopamina \\r\\nAlivia Enxaqueca",
+  "mainPhoto": {
+    "id": 57,
+    "image": "products/pulse-5ml-digital-display-delta-9-thc-a-hibrida-1-1727411077.jpg",
+    "product_id": 45
+  },
+  "images": [
+    {
+      "id": 57,
+      "image": "products/pulse-5ml-digital-display-delta-9-thc-a-hibrida-1-1727411077.jpg",
+      "product_id": 45
+    },
+    {
+      "id": 144,
+      "image": "products/pulse-5ml-digital-display-delta-9-thc-a-hibrida-2-1728168217.webp",
+      "product_id": 45
+    },
+    {
+      "id": 145,
+      "image": "products/pulse-5ml-digital-display-delta-9-thc-a-hibrida-3-1728168217.jpg",
+      "product_id": 45
+    },
+    {
+      "id": 184,
+      "image": "products/pulse-5ml-digital-display-delta-9-thc-a-hibrida-4-1728585441.jpg",
+      "product_id": 45
+    }
+  ],
+  "categorySlugs": [
+    "pulse-thc",
+    "hibrida",
+    "descartaveis"
+  ]
+}

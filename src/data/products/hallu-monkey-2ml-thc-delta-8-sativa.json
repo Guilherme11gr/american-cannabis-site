@@ -1,0 +1,46 @@
+{
+  "id": 12,
+  "name": "Hallu Monkey 2ml Thc Delta 8 Sativa",
+  "slug": "hallu-monkey-2ml-thc-delta-8-sativa",
+  "price": 300,
+  "code": "hm2s",
+  "featured": false,
+  "description": "Hallu Monkey 2ml Thc mais Thc-P Delta 8 de Extrato Sativa\\r\\n\\r\\nPuxou Chapou!\\r\\n\\r\\nSATIVA\\r\\n\\r\\nPredominante Mental \\r\\nAntiansiedade \\r\\nAntidepressivo \\r\\nInstigante (Criatividade a Reflexões)\\r\\nFelicidade/Espiritualidade \\r\\nAumenta o Foco\\r\\nAumenta a Energia \\r\\nAumenta Criatividade \\r\\nAjuda o Sistema Imunológico",
+  "mainPhoto": {
+    "id": 69,
+    "image": "products/hallu-monkey-2ml-thc-delta-8-sativa-2-1727894986.png",
+    "product_id": 12
+  },
+  "images": [
+    {
+      "id": 69,
+      "image": "products/hallu-monkey-2ml-thc-delta-8-sativa-2-1727894986.png",
+      "product_id": 12
+    },
+    {
+      "id": 120,
+      "image": "products/hallu-monkey-2ml-thc-delta-8-sativa-2-1728162349.jpg",
+      "product_id": 12
+    },
+    {
+      "id": 121,
+      "image": "products/hallu-monkey-2ml-thc-delta-8-sativa-3-1728162349.jpg",
+      "product_id": 12
+    },
+    {
+      "id": 122,
+      "image": "products/hallu-monkey-2ml-thc-delta-8-sativa-4-1728162349.jpg",
+      "product_id": 12
+    },
+    {
+      "id": 123,
+      "image": "products/hallu-monkey-2ml-thc-delta-8-sativa-5-1728162349.jpg",
+      "product_id": 12
+    }
+  ],
+  "categorySlugs": [
+    "hallo",
+    "sativa",
+    "descartaveis"
+  ]
+}

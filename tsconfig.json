@@ -37,6 +37,7 @@
     "emotion.d.ts"
 , "src/pages/_documentstsx"  ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+     "split-by-slug.js"
   ]
 }

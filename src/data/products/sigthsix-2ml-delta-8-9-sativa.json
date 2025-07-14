@@ -1,0 +1,36 @@
+{
+  "id": 53,
+  "name": "EigthSix 2ml Delta 8 / 9 - Sativa",
+  "slug": "sigthsix-2ml-delta-8-9-sativa",
+  "price": 300,
+  "code": "e2s",
+  "featured": false,
+  "description": "EigthSix contendo 2ml Thc / Thc - A Delta 8 e/ou Delta 9 de extrato Sativa\\r\\n\\r\\n___________________________\\r\\n\\r\\nSATIVA\\r\\n\\r\\nPredominante Mental \\r\\nAntiansiedade \\r\\nAntidepressivo \\r\\nInstigante (Criatividade a Reflexões)\\r\\nFelicidade/Espiritualidade \\r\\nAumenta o Foco\\r\\nAumenta a Energia \\r\\nAumenta Criatividade \\r\\nAjuda o Sistema Imunológico",
+  "mainPhoto": {
+    "id": 91,
+    "image": "products/sigthsix-2ml-delta-8-9-sativa-1-1728097165.jpg",
+    "product_id": 53
+  },
+  "images": [
+    {
+      "id": 91,
+      "image": "products/sigthsix-2ml-delta-8-9-sativa-1-1728097165.jpg",
+      "product_id": 53
+    },
+    {
+      "id": 92,
+      "image": "products/sigthsix-2ml-delta-8-9-sativa-2-1728097165.jpg",
+      "product_id": 53
+    },
+    {
+      "id": 93,
+      "image": "products/sigthsix-2ml-delta-8-9-sativa-3-1728097165.png",
+      "product_id": 53
+    }
+  ],
+  "categorySlugs": [
+    "eight-six",
+    "sativa",
+    "descartaveis"
+  ]
+}

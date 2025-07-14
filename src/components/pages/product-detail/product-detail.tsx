@@ -1,17 +1,17 @@
 import { Button } from "@/components/shared/button"
 import { CarouselDots } from "@/components/shared/carousel-slider-dots"
-import { Image, Product } from "@/data/lib/data-manager"
+import { Image, ProductSummary } from "@/data/lib/data-manager"
 import { useCarouselSlider } from "@/hooks/use-carousel-slider"
 import { useMediaQuery } from "@/hooks/use-media-query"
 import { toCurrency } from "@/utils/mask"
 import styled from "@emotion/styled"
 import NextImage from "next/image"
-import DescriptionAccordion from "./description-accordeon"
 import Link from "next/link"
+import DescriptionAccordion from "./description-accordeon"
 
 interface ProductDetailPageProps {
   images: Image[]
-  product: Product
+  product: ProductSummary
 }
 
 const ProductDetailContainer = styled.section`

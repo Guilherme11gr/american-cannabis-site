@@ -70,13 +70,18 @@ export class DataManager {
   private flatCategories: Category[] | null = null
 
   constructor(
-    private products: ProductsData,
+    private products: ProductSummary[],
     private categoryGroups: Categories | null,
-    private images: ImagesData
+    private images?: ImagesData
   ) {
     if (categoryGroups) {
       this.flatCategories = categoryGroups.categories.flatMap(g => g.categories)
     }
+  }
+
+
+  getAllProducts() {
+    return this.products;
   }
 
   getCategoryGroups(): CategoryGroup[] | null {
@@ -96,49 +101,49 @@ export class DataManager {
     return this.flatCategories?.filter(c => ids.includes(c.id)) ?? []
   }
 
-  getProductById(id: number): Product | undefined {
-    return this.products.products.find(p => p.id === id)
+  getProductById(id: number): ProductSummary  | undefined {
+    return this.products.find(p => p.id === id)
   }
 
-  getProductBySlug(slug: string): Product | undefined {
-    return this.products.products.find(p => p.slug === slug)
+  getProductBySlug(slug: string): ProductSummary  | undefined {
+    return this.products.find(p => p.slug === slug)
   }
 
   getPhotosByProductId(productId: number): Image[] {
-    return this.images.images.filter(img => img.product_id === productId)
+    return this.images!.images.filter(img => img.product_id === productId)
   }
 
-  getProductWithRelationsById(id: number): ProductWithRelations | null {
-    const prod = this.getProductById(id)
-    if (!prod || !prod.category_ids) return null
-    return {
-      ...prod,
-      categories: this.getCategoriesByIds(prod.category_ids),
-      photos: this.getPhotosByProductId(prod.id),
-    }
-  }
+  // getProductWithRelationsById(id: number): ProductWithRelations | null {
+  //   const prod = this.getProductById(id)
+  //   if (!prod || !prod.category_ids) return null
+  //   return {
+  //     ...prod,
+  //     categories: this.getCategoriesByIds(prod.category_ids),
+  //     photos: this.getPhotosByProductId(prod.id),
+  //   }
+  // }
 
-  getProductWithRelationsBySlug(slug: string): ProductWithRelations | null {
-    const prod = this.getProductBySlug(slug)
-    return prod ? this.getProductWithRelationsById(prod.id) : null
-  }
+  // getProductWithRelationsBySlug(slug: string): ProductWithRelations | null {
+  //   const prod = this.getProductBySlug(slug)
+  //   return prod ? this.getProductWithRelationsById(prod.id) : null
+  // }
 
-  getAllProductsSummaries(): ProductSummary[] {
-    return this.products.products.map(p => ({
-      id: p.id,
-      name: p.name,
-      slug: p.slug,
-      price: p.price,
-      code: p.code,
-      featured: p.featured ?? false,
-      description: p.description,
-      mainPhoto: this.getPhotosByProductId(p.id)[0] || null,
-      images: this.getPhotosByProductId(p.id),
-      categorySlugs: this.getCategoriesByIds(p.category_ids ?? []).map(c => c.slug),
-    }))
-  }
+  // getAllProductsSummaries(): ProductSummary[] {
+  //   return this.products.products.map(p => ({
+  //     id: p.id,
+  //     name: p.name,
+  //     slug: p.slug,
+  //     price: p.price,
+  //     code: p.code,
+  //     featured: p.featured ?? false,
+  //     description: p.description,
+  //     mainPhoto: this.getPhotosByProductId(p.id)[0] || null,
+  //     images: this.getPhotosByProductId(p.id),
+  //     categorySlugs: this.getCategoriesByIds(p.category_ids ?? []).map(c => c.slug),
+  //   }))
+  // }
 
   getFeaturedProducts(): ProductSummary[] {
-    return this.getAllProductsSummaries().filter(p => p.featured)
+    return this.products.filter(p => p.featured)
   }
 }

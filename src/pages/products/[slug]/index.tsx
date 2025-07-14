@@ -1,22 +1,25 @@
 import { Layout } from '@/components/layout/layout'
-import { DataManager, Image, Product, ProductSummary } from '@/data/lib/data-manager'
-import { GetStaticPaths, GetStaticProps } from 'next'
-import imagesData from '../../../data/images.json'
-import productsData from '../../../data/products.json'
 import { ProductDetailPage } from '@/components/pages/product-detail/product-detail'
+import { Image, ProductSummary } from '@/data/lib/data-manager'
+import fs from 'fs'
+import { GetStaticPaths, GetStaticProps } from 'next'
+import path from 'path'
 
 interface ProductDetailProps {
   images: Image[]
-  product: Product
+  product: ProductSummary
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const dm = new DataManager(productsData, null, imagesData)
-  const products = dm.getAllProductsSummaries()
+  const productsDir = path.join(process.cwd(), 'src/data/products')
+  const files = fs
+    .readdirSync(productsDir)
+    .filter((name) => name.endsWith('.json'))
 
-  const paths = products.map((product: ProductSummary) => ({
-    params: { slug: product.slug }
-  }))
+  const paths = files.map((file) => {
+    const slug = file.replace(/\.json$/, '')
+    return { params: { slug } }
+  })
 
   return {
     paths,
@@ -25,17 +28,19 @@ export const getStaticPaths: GetStaticPaths = async () => {
 }
 
 export const getStaticProps: GetStaticProps<ProductDetailProps> = async ({ params }) => {
-  const slug = params?.slug as string
-  const dm = new DataManager(productsData, null, imagesData)
-  const product = dm.getProductBySlug(slug)
+  const slug = params!.slug as string
+  const filePath = path.join(process.cwd(), 'src/data/products', `${slug}.json`)
 
-  if (!product) {
-    return {
-      notFound: true
-    }
+  if (!fs.existsSync(filePath)) {
+    return { notFound: true }
   }
 
-  const images = dm.getPhotosByProductId(product.id)
+  const raw = fs.readFileSync(filePath, 'utf-8')
+  const product = JSON.parse(raw) as ProductSummary
+
+  // suas imagens já estão dentro de product.images
+  const images = product.images ?? []
+
 
   return {
     props: {

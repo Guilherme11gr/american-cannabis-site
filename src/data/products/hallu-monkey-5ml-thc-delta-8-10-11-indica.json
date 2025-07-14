@@ -1,0 +1,36 @@
+{
+  "id": 16,
+  "name": "Hallu Monkey 5ml Thc Delta 8 / 10 / 11 - Indica",
+  "slug": "hallu-monkey-5ml-thc-delta-8-10-11-indica",
+  "price": 300,
+  "code": "hm5i",
+  "featured": false,
+  "description": "Hallu Monkey conendo 5ml Thc mais Thc - P Delta 8, Delta 10 e Delta 11 Extrato Indica\\r\\n\\r\\nPuxou chapou!\\r\\n\\r\\n___________________________\\r\\n\\r\\nINDICA \\r\\n\\r\\nPredominante Físico \\r\\nAlívio Sedativo \\r\\nRelaxante (Baixa Estresse Mental)\\r\\nRelaxante Muscular \\r\\nReduz dores Agudas \\r\\nReduz Náuseas \\r\\nAumenta Apetite \\r\\nAumenta Dopamina \\r\\nAlivia Enxaqueca",
+  "mainPhoto": {
+    "id": 131,
+    "image": "products/hallu-monkey-5ml-thc-delta-8-10-11-indica-1-1728164356.jpg",
+    "product_id": 16
+  },
+  "images": [
+    {
+      "id": 131,
+      "image": "products/hallu-monkey-5ml-thc-delta-8-10-11-indica-1-1728164356.jpg",
+      "product_id": 16
+    },
+    {
+      "id": 132,
+      "image": "products/hallu-monkey-5ml-thc-delta-8-10-11-indica-2-1728164356.png",
+      "product_id": 16
+    },
+    {
+      "id": 133,
+      "image": "products/hallu-monkey-5ml-thc-delta-8-10-11-indica-3-1728164356.jpg",
+      "product_id": 16
+    }
+  ],
+  "categorySlugs": [
+    "hallo",
+    "indica",
+    "descartaveis"
+  ]
+}
