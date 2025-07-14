@@ -108,6 +108,13 @@ collections:
           - { label: "ID",         name: "id",          widget: "number" }
           - { label: "Product ID", name: "product_id",  widget: "number" }
           - { label: "Imagem",     name: "image",       widget: "image" }
+      
+      - label: "Imagens"
+        name: "images"
+        widget: "list"
+        summary: "{{image}}"
+        fields:
+          - { label: "Imagem", name: "image", widget: "image" }
 
       - label: "Categorias"
         name: "categorySlugs"
