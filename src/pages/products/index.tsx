@@ -1,6 +1,6 @@
 import { Layout } from '@/components/layout/layout'
 import { ProductsPage } from '@/components/pages/products/products-page'
-import { Categories, CategoryGroup, DataManager, ProductSummary } from '@/data/lib/data-manager'
+import { CategoryGroup, ProductSummary } from '@/data/lib/data-manager'
 import fs from 'fs'
 import { GetStaticProps } from 'next'
 import path from 'path'
@@ -11,71 +11,71 @@ interface ProductsProps {
 }
 
 export const getStaticProps: GetStaticProps<ProductsProps> = async () => {
+  // === PRODUTOS ===
   const productsDir = path.join(process.cwd(), 'src/data/products')
-
-  // 2) Só pega os arquivos .json
-  const files = fs
+  const productFiles = fs
     .readdirSync(productsDir)
     .filter((name) => name.endsWith('.json'))
 
-  // 3) Monta o array de ProductSummary
-  const productsData: ProductSummary[] = files.map((filename) => {
-    const fullPath = path.join(productsDir, filename)
-    const raw = fs.readFileSync(fullPath, 'utf-8')
+  const productsData: ProductSummary[] = productFiles.map((filename) => {
+    const raw = fs.readFileSync(path.join(productsDir, filename), 'utf-8')
     return JSON.parse(raw) as ProductSummary
   })
 
+  // === CATEGORIAS ===
   const categoriesDir = path.join(process.cwd(), 'src/data/categories')
-  const groupSlugs = fs.readdirSync(categoriesDir)
+  const categoryFiles = fs
+    .readdirSync(categoriesDir)
+    .filter((f) => f.endsWith('.json'))
 
-  const categoryGroups: CategoryGroup[] = groupSlugs.map((groupSlug) => {
-    const groupPath = path.join(categoriesDir, groupSlug)
-    const groupData = JSON.parse(
-      fs.readFileSync(path.join(groupPath, 'index.json'), 'utf-8')
-    )
-    // lê todas as subcategorias (exceto o index.json)
-    const subFiles = fs
-      .readdirSync(groupPath)
-      .filter((f) => f.endsWith('.json') && f !== 'index.json')
+  const allCategories = categoryFiles.map((file) => {
+    return JSON.parse(
+      fs.readFileSync(path.join(categoriesDir, file), 'utf-8')
+    ) as {
+      id: number
+      parent_id?: number
+      slug: string
+      name: string
+      count?: number
+      queue?: string
+      carousel?: boolean
+    }
+  })
 
-    const subcategories = subFiles.map((fileName) => {
-      const sub = JSON.parse(
-        fs.readFileSync(path.join(groupPath, fileName), 'utf-8')
-      )
-      return {
+  const groupDataArr = allCategories.filter((c) => c.parent_id == null)
+  const subDataArr = allCategories.filter((c) => c.parent_id != null)
+
+  const categoryGroups: CategoryGroup[] = groupDataArr.map((groupData) => ({
+    id: groupData.id,
+    slug: groupData.slug,
+    name: groupData.name,
+    count: groupData.count ?? 0,
+    queue: groupData.queue ?? '',
+    carousel: groupData.carousel ?? false,
+    categories: subDataArr
+      .filter((sub) => sub.parent_id === groupData.id)
+      .map((sub) => ({
         id: sub.id,
         slug: sub.slug,
         name: sub.name,
         count: sub.count ?? 0,
-        queue: sub.queue ?? [],
-        carousel: sub.carousel ?? [],
-      }
-    })
-
-    return {
-      id: groupData.id,
-      slug: groupData.slug,
-      name: groupData.name,
-      categories: subcategories,
-      count: groupData.count ?? 0,
-      queue: groupData.queue ?? [],
-      carousel: groupData.carousel ?? [],
-    }
-  })
-
-  const dm = new DataManager(
-    productsData,
-    categoryGroups as unknown as Categories,
-  )
-
-  const products = dm.getAllProducts()
+        queue: sub.queue ?? '',
+        carousel: sub.carousel ?? false,
+      })),
+  }))
 
   return {
-    props: { categoryGroups, products },
+    props: {
+      categoryGroups,
+      products: productsData,
+    },
   }
 }
 
-export default function Products({ categoryGroups, products }: ProductsProps) {
+export default function Products({
+  categoryGroups,
+  products,
+}: ProductsProps) {
   return (
     <Layout>
       <ProductsPage categoryGroups={categoryGroups} products={products} />
