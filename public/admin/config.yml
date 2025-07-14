@@ -61,7 +61,7 @@ collections:
     media_folder: "/public/imgs/products"
     public_folder: "/imgs/products"
     search: true
-    preview_path: "produtos/{{slug}}"
+    preview_path: "products/{{slug}}"
 
     view_filters:
       - label: "Nome"
