@@ -76,12 +76,9 @@ collections:
 
       - label: "Categorias"
         name: "categorySlugs"
-        widget: "list"
-        fields:
-          - label: "Categoria"
-            name: "slug"
-            widget: "relation"
-            collection: "categories"
-            value_field: "slug"
-            display_fields: ["name"]
-            search_fields: ["name"]
+        widget: "relation"
+        collection: "categories"
+        value_field: "slug"
+        display_fields: ["name"]
+        search_fields: ["name"]
+        multiple: true
