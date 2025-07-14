@@ -100,12 +100,6 @@ collections:
       - { label: "Destaque?", name: "featured",    widget: "boolean" }
       - { label: "Descrição", name: "description", widget: "text" }
 
-      - label: "Foto Principal"
-        name: "mainPhoto"
-        widget: object
-        fields:
-          - { label: "Imagem",     name: "image",       widget: "image" }
-      
       - label: "Imagens"
         name: "images"
         widget: "list"
