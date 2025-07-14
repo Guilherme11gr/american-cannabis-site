@@ -104,8 +104,6 @@ collections:
         name: "mainPhoto"
         widget: object
         fields:
-          - { label: "ID",         name: "id",          widget: "number" }
-          - { label: "Product ID", name: "product_id",  widget: "number" }
           - { label: "Imagem",     name: "image",       widget: "image" }
       
       - label: "Imagens"
