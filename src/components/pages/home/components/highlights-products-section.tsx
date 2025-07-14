@@ -106,7 +106,7 @@ export const HighlightsProductsSection: React.FC<{ featuredProducts: ProductSumm
         {featuredProducts.map((product, idx) => (
           <li className="keen-slider__slide" key={idx}>
             <Link href={`/products/${product.slug}`} className="product-link">
-              <Image src={`${product.mainPhoto?.image?.slice(1) ?? 'imgs/sys/not-found.jpg'}`} width={277} height={277} alt={product.name} />
+              <Image src={product.images?.[0].image.slice(1) ?? 'imgs/sys/not-found.jpg'} width={277} height={277} alt={product.name} />
               <h3>{product.name}</h3>
               <h2>{toCurrency(product.price)}</h2>
               <Button>Ver Detalhes</Button>
