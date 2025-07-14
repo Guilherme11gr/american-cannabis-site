@@ -75,7 +75,7 @@ export class DataManager {
     private images?: ImagesData
   ) {
     if (categoryGroups) {
-      this.flatCategories = categoryGroups.categories.flatMap(g => g.categories)
+      // this.flatCategories = categoryGroups.categories.flatMap(g => g.categories)
     }
   }
 
