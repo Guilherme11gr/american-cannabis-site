@@ -76,7 +76,7 @@ collections:
     slug: "{{slug}}"                 # nome do arquivo = slug.json
     extension: "json"
     media_folder: "public/imgs/products"
-    public_folder: "/imgs/products"
+    public_folder: "products"
     view_filters:
       - label: "Nome"
         field: "name"
