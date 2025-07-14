@@ -72,7 +72,6 @@ collections:
   - name: "products"
     label: "Produtos"
     identifier_field: "slug"
-    thumbnail: "mainPhoto"
     folder: "src/data/products"
     create: true
     slug: "{{slug}}"
