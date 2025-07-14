@@ -7,6 +7,7 @@ backend:
   app_id: Ov23lijkQpNxXSsv4Y0r   # substitua pelo seu GitHub OAuth App Client ID
   auth_scope: repo                # escopo mínimo pra commitar
   base_url: https://decap-proxy2.guilherme11-gr.workers.dev
+  debug: true
 
 media_folder: "public/imgs"
 public_folder: "/imgs"
