@@ -106,6 +106,8 @@ collections:
         name: "mainPhoto"
         widget: "image"
         required: false
+        fields:
+          - { label: "Imagem", name: "image", widget: "image" }
 
       - label: "Categorias"
         name: "categorySlugs"
