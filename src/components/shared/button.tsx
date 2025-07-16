@@ -32,9 +32,9 @@ const ButtonContainer = styled.button`
   }
 `;
 
-export const Button: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+export const Button: React.FC<{ children: React.ReactNode, onClick?: () => void }> = ({ children, onClick }) => {
   return (
-    <ButtonContainer>
+    <ButtonContainer onClick={onClick}>
       <span>{children}</span>
     </ButtonContainer>
   )

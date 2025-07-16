@@ -9,6 +9,7 @@ import HeroRotator from "./components/hero-rotator";
 import { keyframes } from "@emotion/react";
 import Image from "next/image";
 import { Feedback } from "@/pages";
+import BrandChangeModal from "./components/brand-change-modal";
 
 const floatAnimation = keyframes`
   0%   { transform: translateY(0)   rotate(0deg); }
@@ -89,8 +90,8 @@ const GummyImageContainer = styled.div`
   img {
     position: absolute;
     width: 40.125rem !important;
-    top: -4.375rem;
-    right: -6.0625rem;
+    top: -3.375rem;
+    right: -7.0625rem;
     will-change: transform;
     animation: ${floatAnimation} 7s ease-in-out infinite;
     opacity: 0.95;
@@ -291,6 +292,7 @@ type HomePageComponentProps = {
   featured: ProductSummary[]
   feedbacks?: Feedback[];
 }
+
 export const HomePageComponent: React.FC<HomePageComponentProps> = ({ featured, feedbacks }) => {
   return (
     <Layout>
@@ -355,6 +357,8 @@ export const HomePageComponent: React.FC<HomePageComponentProps> = ({ featured, 
       </AboutCompanyContainer>
 
       <CustomerFeedbackSection feedbacks={feedbacks!} />
+
+      <BrandChangeModal />
     </Layout>
   )
 }
