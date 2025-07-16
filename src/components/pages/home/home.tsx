@@ -144,11 +144,21 @@ const CategoriesSectionContainer = styled.div`
       text-align: center;
       animation: bounce-in 0.8s cubic-bezier(.17,.67,.83,.67);
 
+      &:last-of-type {
+        h3 {
+          margin-top: 0.5rem;
+        }
+      }
+
       @media screen and (max-width: 768px) {
         &:last-of-type {
+          a {
+            h3 {
+              margin-top: 0.5rem;
+            }
+          }
           img {
-            width: 7.875rem;
-            height: auto;
+            width: 4.25rem;
           }
         }
       }
@@ -175,7 +185,7 @@ const CategoriesSectionContainer = styled.div`
         font-size: 1.5rem;
         font-weight: 500;
         color: ${({ theme }) => theme.colors.primaryLight};
-        margin-top: 0.5rem;
+        margin-top: 1rem;
         font-weight: bold;
         transition: transform 0.15s ease-in-out;
 
@@ -185,12 +195,12 @@ const CategoriesSectionContainer = styled.div`
       }
 
       img {
-        height: 14rem;
+        width: 12.5rem;
         border-radius: 50%;
         transition: transform 0.15s ease-in-out;
 
         @media screen and (max-width: 768px) {
-          width: 7.5rem;
+          width: 5rem;
           height: auto;
         }
       }
@@ -336,6 +346,12 @@ export const HomePageComponent: React.FC<HomePageComponentProps> = ({ featured, 
             <NextLink href="products?group=gummy">
               <img src="imgs/categories-gummy.png" alt="Categoria Gummy" />
               <h3>Gummy</h3>
+            </NextLink>
+          </li>
+          <li>
+            <NextLink href="products?group=cbd">
+              <img src="imgs/categories-cbd.png" alt="Categoria CBD" />
+              <h3>Medicinais</h3>
             </NextLink>
           </li>
         </ul>
