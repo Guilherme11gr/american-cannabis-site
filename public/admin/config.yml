@@ -40,7 +40,7 @@ collections:
     create: true
     slug: "{{slug}}"
     extension: "json"
-    media_folder: "public/imgs/feedbacks"
+    media_folder: "/public/imgs/feedbacks"
     public_folder: "/imgs/feedbacks"
     fields:
       - { label: "ID",    name: "id",    widget: "string" }
