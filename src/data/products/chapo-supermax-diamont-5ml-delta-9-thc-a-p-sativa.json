@@ -1,16 +1,14 @@
 {
-  "id": 50,
+  "price": 300,
+  "categorySlugs": [
+    "chapo",
+    "sativa",
+    "descartaveis"
+  ],
   "name": "Chapo SuperMax Diamont 5ml Delta 9 Thc A / P - Sativa",
   "slug": "chapo-supermax-diamont-5ml-delta-9-thc-a-p-sativa",
-  "price": 300,
   "code": "csd5s",
-  "featured": true,
-  "description": "___________________________\\r\\n\\r\\nSATIVA\\r\\n\\r\\nPredominante Mental \\r\\nAntiansiedade \\r\\nAntidepressivo \\r\\nInstigante (Criatividade a Reflexões)\\r\\nFelicidade/Espiritualidade \\r\\nAumenta o Foco\\r\\nAumenta a Energia \\r\\nAumenta Criatividade \\r\\nAjuda o Sistema Imunológico",
-  "mainPhoto": {
-    "id": 60,
-    "image": "/imgs/products/chapo-supermax-diamont-5ml-delta-9-thc-a-p-sativa-1-1727416284.jpg",
-    "product_id": 50
-  },
+  "featured": false,
   "images": [
     {
       "id": 60,
@@ -28,9 +26,11 @@
       "product_id": 50
     }
   ],
-  "categorySlugs": [
-    "chapo",
-    "sativa",
-    "descartaveis"
-  ]
+  "mainPhoto": {
+    "id": 60,
+    "image": "/imgs/products/chapo-supermax-diamont-5ml-delta-9-thc-a-p-sativa-1-1727416284.jpg",
+    "product_id": 50
+  },
+  "id": 50,
+  "description": "___________________________\\r\\n\\r\\nSATIVA\\r\\n\\r\\nPredominante Mental \\r\\nAntiansiedade \\r\\nAntidepressivo \\r\\nInstigante (Criatividade a Reflexões)\\r\\nFelicidade/Espiritualidade \\r\\nAumenta o Foco\\r\\nAumenta a Energia \\r\\nAumenta Criatividade \\r\\nAjuda o Sistema Imunológico"
 }
