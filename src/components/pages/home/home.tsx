@@ -8,6 +8,7 @@ import NextLink from "next/link";
 import HeroRotator from "./components/hero-rotator";
 import { keyframes } from "@emotion/react";
 import Image from "next/image";
+import { Feedback } from "@/pages";
 
 const floatAnimation = keyframes`
   0%   { transform: translateY(0)   rotate(0deg); }
@@ -288,8 +289,9 @@ const AboutCompanyCard = styled.div`
 
 type HomePageComponentProps = {
   featured: ProductSummary[]
+  feedbacks?: Feedback[];
 }
-export const HomePageComponent: React.FC<HomePageComponentProps> = ({ featured }) => {
+export const HomePageComponent: React.FC<HomePageComponentProps> = ({ featured, feedbacks }) => {
   return (
     <Layout>
       <InitialSectionContainer>
@@ -352,7 +354,7 @@ export const HomePageComponent: React.FC<HomePageComponentProps> = ({ featured }
         </AboutCompanyCard>
       </AboutCompanyContainer>
 
-      <CustomerFeedbackSection />
+      <CustomerFeedbackSection feedbacks={feedbacks!} />
     </Layout>
   )
 }

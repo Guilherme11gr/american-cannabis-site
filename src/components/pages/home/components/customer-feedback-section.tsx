@@ -1,30 +1,7 @@
 import { CarouselDots } from "@/components/shared/carousel-slider-dots";
 import { useCarouselSlider } from "@/hooks/use-carousel-slider";
 import styled from "@emotion/styled";
-
-import feedback1 from './../../../../../public/imgs/feedbacks/feedback1.png'
-import feedback2 from './../../../../../public/imgs/feedbacks/feedback2.png'
-import feedback3 from './../../../../../public/imgs/feedbacks/feedback3.png'
-import feedback4 from './../../../../../public/imgs/feedbacks/feedback4.png'
-import feedback5 from './../../../../../public/imgs/feedbacks/feedback5.png'
-import feedback6 from './../../../../../public/imgs/feedbacks/feedback6.png'
-import feedback7 from './../../../../../public/imgs/feedbacks/feedback7.png'
-import feedback8 from './../../../../../public/imgs/feedbacks/feedback8.png'
-import feedback9 from './../../../../../public/imgs/feedbacks/feedback9.jpg'
-import feedback10 from './../../../../../public/imgs/feedbacks/feedback10.jpg'
-
-const feedbackList = [
-  feedback1,
-  feedback2,
-  feedback3,
-  feedback4,
-  feedback5,
-  feedback6,
-  feedback7,
-  feedback8,
-  feedback9,
-  feedback10
-]
+import { Feedback } from "@/pages";
 
 const CustomerFeedbackContainer = styled.div`
   width: 100%;
@@ -79,17 +56,17 @@ const Screenshot = styled.img`
   border-radius: 12px;
 `;
 
-export const CustomerFeedbackSection = () => {
+export const CustomerFeedbackSection: React.FC<{ feedbacks: Feedback[] }> = ({ feedbacks }) => {
   const { sliderRef, instanceRef, currentSlide } = useCarouselSlider<HTMLUListElement>()
 
   return (
     <CustomerFeedbackContainer id="feedbacks">
       <h3>O que nossos clientes estão dizendo</h3>
       <ul ref={sliderRef} className="keen-slider">
-        {feedbackList.map((feedback) => (
-          <li key={feedback.src} className="keen-slider__slide">
+        {feedbacks.map((feedback) => (
+          <li key={feedback.id} className="keen-slider__slide">
             <PhoneFrame>
-              <Screenshot src={feedback.src} alt="print do relato" />
+              <Screenshot src={feedback.image.slice(1)} alt="print do relato" />
             </PhoneFrame>
           </li>
         ))}
