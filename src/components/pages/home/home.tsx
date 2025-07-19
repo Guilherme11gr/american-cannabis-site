@@ -90,11 +90,12 @@ const GummyImageContainer = styled.div`
   img {
     position: absolute;
     width: 40.125rem !important;
-    top: -3.375rem;
+    top: -4rem;
     right: -7.0625rem;
     will-change: transform;
     animation: ${floatAnimation} 7s ease-in-out infinite;
     opacity: 0.95;
+     pointer-events: none;
 
     @media screen and (max-width: 768px) {
       position: unset;
