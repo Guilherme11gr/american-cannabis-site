@@ -1,4 +1,5 @@
 import styled from '@emotion/styled'
+import Image from 'next/image';
 import Link from 'next/link'
 
 const HeaderContainer = styled.header`
@@ -12,22 +13,6 @@ const HeaderContainer = styled.header`
     justify-content: center;
   }
 `;
-
-const AppTitle = styled.h1`
-  color: ${({ theme }) => theme.colors.background};
-  font-size: 1.5rem;
-  font-weight: 800;
-  font-family: 'Poppins', sans-serif;
-  line-break: auto;
-  line-height: 1.2;
-  max-width: 60px;
-
-  @media screen and (max-width: 768px) {
-    margin-bottom: 1rem;
-    max-width: 100%;
-    padding: 0 1rem;
-  }
-`
 
 const NavList = styled.nav`
   display: flex;
@@ -76,7 +61,14 @@ export const Header = () => {
   return (
     <HeaderContainer>
       <Link href="/">
-        <AppTitle>American Cannabis</AppTitle>
+        <Image
+          src="imgs/brand.svg"
+          alt="America Cannabis"
+          width={180}
+          height={80}
+          layout='intrinsic'
+          style={{ marginTop: '-0.5rem' }}
+        />
       </Link>
 
       <NavList aria-label="Navegação Principal">

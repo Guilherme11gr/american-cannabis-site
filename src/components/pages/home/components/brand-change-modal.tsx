@@ -85,7 +85,7 @@ const BrandChangeModal: React.FC = () => {
       <Modal onClick={e => e.stopPropagation()}>
         <CloseButton onClick={() => setVisible(false)}>&times;</CloseButton>
         <Title>Conheça nossa nova identidade</Title>
-        <Content>A antiga <strong>Brasil Cannabis</strong> agora evoluiu para <strong>American Cannabis</strong>.</Content>
+        <Content>A antiga <strong>Brasil Cannabis</strong> agora evoluiu para <strong>America Cannabis</strong>.</Content>
         <Content>Oferecemos produtos canábicos premium, de óleos e extratos a gomas e itens de bem-estar, todos rigorosamente selecionados e testados.</Content>
         <Content>Com logística ágil e transparência total, entregamos para todo o Brasil e garantimos uma experiência de compra excepcional com suporte dedicado.</Content>
         <Footer>

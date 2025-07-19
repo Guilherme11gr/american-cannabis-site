@@ -37,7 +37,7 @@ const TitleContainer = styled.div`
   align-items: flex-start;
   justify-content: center;
   width: 50%;
-  margin-top: 4rem;
+  margin-top: 1rem;
 
   @media screen and (max-width: 768px) {
     width: 100%;
@@ -158,7 +158,7 @@ const CategoriesSectionContainer = styled.div`
             }
           }
           img {
-            width: 4.25rem;
+            /* width: 5.25rem; */
           }
         }
       }
@@ -200,7 +200,7 @@ const CategoriesSectionContainer = styled.div`
         transition: transform 0.15s ease-in-out;
 
         @media screen and (max-width: 768px) {
-          width: 5rem;
+          width: 4.25rem;
           height: auto;
         }
       }
@@ -362,7 +362,7 @@ export const HomePageComponent: React.FC<HomePageComponentProps> = ({ featured, 
       <AboutCompanyContainer id="about">
         <AboutCompanyCard>
           <div>
-            <h3>Sobre a American Cannabis</h3>
+            <h3>Sobre a America Cannabis</h3>
             <br />
             <p>Somos especialistas na importação e comercialização de produtos canábicos premium, de óleos e extratos a gomas e itens de bem-estar, todos rigorosamente selecionados e testados para oferecer qualidade, segurança e inovação.</p>
             <br />

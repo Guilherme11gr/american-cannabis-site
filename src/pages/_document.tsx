@@ -5,6 +5,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="pt-BR">
         <Head>
+          <link rel="icon" href="/imgs/brand.svg" />
           <base href="https://guilherme11gr.github.io/american-cannabis-site/" />
         </Head>
         <body>
