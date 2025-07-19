@@ -97,3 +97,19 @@ collections:
         display_fields: ["name"]
         search_fields: ["name"]
         multiple: true
+
+
+  # ============================
+  # SITE CONFIG (config.json)
+  # ============================
+  - name: "siteConfig"
+    label: "Configuração do Site"
+    files:
+      - file: "src/data/config.json"
+        label: "Configurações Gerais"
+        name: "siteConfig"
+        fields:
+          - { label: "Telefone WhatsApp",            name: "phoneNumber",               widget: "string" }
+          - { label: "Mensagem rodapé WhatsApp",     name: "footerWhatsAppMessage",     widget: "text" }
+          - { label: "Mensagem Produto (parte 1)",   name: "productWhatsAppMessagePart1", widget: "string" }
+          - { label: "Mensagem Produto (parte 2)",   name: "productWhatsAppMessagePart2", widget: "text" }

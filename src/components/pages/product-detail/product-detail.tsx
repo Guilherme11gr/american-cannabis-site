@@ -8,6 +8,7 @@ import styled from "@emotion/styled"
 import NextImage from "next/image"
 import Link from "next/link"
 import DescriptionAccordion from "./description-accordeon"
+import config from '@/data/config.json'
 
 interface ProductDetailPageProps {
   images: Image[]
@@ -172,15 +173,11 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({ images, pr
   })
 
   const getMessage = () => {
-    return encodeURIComponent(`Olá Vi seu anúncio do "${product.name}" e adoraria garantir um pra mim. Pode me informar o valor final com frete e prazo de envio? Valeu!`)
+    return encodeURIComponent(`${config.productWhatsAppMessagePart1} "${product.name}" ${config.productWhatsAppMessagePart2}`)
   }
-  const phone = '5516996140277'
-  const whatsappUrl = `https://api.whatsapp.com/send?phone=${phone}&text=${getMessage()}`
 
-
+  const whatsappUrl = `https://api.whatsapp.com/send?phone=${config.phoneNumber}&text=${getMessage()}`
   const isMobile = useMediaQuery('(max-width: 768px)')
-
-
 
   return (
     <ProductDetailContainer>

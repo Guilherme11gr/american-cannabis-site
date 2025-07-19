@@ -1,6 +1,7 @@
 import styled from '@emotion/styled'
 import Image from 'next/image';
 import Link from 'next/link';
+import config from '@/data/config.json';
 
 const FooterContainer = styled.div`
   width: 100%;
@@ -69,9 +70,7 @@ const InfoContainer = styled.div`
 `
 
 export const Footer = () => {
-  const message = encodeURIComponent(`Olá, gostaria de saber mais sobre os produtos.`);
-  const phone = '5516996140277'
-  const whatsUrl = `https://api.whatsapp.com/send?phone=${phone}&text=${message}`;
+  const whatsUrl = `https://api.whatsapp.com/send?phone=${config.phoneNumber}&text=${config.footerWhatsAppMessage}`;
   return (
     <FooterContainer id='contato'>
       <SocialMediaContainer>
